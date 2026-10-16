@@ -1,0 +1,10 @@
+# Versions are the ones this project was actually run with.
+psycopg2-binary==2.9.12
+vaderSentiment==3.3.2
+scikit-learn==1.9.0
+scipy==1.18.0
+numpy==2.5.2
+pandas==3.0.5
+matplotlib==3.10.7
+torch==2.14.0          # CPU build: pip install torch --index-url https://download.pytorch.org/whl/cpu
+transformers==5.17.0

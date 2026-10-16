@@ -1,0 +1,3 @@
+# Store every file byte-for-byte. The human-audit archive is verified by
+# exact SHA-256 hashes, so line-ending conversion would make it fail.
+* -text

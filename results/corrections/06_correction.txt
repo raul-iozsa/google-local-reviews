@@ -1,0 +1,45 @@
+NOTES ON INTERPRETING THIS REPORT
+
+EXTREME DISAGREEMENTS
+The counts in that section are model-agreement counts, not verified
+reviewer errors. "Read as negative by both models" means the text is hard
+for both, not that the reviewer contradicted their own rating. The 5-star
+taco review ("There asada fries are so fire" plus 33 flame emoji) is read
+as negative by both models (BERT 2.18 stars), and it is plainly
+enthusiastic. BERT is not an adjudicator.
+
+BERT CHECK
+BERT finding a smaller difference in the same direction as VADER shows
+that the two methods agree on direction. It does not show that some
+fraction of the gap is real: the ratio of two models' standardized effects
+cannot estimate a proportion when they differ in scale and calibration.
+The denominator is the SD of all observations across the four groups,
+including between-group variation, not a within-group pooled SD, so each
+contrast also depends on the other comparison's sample. For Test A (grim
+topics) the two models point in opposite directions: VADER reads those
+reviews colder and BERT marginally warmer.
+
+HUMAN CHECK
+The 450-review single-annotator audit (results/audit_v2) compares
+categorical sentiment, with some AI discussion of items during labelling
+and no second annotator. Its matched cold/warm panel is nearly all
+positive, so it cannot settle differences in intensity, and it does not
+cover the grim/reference contrast.
+
+BASELINE ADJUSTMENT
+Subtracting pooled rating/length means does not give every category or
+state the same rating/length mix. If residual differences vary across
+cells, composition still affects mean gaps, so these are baseline-adjusted
+descriptive contrasts. The BERT check balances three broad length bands,
+not exact lengths, and its extreme-category selection is post hoc.
+Review-level standard errors are not cluster-robust.
+
+LANGUAGE
+Whether non-English reviews affect the state gap was not tested.
+`compound == 0` is not a language detector: zero also comes from neutral
+English or from cancelling valence, and non-English text can contain words
+VADER knows.
+
+Status: INCONCLUSIVE. Settling it needs explicit language identification
+(with an "uncertain / too short" class), manual validation of a sample,
+and the state contrast repeated on reliably English reviews.

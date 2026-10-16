@@ -1,0 +1,351 @@
+PHASE 6 -- WHERE TEXT AND STARS DISAGREE
+==============================================================================
+
+gap = VADER compound minus the corpus mean compound for the SAME star rating.
+Negative = text colder than is typical for that rating.
+
+Q1 - Category gap, 531 categories with >= 1,000 scored reviews
+------------------------------------------------------------------------------
+COLDEST 25 (text more negative than the stars suggest):
+category                 n       mean_star  mean_gap  se      mean_gap_lenctl
+-----------------------------------------------------------------------------
+Bus company              1274    3.141      -0.1508   0.0115  -0.1290        
+State liquor store       1053    4.470      -0.1449   0.0109  -0.0883        
+Tax preparation service  6861    4.713      -0.1448   0.0041  -0.1144        
+Gas station              32393   3.934      -0.1427   0.0021  -0.0971        
+Shopping mall            110373  4.236      -0.1399   0.0010  -0.0939        
+Rest stop                5215    4.345      -0.1341   0.0043  -0.0766        
+Warehouse store          11840   4.436      -0.1321   0.0034  -0.1024        
+Department store         107582  3.860      -0.1299   0.0012  -0.0977        
+Dollar store             40634   4.025      -0.1267   0.0018  -0.0818        
+Parking garage           1238    3.687      -0.1259   0.0111  -0.1150        
+Monument                 1119    4.700      -0.1256   0.0109  -0.1055        
+Smog inspection station  1678    4.554      -0.1231   0.0090  -0.1182        
+River                    1199    4.533      -0.1206   0.0093  -0.0547        
+Post office              5438    2.140      -0.1203   0.0063  -0.1296        
+Distribution service     2360    3.366      -0.1200   0.0085  -0.1085        
+International airport    1248    3.903      -0.1130   0.0111  -0.1086        
+Self service car wash    1484    3.742      -0.1126   0.0100  -0.0897        
+Bridge                   1554    4.530      -0.1125   0.0085  -0.0824        
+Truck stop               13496   3.820      -0.1113   0.0032  -0.0760        
+Memorial park            1464    4.641      -0.1105   0.0097  -0.0872        
+Discount store           17398   4.001      -0.1096   0.0027  -0.0736        
+Warehouse                3464    3.421      -0.1076   0.0070  -0.0958        
+Outlet mall              5905    4.335      -0.1069   0.0045  -0.0779        
+Airport                  2768    3.947      -0.1067   0.0074  -0.0997        
+Warehouse club           3742    4.021      -0.1050   0.0063  -0.0841        
+
+WARMEST 25 (text more positive than the stars suggest):
+category                     n      mean_star  mean_gap  se      mean_gap_lenctl
+--------------------------------------------------------------------------------
+Bridal shop                  6033   4.548      0.1746    0.0037  0.0860         
+Photographer                 1833   4.798      0.1654    0.0053  0.0622         
+Plastic surgeon              1464   4.619      0.1648    0.0074  0.0533         
+Martial arts school          1814   4.874      0.1576    0.0056  0.0568         
+Orthodontist                 5029   4.912      0.1574    0.0029  0.0853         
+Yoga studio                  1090   4.810      0.1547    0.0078  0.0705         
+Pediatric dentist            4773   4.760      0.1519    0.0035  0.0743         
+Bed & breakfast              1315   4.710      0.1511    0.0073  0.0828         
+Medical spa                  2631   4.710      0.1485    0.0050  0.0684         
+Dog day care center          2136   4.591      0.1454    0.0064  0.0710         
+Cosmetic dentist             3193   4.809      0.1428    0.0044  0.0584         
+Physical fitness program     1086   4.751      0.1384    0.0076  0.0637         
+Lasik surgeon                1320   4.785      0.1358    0.0077  0.0423         
+Winery                       3652   4.548      0.1357    0.0046  0.1074         
+Pet boarding service         2226   4.616      0.1302    0.0061  0.0685         
+House cleaning service       2236   4.680      0.1286    0.0056  0.0499         
+Health and beauty shop       1250   4.813      0.1263    0.0075  0.0626         
+Beauty school                1257   4.395      0.1230    0.0093  0.0543         
+Day spa                      3047   4.543      0.1213    0.0055  0.0638         
+Oral surgeon                 2095   4.767      0.1190    0.0064  0.0208         
+Tour operator                1653   4.760      0.1185    0.0067  0.0542         
+Dog trainer                  1395   4.758      0.1162    0.0079  0.0169         
+Dentist                      49518  4.694      0.1148    0.0013  0.0467         
+Painter                      1253   4.777      0.1146    0.0075  0.0116         
+Waxing hair removal service  2511   4.702      0.1129    0.0055  0.0564         
+
+
+Q2 - Review length vs VADER
+------------------------------------------------------------------------------
+len_bucket: 1 = <50 chars, 2 = 50-149, 3 = 150-399, 4 = 400+
+len_bucket  n        mean_abs_compound  mean_gap
+------------------------------------------------
+1           2037178  0.5098             -0.1166 
+2           1953133  0.6615             0.0194  
+3           1256360  0.7579             0.1031  
+4           488719   0.8098             0.1434  
+
+P4 check -- Spearman rho, category gap vs length-controlled gap: +0.803
+            mean |gap| uncontrolled 0.0526  ->  length-controlled 0.0388
+
+
+
+==============================================================================
+BERT CHECK -- category contrasts under a second model
+==============================================================================
+5-star reviews only. Equal draws from length bands 100-199 / 200-299 /
+300-399 chars in every group. Effect sizes are standardized (difference
+in means / SD of all four groups, including between-group variation).
+This is not Cohen's d; model scales and calibration still differ.
+
+group              n  mean_len     VADER  BERT star  BERT P(4-5)
+A_grim          1500       246   +0.8231     4.6048       0.9350
+A_reference     1500       243   +0.8329     4.5553       0.9209
+B_cold10        1500       245   +0.6931     4.5133       0.9095
+B_warm10        1500       244   +0.8888     4.6540       0.9494
+
+Standardized difference (first group minus second):
+  TEST A  grim - reference   VADER -0.037   BERT +0.102
+  TEST B  cold10 - warm10    VADER -0.729   BERT -0.289
+
+cold10: Appliance repair service, Post office, Bus company, Water damage restoration service, Smog inspection station, Tax preparation service, Parking garage, Plumber, International airport, Distribution service
+warm10: Escape room center, Wine bar, Brewpub, Tanning salon, Bed & breakfast, Brewery, Orthodontist, Bridal shop, Dinner theater, Winery
+
+==============================================================================
+EXTREME DISAGREEMENTS -- where the two models land
+==============================================================================
+
+Top 200 5-star reviews by most NEGATIVE VADER score:
+   BERT also reads as negative (<=2.5 stars) :   98   -> both models read it as negative (NOT proof the reviewer erred)
+   BERT reads as positive     (>=3.5 stars) :   66   -> the models disagree; VADER is the outlier
+   ambiguous (2.5-3.5)                      :   36
+
+Top 200 1-star reviews by most POSITIVE VADER score:
+   BERT also reads as positive (>=3.5 stars):   16   -> both models read it as POSITIVE (NOT proof the reviewer erred)
+   BERT reads as negative      (<=2.5 stars):  133   -> the models disagree; VADER is the outlier
+   ambiguous (2.5-3.5)                      :   51
+
+
+5-STAR, both models read the text as negative (hard text -- not adjudicated)
+----------------------------------------------------------------------------
+[Night club]  VADER -0.998  BERT 2.31 stars
+   Was nothing like Vaso's Tastey Tuesdays.
+   😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭😭
+
+[Non-profit organization]  VADER -0.998  BERT 2.27 stars
+   Dr. Leonard Coldwell online cures cancer with natural remedies food and
+   diet. That is the only natural way to cure cancer. Give this a thumbs up
+   if you like it. Hours. I was headed down the road of cancer myself but I
+   turned what I eat and drink around another
+
+[Taco restaurant]  VADER -0.997  BERT 2.18 stars
+   There asada fries are so fire 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+[Non-profit organization]  VADER -0.995  BERT 1.77 stars
+   Hi guys I'm your local guide This church is under new management And
+   don't believe in helping like the previous management. You get know help
+   with Food (only emergency or fire) Clothing the same No co pay to doctor
+   No medicine Don't know about the last 30$ of
+
+[Mobility equipment supplier]  VADER -0.995  BERT 1.76 stars
+   ***UPDATE*** We purchased two stairlifts from this company (one custom
+   curved lift and one straight lift). From the very beginning, they were
+   kind, courteous, and responsive, and our Bruno lifts are amazing.
+   Unfortunately, as you will see below, our rental sta
+
+
+5-STAR, models disagree: BERT reads it positive (VADER the likely error)
+------------------------------------------------------------------------
+[Southern restaurant (US)]  VADER -0.997  BERT 3.96 stars
+   Ok, I'm not big on fried chicken in the morning, or on a bone. My Man and
+   I were visiting LA and touring this area when we ran across this place.
+   He loves chicken so suggested we try...i was a little apprehensive
+   because I haven't eaten yet nor do I like chick
+
+[Museum]  VADER -0.996  BERT 3.51 stars
+   (Translated by Google) small but powerful ... Google translation Today we
+   know the Capitol from Washington DC, television makes it possible. Few
+   people know that the first capital of America was New York. So important
+   decisions were made here that are still im
+
+[Pain management physician]  VADER -0.994  BERT 4.02 stars
+   n my humble opinion I am as close to an expert on medical most everything
+   AS A Patient. My References to follow. Whatever rating system you use,
+   give them the highest possible scores/marks/points. All A++A++ 100% 100%
+   YAY! YAY! Thank you ! Thank you ! I was re
+
+[Camp]  VADER -0.989  BERT 4.71 stars
+   I really loved this place , it was comfy , cozy , very clean and neat ,
+   it was becoming a regular place when I came from Kansas City Mo to spend
+   time there , now it's gone , it burn to the ground 😩😫🤧😥😢😣oh I'm so 😢😭😭😭
+   😭😭😭😭
+
+[Pharmacy]  VADER -0.988  BERT 3.78 stars
+   I love this Pharmacy I've been going here for years. But I did have a
+   problem and I don't want to give it a bad star because of it but I want
+   to voice my opinion about it. I had shoulder surgery and they gave me
+   pain kills and they renewed my prescription my d
+
+
+1-STAR, both models read the text as positive (hard text -- not adjudicated)
+----------------------------------------------------------------------------
+[Market]  VADER +0.998  BERT 3.64 stars
+   (Translated by Google) Z😙😙😙😙😙😙 (Original) Z😙😙😙😙😙😙
+
+[General store]  VADER +0.997  BERT 3.59 stars
+   I hope this is a lesson on why a business should be careful about what is
+   said to their customers. Especially, if the person speaking is a MANAGER.
+   As an important elementary class lesson we all have learned: think before
+   you speak. My partner (a local who has
+
+[Lexus dealer]  VADER +0.997  BERT 3.53 stars
+   Word to the Wise! Be careful when buying and make sure you read
+   everything! i.e. Extended Warranty, Prepaid Maintenance Packages, etc. To
+   be clear, Fremont Lexus has Two Options for Prepaid Maintenance packages.
+   They have the Lexus Luxury Care Package they nee
+
+[Fast food restaurant]  VADER +0.997  BERT 3.62 stars
+   Food was cold by the time I got it I thought the line was moving slow
+   because of big orders but it was just slow employees and there was a full
+   crew on at the time! Its like they picked there slowest employee to run
+   the drive through register pore kid even tal
+
+[Beauty salon]  VADER +0.996  BERT 3.67 stars
+   The day before an important event, the owner called me in the middle of
+   the work day asking if I was, "available to chat.." She proceeded to tell
+   me that she was unable to keep my appointment with the nail tech I
+   requested because "It wasn't a good fit" and th
+
+
+1-STAR, models disagree: BERT reads it negative (VADER the likely error)
+------------------------------------------------------------------------
+[Apartment rental agency]  VADER +0.999  BERT 1.03 stars
+   Honestly since leasing is coming up for incoming freshman or people
+   wanting to live off campus imma just post a review lol. I don’t care to
+   post reviews because who really has the time? But tonight I got the time.
+   Please read this is worth the read!!!!! ZERO S
+
+[Sheriff's department]  VADER +0.999  BERT 1.82 stars
+   In my experience everyone was short with me and seemed to be just sick of
+   their job. They wern't helpful and seemed like they just wanted to go
+   home for the day. The woman at the front desk (didnt catch her name) was
+   very rude and seemed to roll her eyes when
+
+[Sports complex]  VADER +0.998  BERT 2.16 stars
+   The Dub Sports zone is an amazing facility. We were happy to find such a
+   facility close to where we live. HOWEVER: “Team needs to be a team. They
+   need to practice together so that they can better understand other team
+   members game”. These are my 11 years words
+
+[Doctor]  VADER +0.998  BERT 2.11 stars
+   Extremely unprofessional staff, with little knowledge of Medical Office
+   Management, that transfers over to non valuable medical care.
+   Communication between Office Management and doctors are disconnected.
+   Rate doctors at a #3 Sometimes we as patients need to ki
+
+[American restaurant]  VADER +0.998  BERT 1.98 stars
+   Was not impressed at all. I enjoyed my beers and chips with guac but my
+   meal was a bit of a joke with all the hype you see on the walls or
+   autographed plaques by celebs. Had high expectations. I had ordered what
+   they call a big pot pie. First of all, there was
+
+
+==============================================================================
+STATE GAP -- does the text-vs-stars gap differ by state?
+==============================================================================
+
+All figures below are rating- AND length-controlled (gap within rating x 20 length quantiles).
+
+Q1 -- raw state gap (no category control), top and bottom 8:
+state         n       mean_gap  se    
+--------------------------------------
+Idaho         121262  0.0128    0.0009
+Montana       118724  0.0128    0.0009
+Vermont       116287  0.0108    0.0009
+Maine         114659  0.0077    0.0009
+South_Dakota  109748  0.0066    0.0010
+Utah          125625  0.0066    0.0009
+Wisconsin     113127  0.0063    0.0010
+North_Dakota  108342  0.0057    0.0010
+   ...
+state                 n       mean_gap  se    
+----------------------------------------------
+New_York              111936  -0.0050   0.0010
+Illinois              112088  -0.0051   0.0010
+Ohio                  110340  -0.0053   0.0010
+Delaware              114297  -0.0066   0.0010
+Nevada                120317  -0.0082   0.0010
+Maryland              113607  -0.0092   0.0010
+District_of_Columbia  109837  -0.0117   0.0010
+California            110100  -0.0140   0.0010
+
+Q2 -- category-standardized state gap, top and bottom 8:
+state         std_gap  std_se
+-----------------------------
+Idaho         0.0192   0.0013
+Montana       0.0161   0.0015
+North_Dakota  0.0151   0.0014
+Wyoming       0.0146   0.0015
+South_Dakota  0.0129   0.0015
+Oklahoma      0.0124   0.0014
+Alabama       0.0114   0.0013
+Utah          0.0113   0.0015
+   ...
+state                 std_gap  std_se
+-------------------------------------
+Illinois              -0.0015  0.0013
+New_Jersey            -0.0016  0.0015
+New_York              -0.0024  0.0015
+Maryland              -0.0035  0.0014
+Hawaii                -0.0041  0.0017
+Nevada                -0.0068  0.0014
+California            -0.0094  0.0014
+District_of_Columbia  -0.0164  0.0018
+
+Common categories used: 49   States: 51
+Standardized gap spread (max-min): 0.0356
+Observed SD across states        : 0.0067
+Mean sampling SE per state       : 0.0014
+
+P5 -- split-half reliability of the standardized state gap:
+   observed median rho over 200 splits : +0.811
+   expected if sampling noise were all   : +0.915
+   Spearman-Brown, full category set     : +0.896
+
+[[CORRECTION:06_correction.txt:BEGIN]]
+NOTES ON INTERPRETING THIS REPORT
+
+EXTREME DISAGREEMENTS
+The counts in that section are model-agreement counts, not verified
+reviewer errors. "Read as negative by both models" means the text is hard
+for both, not that the reviewer contradicted their own rating. The 5-star
+taco review ("There asada fries are so fire" plus 33 flame emoji) is read
+as negative by both models (BERT 2.18 stars), and it is plainly
+enthusiastic. BERT is not an adjudicator.
+
+BERT CHECK
+BERT finding a smaller difference in the same direction as VADER shows
+that the two methods agree on direction. It does not show that some
+fraction of the gap is real: the ratio of two models' standardized effects
+cannot estimate a proportion when they differ in scale and calibration.
+The denominator is the SD of all observations across the four groups,
+including between-group variation, not a within-group pooled SD, so each
+contrast also depends on the other comparison's sample. For Test A (grim
+topics) the two models point in opposite directions: VADER reads those
+reviews colder and BERT marginally warmer.
+
+HUMAN CHECK
+The 450-review single-annotator audit (results/audit_v2) compares
+categorical sentiment, with some AI discussion of items during labelling
+and no second annotator. Its matched cold/warm panel is nearly all
+positive, so it cannot settle differences in intensity, and it does not
+cover the grim/reference contrast.
+
+BASELINE ADJUSTMENT
+Subtracting pooled rating/length means does not give every category or
+state the same rating/length mix. If residual differences vary across
+cells, composition still affects mean gaps, so these are baseline-adjusted
+descriptive contrasts. The BERT check balances three broad length bands,
+not exact lengths, and its extreme-category selection is post hoc.
+Review-level standard errors are not cluster-robust.
+
+LANGUAGE
+Whether non-English reviews affect the state gap was not tested.
+`compound == 0` is not a language detector: zero also comes from neutral
+English or from cancelling valence, and non-English text can contain words
+VADER knows.
+
+Status: INCONCLUSIVE. Settling it needs explicit language identification
+(with an "uncertain / too short" class), manual validation of a sample,
+and the state contrast repeated on reliably English reviews.
+[[CORRECTION:06_correction.txt:END]]

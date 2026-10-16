@@ -1,0 +1,11 @@
+NOTE: PRE-2005 DATES SURVIVE THE CLEAN FILTER
+
+61 reviews in reviews_global_clean are dated before 2005, some in 1990:
+
+    SELECT count(*) FROM reviews_global_clean WHERE review_time < '2005-01-01';
+    -> 61
+
+The syndicated rows and the bad-date rows overlap but are not the same set,
+so filtering on user_id does not remove the bad dates. They are too few to
+affect the yearly analyses (61 of 9.93M), but anything that depends on
+dates should filter on review_time explicitly.

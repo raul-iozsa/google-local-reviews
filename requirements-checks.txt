@@ -1,0 +1,4 @@
+# Saved-output finalization and regression tests; no models or database server needed.
+# Tested together on Python 3.14.7 during the 4 October 2026 archive review.
+matplotlib==3.11.1
+psycopg2-binary==2.9.12

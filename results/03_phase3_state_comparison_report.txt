@@ -1,0 +1,339 @@
+PHASE 3 -- STATE COMPARISON, WITH CATEGORY CONTROL
+==============================================================================
+
+Q1 - RAW state ranking (uncontrolled)
+-------------------------------------
+state                 n       mean_rating  se      pct_1star  pct_5star  median_len
+-----------------------------------------------------------------------------------
+Hawaii                197451  4.373        0.0023  4.27       63.57      89.0      
+Vermont               197530  4.352        0.0025  5.34       64.43      82.0      
+Maine                 198220  4.348        0.0025  5.37       64.32      73.0      
+Idaho                 198728  4.337        0.0026  6.22       65.82      83.0      
+New_Hampshire         198691  4.333        0.0025  6.02       64.55      81.0      
+Rhode_Island          198930  4.329        0.0026  6.32       64.91      74.0      
+South_Dakota          197326  4.329        0.0025  5.87       64.28      69.0      
+Utah                  198737  4.322        0.0026  7.08       66.56      105.0     
+Montana               197502  4.315        0.0026  6.14       64.05      74.0      
+Oregon                198931  4.314        0.0026  6.20       64.01      85.0      
+Massachusetts         198508  4.312        0.0026  6.35       63.87      81.0      
+Alaska                198207  4.304        0.0026  6.05       63.03      80.0      
+Arizona               198806  4.304        0.0027  7.16       65.46      84.0      
+Connecticut           198909  4.304        0.0026  6.89       64.38      82.0      
+Florida               198531  4.303        0.0027  7.57       66.15      87.0      
+District_of_Columbia  197236  4.303        0.0026  6.09       62.58      84.0      
+Minnesota             198938  4.293        0.0026  6.64       63.43      81.0      
+California            198634  4.293        0.0026  6.44       62.88      76.0      
+Washington            198919  4.292        0.0026  6.34       62.75      82.0      
+Wisconsin             198890  4.288        0.0026  6.53       62.91      73.0      
+North_Carolina        198750  4.288        0.0027  7.25       64.42      80.0      
+New_Jersey            199043  4.286        0.0027  7.42       64.18      84.0      
+Pennsylvania          198650  4.284        0.0026  6.76       63.12      73.0      
+Wyoming               196848  4.279        0.0026  6.42       62.39      70.0      
+Nebraska              198192  4.277        0.0026  6.82       62.82      74.0      
+New_York              198890  4.275        0.0026  6.91       62.48      80.0      
+Colorado              198581  4.275        0.0027  7.93       64.90      97.0      
+Tennessee             198330  4.274        0.0027  7.19       63.81      73.0      
+Illinois              198746  4.273        0.0027  7.33       63.45      78.0      
+Virginia              198135  4.267        0.0027  7.28       62.99      85.0      
+Delaware              199126  4.267        0.0026  6.98       62.45      72.0      
+Iowa                  198350  4.265        0.0026  6.73       61.94      68.0      
+Louisiana             198173  4.263        0.0027  7.15       63.15      65.0      
+Kansas                198819  4.263        0.0026  6.79       62.10      74.0      
+Missouri              198812  4.263        0.0027  7.01       62.75      72.0      
+South_Carolina        198454  4.259        0.0027  7.49       63.34      73.0      
+Nevada                198960  4.259        0.0027  7.34       63.03      79.0      
+Texas                 198929  4.256        0.0027  8.03       63.88      82.0      
+Michigan              198994  4.254        0.0027  7.47       62.58      72.0      
+Maryland              198526  4.253        0.0027  7.35       62.22      84.0      
+Arkansas              198380  4.249        0.0027  7.05       62.03      64.0      
+North_Dakota          197951  4.246        0.0027  6.90       60.95      68.0      
+Ohio                  198939  4.241        0.0027  7.29       61.76      70.0      
+Alabama               198474  4.240        0.0027  7.43       61.96      65.0      
+West_Virginia         198035  4.239        0.0026  6.66       60.45      60.0      
+Oklahoma              198811  4.237        0.0027  7.48       62.19      69.0      
+Georgia               198570  4.229        0.0028  8.39       62.86      80.0      
+New_Mexico            198048  4.227        0.0027  7.74       61.62      73.0      
+Kentucky              198472  4.225        0.0027  7.44       61.12      66.0      
+Indiana               198854  4.222        0.0027  7.54       60.98      68.0      
+Mississippi           198359  4.198        0.0028  7.85       60.35      58.0      
+[51 row(s)]
+
+
+Q2 - CATEGORY-STANDARDIZED state ranking (direct standardization, 66 common categories)
+---------------------------------------------------------------------------------------
+state                 std_mean_rating  std_se  std_pct_1star  std_pct_5star
+---------------------------------------------------------------------------
+Idaho                 4.246            0.0034  6.25           60.05        
+Hawaii                4.240            0.0044  5.48           57.53        
+California            4.239            0.0035  6.46           59.46        
+South_Dakota          4.238            0.0039  6.53           59.66        
+Rhode_Island          4.234            0.0037  6.81           59.92        
+Maine                 4.233            0.0036  6.16           58.73        
+Arizona               4.230            0.0035  7.10           60.66        
+Florida               4.223            0.0036  7.75           61.31        
+Louisiana             4.222            0.0035  7.10           60.35        
+Illinois              4.220            0.0034  7.01           59.51        
+Connecticut           4.218            0.0036  7.03           59.16        
+Montana               4.218            0.0038  6.35           58.55        
+Nebraska              4.217            0.0034  6.70           58.74        
+New_Hampshire         4.217            0.0036  6.50           58.23        
+Iowa                  4.216            0.0034  6.61           58.66        
+Arkansas              4.216            0.0034  6.75           59.26        
+Massachusetts         4.216            0.0036  6.75           58.54        
+North_Carolina        4.215            0.0034  7.26           59.69        
+Kansas                4.214            0.0034  6.50           58.33        
+New_Jersey            4.212            0.0038  7.40           59.40        
+Tennessee             4.212            0.0035  7.21           59.91        
+Nevada                4.212            0.0037  7.29           59.99        
+West_Virginia         4.209            0.0035  6.51           58.36        
+Minnesota             4.206            0.0036  6.94           58.39        
+Alabama               4.206            0.0035  7.22           59.34        
+Texas                 4.204            0.0036  7.64           59.71        
+Missouri              4.203            0.0034  6.98           58.87        
+Pennsylvania          4.203            0.0036  7.02           58.60        
+Oregon                4.202            0.0036  6.53           57.61        
+Washington            4.201            0.0035  6.54           57.40        
+New_York              4.199            0.0037  6.98           57.74        
+South_Carolina        4.196            0.0035  7.65           59.56        
+Kentucky              4.195            0.0034  7.11           58.49        
+Delaware              4.195            0.0036  7.09           58.17        
+Utah                  4.195            0.0038  7.44           59.01        
+North_Dakota          4.194            0.0035  6.90           57.72        
+Oklahoma              4.194            0.0035  7.10           58.62        
+Mississippi           4.194            0.0036  7.42           59.29        
+Wyoming               4.193            0.0040  6.75           57.50        
+Virginia              4.192            0.0035  7.36           58.27        
+Vermont               4.190            0.0040  6.59           56.90        
+Wisconsin             4.189            0.0036  7.11           57.75        
+Maryland              4.181            0.0036  7.36           57.58        
+New_Mexico            4.177            0.0037  7.52           58.04        
+Indiana               4.177            0.0034  7.30           57.65        
+Alaska                4.175            0.0037  6.46           55.79        
+Ohio                  4.174            0.0035  7.39           57.72        
+Georgia               4.168            0.0036  8.26           58.69        
+Michigan              4.168            0.0036  7.71           57.71        
+District_of_Columbia  4.166            0.0046  7.30           56.73        
+Colorado              4.162            0.0038  8.22           58.24        
+[51 row(s)]
+
+
+Q3 - THE FINDING: raw vs standardized rank, biggest movers first
+----------------------------------------------------------------
+state                 raw_mean  raw_rank  std_mean  std_rank  rank_change
+-------------------------------------------------------------------------
+Vermont               4.352     2         4.190     41        -39        
+District_of_Columbia  4.303     15        4.166     50        -35        
+Alaska                4.304     13        4.175     46        -33        
+Utah                  4.322     8         4.195     33        -25        
+Louisiana             4.263     34        4.222     9         25         
+Colorado              4.275     27        4.162     51        -24        
+Arkansas              4.249     41        4.216     17        24         
+Wisconsin             4.288     20        4.189     42        -22        
+West_Virginia         4.239     45        4.209     23        22         
+Alabama               4.240     44        4.206     24        20         
+Illinois              4.273     29        4.220     10        19         
+Oregon                4.314     10        4.202     29        -19        
+Iowa                  4.265     32        4.216     15        17         
+Nevada                4.259     36        4.212     21        15         
+Wyoming               4.279     24        4.193     39        -15        
+Mississippi           4.198     51        4.194     37        14         
+California            4.293     17        4.239     3         14         
+Kansas                4.263     33        4.214     19        14         
+Kentucky              4.225     49        4.195     35        14         
+Texas                 4.256     38        4.204     26        12         
+Nebraska              4.277     25        4.217     13        12         
+Washington            4.292     19        4.201     30        -11        
+Michigan              4.254     39        4.168     49        -10        
+Virginia              4.267     31        4.192     40        -9         
+New_Hampshire         4.333     5         4.217     14        -9         
+Florida               4.303     16        4.223     8         8          
+Tennessee             4.274     28        4.212     20        8          
+Oklahoma              4.237     46        4.194     38        8          
+Arizona               4.304     14        4.230     7         7          
+Missouri              4.263     35        4.203     28        7          
+Minnesota             4.293     18        4.206     25        -7         
+North_Dakota          4.246     42        4.194     36        6          
+Indiana               4.222     50        4.177     44        6          
+Massachusetts         4.312     11        4.216     16        -5         
+New_York              4.275     26        4.199     31        -5         
+South_Carolina        4.259     37        4.196     32        5          
+Delaware              4.267     30        4.195     34        -4         
+Ohio                  4.241     43        4.174     47        -4         
+Pennsylvania          4.284     23        4.203     27        -4         
+Idaho                 4.337     4         4.246     1         3          
+Maryland              4.253     40        4.181     43        -3         
+Montana               4.315     9         4.218     12        -3         
+Maine                 4.348     3         4.233     6         -3         
+North_Carolina        4.288     21        4.215     18        3          
+New_Mexico            4.227     48        4.177     45        3          
+South_Dakota          4.329     6         4.238     4         2          
+Rhode_Island          4.329     7         4.234     5         2          
+Connecticut           4.304     12        4.218     11        1          
+Georgia               4.229     47        4.168     48        -1         
+Hawaii                4.373     1         4.240     2         -1         
+New_Jersey            4.286     22        4.212     22        0          
+[51 row(s)]
+
+
+Q4 - Robustness check: 'Restaurant' category only
+-------------------------------------------------
+state                 n      restaurant_mean_rating  se    
+-----------------------------------------------------------
+Hawaii                10134  4.299                   0.0107
+Oregon                7062   4.288                   0.0134
+Maine                 9600   4.276                   0.0115
+Vermont               9088   4.269                   0.0118
+Nevada                6772   4.254                   0.0143
+District_of_Columbia  7077   4.252                   0.0135
+Rhode_Island          11295  4.239                   0.0109
+California            7184   4.235                   0.0136
+Montana               9762   4.231                   0.0118
+New_Hampshire         9536   4.217                   0.0120
+Alaska                7805   4.198                   0.0132
+Massachusetts         9265   4.194                   0.0123
+Idaho                 8600   4.193                   0.0129
+South_Dakota          8418   4.189                   0.0131
+Connecticut           7988   4.186                   0.0135
+Illinois              8449   4.177                   0.0133
+Florida               9345   4.175                   0.0129
+Missouri              8576   4.174                   0.0133
+Washington            7200   4.174                   0.0140
+Kentucky              8280   4.173                   0.0133
+West_Virginia         9529   4.173                   0.0122
+Arizona               7948   4.172                   0.0138
+Wisconsin             10251  4.170                   0.0119
+Tennessee             9502   4.169                   0.0126
+Iowa                  10834  4.169                   0.0116
+Pennsylvania          9285   4.162                   0.0126
+Arkansas              9168   4.159                   0.0129
+Colorado              8102   4.158                   0.0139
+Delaware              9450   4.153                   0.0124
+Texas                 10867  4.153                   0.0119
+Oklahoma              9642   4.148                   0.0126
+New_Mexico            9857   4.147                   0.0125
+Minnesota             10346  4.147                   0.0119
+New_York              7561   4.144                   0.0141
+New_Jersey            8259   4.143                   0.0137
+Alabama               8997   4.136                   0.0132
+South_Carolina        11011  4.133                   0.0120
+Louisiana             9808   4.132                   0.0128
+Indiana               8843   4.127                   0.0131
+Maryland              9217   4.126                   0.0128
+Utah                  6956   4.124                   0.0153
+Virginia              9963   4.124                   0.0125
+North_Carolina        10543  4.113                   0.0123
+Ohio                  9341   4.113                   0.0129
+Mississippi           10032  4.109                   0.0129
+North_Dakota          9886   4.101                   0.0126
+Michigan              9888   4.100                   0.0127
+Kansas                9257   4.100                   0.0129
+Nebraska              9474   4.082                   0.0129
+Georgia               9345   4.079                   0.0135
+Wyoming               8178   4.077                   0.0142
+[51 row(s)]
+
+
+Q5 - Reviews per capita (full-corpus counts / 2020 Census population)
+---------------------------------------------------------------------
+state                 total_reviews  population  reviews_per_capita
+-------------------------------------------------------------------
+Florida               61803524       21538192    2.87              
+Nevada                8833403        3105595     2.84              
+Utah                  9081167        3271608     2.78              
+District_of_Columbia  1894317        689545      2.75              
+Colorado              15681222       5775324     2.72              
+Oregon                11012170       4237224     2.60              
+Arizona               18375050       7158110     2.57              
+South_Carolina        11995482       5118252     2.34              
+Tennessee             15951213       6912347     2.31              
+Texas                 66435184       29149458    2.28              
+Georgia               24060125       10713755    2.25              
+New_Mexico            4705389        2117555     2.22              
+Missouri              13416511       6154854     2.18              
+Washington            16541734       7707586     2.15              
+Oklahoma              8482820        3959405     2.14              
+North_Carolina        22299136       10441499    2.14              
+Hawaii                3111531        1455252     2.14              
+Idaho                 3892636        1839140     2.12              
+Michigan              20776155       10079338    2.06              
+Wyoming               1141421        576844      1.98              
+Ohio                  23039365       11799453    1.95              
+New_Hampshire         2648081        1377546     1.92              
+Delaware              1885948        989955      1.91              
+Indiana               12865167       6786587     1.90              
+Kansas                5546880        2937745     1.89              
+Virginia              15957938       8631388     1.85              
+Illinois              23096838       12821814    1.80              
+Alabama               8967499        5025369     1.78              
+Montana               1933939        1084216     1.78              
+California            70529977       39555674    1.78              
+Maryland              10728483       6181629     1.74              
+Wisconsin             10246685       5894170     1.74              
+Kentucky              7654993        4506302     1.70              
+Arkansas              5106056        3011553     1.70              
+New_Jersey            15720266       9289014     1.69              
+Pennsylvania          21944802       13002909    1.69              
+Nebraska              3286810        1961996     1.68              
+Minnesota             9520258        5706692     1.67              
+New_York              33459761       20203772    1.66              
+South_Dakota          1452599        886729      1.64              
+Louisiana             7536078        4657874     1.62              
+Rhode_Island          1777094        1097354     1.62              
+Maine                 2214773        1363196     1.62              
+Iowa                  4838887        3190546     1.52              
+Massachusetts         10447007       7033132     1.49              
+Connecticut           5181800        3607701     1.44              
+Alaska                1051246        733395      1.43              
+North_Dakota          1109558        779046      1.42              
+Vermont               852203         643082      1.33              
+Mississippi           3861771        2961278     1.30              
+West_Virginia         2208199        1793736     1.23              
+[51 row(s)]
+
+
+SUMMARY STATISTICS
+------------------
+Spearman rank correlation, raw vs standardized ranking: +0.483
+Spearman rank correlation, standardized vs restaurants-only: +0.445
+
+Raw spread      (max - min mean rating): 0.175
+Standardized spread                    : 0.084
+
+==============================================================================
+RELIABILITY CHECK -- agreement across category baskets
+==============================================================================
+
+Categories in common set : 66
+States                   : 51
+
+Observed SD of standardized state means : 0.02069
+Mean propagated sampling SE per state   : 0.00361
+Implied TRUE between-state SD           : 0.02037
+Range (max - min)                       : 0.0846
+
+Split-half rank correlation over 200 random category splits:
+    median rho = +0.445    95% range [+0.115, +0.655]
+
+Split-half rho expected from sampling noise alone (approx.)  : +0.941
+Split-half rho observed                                     : +0.445
+
+INTERPRETATION
+Observed agreement is well below what sampling noise alone would produce.
+States rate different categories differently, so state 'generosity' does
+not reduce to one generous-to-harsh dimension. This also explains why the
+restaurants-only check (Q4) agrees with the full ranking only moderately.
+
+This measures consistency across category baskets, not stability over
+time or across reviewers. The noise ceiling is approximate: it squares the
+mean SE instead of averaging squared SEs, approximates half-sample noise
+by sqrt(2) despite unequal category weights, compares a rank correlation
+with a variance-based quantity, and breaks rank ties by order. Treat the
+gap as descriptive.
+
+Spearman-Brown reliability of the FULL 66-category ranking: +0.616
+
+The spread reduction comes from two steps: restricting to the 66 common
+categories (0.1750 -> 0.1450) and reweighting them (0.1450 -> 0.0846).
+A reliability near 0.6 means the standardized ranking is only broadly
+informative. It is not a league table, and telling specific neighbouring
+states apart would need pairwise intervals.

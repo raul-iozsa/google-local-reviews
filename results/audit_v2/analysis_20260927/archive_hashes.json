@@ -1,0 +1,21 @@
+{
+  "ANALYSIS_REPORT.md": "ae88ebabb5b561e40ba550f29966b7bb0ebadb80e42486da7a1113127f16a96c",
+  "analysis_results.json": "e5c72a84fa65702f42fbec422438dad3576fee32135bed0f5362cb58a1d480f3",
+  "exploratory_results.json": "3c8aba9220e2d34ac007b5d4d6e761ed647a3b682a115bfc3318c73fcc97c413",
+  "README.md": "6d303bca9b7d526fb826a325b1f616dcf85cae8bc838d28f522fe03f3ed78f75",
+  "RUBRIC_REVIEW_20260927.md": "0fe83fcc08ee4d15b88ee5ec996d9fd56f879f2b3d77519384ef865bcaf381af",
+  "inputs/ANALYSIS_PLAN.md": "aaec1bcea5ce56dbf93b5fcab7f0ace727d0207797c7470df7f6a40a716a3f66",
+  "inputs/CODEBOOK.md": "5987776a374b4d19b41e39f408f9d16d4d4970491ef75405b243b9d6390f4167",
+  "inputs/labelling_sheet.csv": "e946d5053a0d8329756854693428958945c825f75f0ad41941498ffba24c9430",
+  "inputs/labelling_sheet_annotator2.csv": "faaae6fb98cb443227cb9063bd5541b14feec83895ea426ca5b976f5a8b2adfb",
+  "inputs/pilot_sheet.csv": "0c3d059b0393fec7ba836e2d2c4572d9569c403af07b8265be3b2ac2f6092289",
+  "inputs/_codebook_freeze.json": "63f1a94da528d26b0129f409ea3bf0f00da2d00c5d6ace2de7e709b056283338",
+  "inputs/_hidden_manifest.json": "b802d26b2c5310daa9b08e87eaab32f05f00d5b9bd592659b1911002895d610d",
+  "inputs/_hidden_metadata.csv": "cd33ac06f94bc97b6415b16dc477b8d675251b465da62d6630fb0d95170d1ecf",
+  "inputs/_hidden_pilot_metadata.csv": "c3fe217bff23b9d68c395ed091b34217b15752ef63f1589a3230bb9af6f55850",
+  "inputs/_hidden_predictions.json": "b32456bc705d718f954accf314059dd7851b71d3267501e6b95b54d1c2d943f7",
+  "source/analyze_audit_sample.py": "e3ff24dae5a83e92990331a4217aa0b8e921d6e74ed12c7993bf66660e48deb8",
+  "source/audit_common.py": "23815e9ab7d5acf23a94826793bf27ab726be1b10b27da68860b0ce75065966e",
+  "source/reproduce_exploratory.py": "22a0d3c517ffbf9b633875978d67d821bb80853a966e7178cda4109529d9b4f1",
+  "source/score_audit_sample.py": "bc814885e60d461f57a4e7523edf39edfd6bbf7f7dccb89523a7078819a46129"
+}

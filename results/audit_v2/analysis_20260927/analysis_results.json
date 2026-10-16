@@ -1,0 +1,375 @@
+{
+  "frame": {
+    "clean_total": 9930699,
+    "nonempty_text": 5735390,
+    "text_1_to_19": 701509,
+    "eligible_before_exclusions": 5033881,
+    "eligible_after_exclusions": 5033861
+  },
+  "scope": "Text >=20 characters in the clean global sample, excluding documented exposed reviews",
+  "probability_sample": {
+    "n": 250,
+    "human_labels": {
+      "cannot_tell": {
+        "n": 1,
+        "fraction": 0.004,
+        "wilson_95": [
+          0.0007064475340650966,
+          0.02230578556541592
+        ]
+      },
+      "mixed": {
+        "n": 6,
+        "fraction": 0.024,
+        "wilson_95": [
+          0.01104477730613677,
+          0.051362123813526464
+        ]
+      },
+      "negative": {
+        "n": 38,
+        "fraction": 0.152,
+        "wilson_95": [
+          0.11278766728175409,
+          0.20174510916707533
+        ]
+      },
+      "neutral": {
+        "n": 3,
+        "fraction": 0.012,
+        "wilson_95": [
+          0.0040893198805342975,
+          0.0346807804270196
+        ]
+      },
+      "positive": {
+        "n": 202,
+        "fraction": 0.808,
+        "wilson_95": [
+          0.7546619985365359,
+          0.8520158889742702
+        ]
+      }
+    },
+    "comparable_n": 243,
+    "excluded_from_model_error_n": 7,
+    "vader": {
+      "disagreements": 33,
+      "denominator": 243,
+      "fraction": 0.13580246913580246,
+      "wilson_95": [
+        0.09835953419833116,
+        0.1845810186341127
+      ],
+      "confusion": {
+        "positive -> positive": 188,
+        "neutral -> neutral": 3,
+        "negative -> neutral": 11,
+        "negative -> negative": 19,
+        "positive -> neutral": 10,
+        "positive -> negative": 4,
+        "negative -> positive": 8
+      }
+    },
+    "bert": {
+      "disagreements": 17,
+      "denominator": 243,
+      "fraction": 0.06995884773662552,
+      "wilson_95": [
+        0.04413435625206666,
+        0.10916833042579077
+      ],
+      "confusion": {
+        "positive -> positive": 193,
+        "neutral -> negative": 1,
+        "negative -> neutral": 4,
+        "positive -> negative": 3,
+        "negative -> negative": 32,
+        "positive -> neutral": 6,
+        "negative -> positive": 2,
+        "neutral -> neutral": 1,
+        "neutral -> positive": 1
+      }
+    },
+    "binary_sensitivity": {
+      "vader": {
+        "disagreements": 23,
+        "denominator": 240,
+        "fraction": 0.09583333333333334
+      },
+      "bert": {
+        "disagreements": 9,
+        "denominator": 240,
+        "fraction": 0.0375
+      }
+    },
+    "truncated_n": 4
+  },
+  "diagnostic_panels": {
+    "panel_coldwarm_cold": {
+      "n": 50,
+      "human_labels": {
+        "cannot_tell": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "mixed": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "negative": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "neutral": {
+          "n": 1,
+          "fraction": 0.02
+        },
+        "positive": {
+          "n": 49,
+          "fraction": 0.98
+        }
+      },
+      "comparable_n": 50,
+      "excluded_from_model_error_n": 0,
+      "vader": {
+        "disagreements": 4,
+        "denominator": 50,
+        "fraction": 0.08,
+        "confusion": {
+          "positive -> positive": 45,
+          "neutral -> neutral": 1,
+          "positive -> negative": 2,
+          "positive -> neutral": 2
+        }
+      },
+      "bert": {
+        "disagreements": 3,
+        "denominator": 50,
+        "fraction": 0.06,
+        "confusion": {
+          "positive -> positive": 47,
+          "positive -> neutral": 1,
+          "neutral -> negative": 1,
+          "positive -> negative": 1
+        }
+      },
+      "binary_sensitivity": {
+        "vader": {
+          "disagreements": 2,
+          "denominator": 49,
+          "fraction": 0.04081632653061224
+        },
+        "bert": {
+          "disagreements": 1,
+          "denominator": 49,
+          "fraction": 0.02040816326530612
+        }
+      },
+      "truncated_n": 0
+    },
+    "panel_coldwarm_warm": {
+      "n": 50,
+      "human_labels": {
+        "cannot_tell": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "mixed": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "negative": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "neutral": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "positive": {
+          "n": 50,
+          "fraction": 1.0
+        }
+      },
+      "comparable_n": 50,
+      "excluded_from_model_error_n": 0,
+      "vader": {
+        "disagreements": 1,
+        "denominator": 50,
+        "fraction": 0.02,
+        "confusion": {
+          "positive -> positive": 49,
+          "positive -> neutral": 1
+        }
+      },
+      "bert": {
+        "disagreements": 0,
+        "denominator": 50,
+        "fraction": 0.0,
+        "confusion": {
+          "positive -> positive": 50
+        }
+      },
+      "binary_sensitivity": {
+        "vader": {
+          "disagreements": 1,
+          "denominator": 50,
+          "fraction": 0.02
+        },
+        "bert": {
+          "disagreements": 0,
+          "denominator": 50,
+          "fraction": 0.0
+        }
+      },
+      "truncated_n": 0
+    },
+    "panel_extremes": {
+      "n": 50,
+      "human_labels": {
+        "cannot_tell": {
+          "n": 3,
+          "fraction": 0.06
+        },
+        "mixed": {
+          "n": 2,
+          "fraction": 0.04
+        },
+        "negative": {
+          "n": 33,
+          "fraction": 0.66
+        },
+        "neutral": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "positive": {
+          "n": 12,
+          "fraction": 0.24
+        }
+      },
+      "comparable_n": 45,
+      "excluded_from_model_error_n": 5,
+      "vader": {
+        "disagreements": 38,
+        "denominator": 45,
+        "fraction": 0.8444444444444444,
+        "confusion": {
+          "negative -> negative": 6,
+          "positive -> negative": 11,
+          "negative -> positive": 27,
+          "positive -> positive": 1
+        }
+      },
+      "bert": {
+        "disagreements": 17,
+        "denominator": 45,
+        "fraction": 0.37777777777777777,
+        "confusion": {
+          "negative -> negative": 25,
+          "positive -> negative": 8,
+          "negative -> positive": 5,
+          "negative -> neutral": 3,
+          "positive -> neutral": 1,
+          "positive -> positive": 3
+        }
+      },
+      "binary_sensitivity": {
+        "vader": {
+          "disagreements": 38,
+          "denominator": 45,
+          "fraction": 0.8444444444444444
+        },
+        "bert": {
+          "disagreements": 14,
+          "denominator": 45,
+          "fraction": 0.3111111111111111
+        }
+      },
+      "truncated_n": 28
+    },
+    "panel_model_disagreement": {
+      "n": 50,
+      "human_labels": {
+        "cannot_tell": {
+          "n": 0,
+          "fraction": 0.0
+        },
+        "mixed": {
+          "n": 9,
+          "fraction": 0.18
+        },
+        "negative": {
+          "n": 33,
+          "fraction": 0.66
+        },
+        "neutral": {
+          "n": 2,
+          "fraction": 0.04
+        },
+        "positive": {
+          "n": 6,
+          "fraction": 0.12
+        }
+      },
+      "comparable_n": 41,
+      "excluded_from_model_error_n": 9,
+      "vader": {
+        "disagreements": 34,
+        "denominator": 41,
+        "fraction": 0.8292682926829268,
+        "confusion": {
+          "positive -> positive": 5,
+          "negative -> positive": 30,
+          "negative -> neutral": 2,
+          "neutral -> neutral": 1,
+          "positive -> negative": 1,
+          "negative -> negative": 1,
+          "neutral -> positive": 1
+        }
+      },
+      "bert": {
+        "disagreements": 10,
+        "denominator": 41,
+        "fraction": 0.24390243902439024,
+        "confusion": {
+          "positive -> neutral": 4,
+          "negative -> negative": 30,
+          "negative -> neutral": 3,
+          "neutral -> negative": 1,
+          "positive -> negative": 2,
+          "neutral -> neutral": 1
+        }
+      },
+      "binary_sensitivity": {
+        "vader": {
+          "disagreements": 33,
+          "denominator": 39,
+          "fraction": 0.8461538461538461
+        },
+        "bert": {
+          "disagreements": 6,
+          "denominator": 39,
+          "fraction": 0.15384615384615385
+        }
+      },
+      "truncated_n": 1
+    }
+  },
+  "source_manifest_sha256": "b802d26b2c5310daa9b08e87eaab32f05f00d5b9bd592659b1911002895d610d",
+  "main_labels_sha256": "e946d5053a0d8329756854693428958945c825f75f0ad41941498ffba24c9430",
+  "prediction_sha256": "b32456bc705d718f954accf314059dd7851b71d3267501e6b95b54d1c2d943f7",
+  "coldwarm_exploratory": {
+    "pairs": 50,
+    "label_pairs": {
+      "positive / positive": 49,
+      "neutral / positive": 1
+    },
+    "positive_fraction_cold_minus_warm": -0.02,
+    "interpretation": "Descriptive paired contrast; not a causal effect or corpus prevalence estimate"
+  },
+  "agreement": {
+    "status": "Not measured; one annotator only"
+  }
+}

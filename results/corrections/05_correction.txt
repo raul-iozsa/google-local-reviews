@@ -1,0 +1,36 @@
+NOTES ON INTERPRETING THIS COMPARISON
+
+These scores measure agreement with star ratings, not with human judgments
+of text sentiment.
+
+The nlptown BERT model was fine-tuned elsewhere to predict product-review
+stars, though not on these Google reviews. Comparing it with an in-corpus
+linear model mixes architecture, pretraining and data, so similar
+five-class accuracies do not show that training adds nothing. A learning
+curve (one model at several training sizes) would be needed for that.
+
+The binary comparison makes BERT choose between its combined 1-2 star and
+4-5 star probabilities on the same rows as the other methods. Dropping the
+cases where its top choice is 3 stars changes coverage, so that number is
+not comparable.
+
+The evaluation set is balanced by star rating, so its accuracy is not a
+real-world accuracy. Positive-class recall alone says nothing about
+precision, and a three-star rating need not mean neutral text.
+
+VADER handles contrastive "but": "The staff were lovely and the room was
+beautiful but the heating was broken all week" scores -0.0772. Slang and
+emoji are still misread (see the taco review in the Phase 6 report).
+
+The split has 2,735 evaluation texts that also appear in training, and
+three overlapping natural review keys. On the 37,851 binary examples whose
+exact text is not in training, SVM scores 93.149% and BERT 91.842%. The
+ranking holds, but this is a sensitivity check, not a deduplicated, grouped
+retraining. Further work: splits grouped by business, class-specific
+precision and recall, macro-F1, and paired uncertainty. The human audit
+(results/audit_v2) covers the separate question of agreement with human
+sentiment labels.
+
+The VADER neutral band uses positive >= 0.05 and negative <= -0.05, the same
+endpoints as the human-audit scorer; four evaluation values sit exactly on
+those boundaries. Coverage is checked before a report can be overwritten.

@@ -1,0 +1,127 @@
+PHASE 4A -- CLOSURE PREDICTION
+==============================================================================
+
+A1 - WHEN do businesses end? (year of last review, closed vs control)
+------------------------------------------------------------------------------
+end_year  closed  control
+-------------------------
+2012      1       0      
+2013      6       0      
+2014      25      0      
+2015      58      0      
+2016      293     0      
+2017      1376    14     
+2018      5037    57     
+2019      8658    246    
+2020      9787    2912   
+2021      2714    68575  
+[10 row(s)]
+
+
+A2 - RATING trajectory: within-business change, final 6mo vs baseline 24-12mo
+     did = delta_closed - delta_control. Negative => closed businesses' ratings
+     fell MORE than comparable open businesses' over the same period.
+------------------------------------------------------------------------------
+end_year  n_closed  delta_closed  n_control  delta_control  did      did_se  ci_low   ci_high
+---------------------------------------------------------------------------------------------
+2019      6035      -0.1227       135        -0.0282        -0.0945  0.0524  -0.1973  0.0083 
+2020      5747      -0.0766       1077       0.0147         -0.0914  0.0208  -0.1322  -0.0505
+2021      1458      -0.1057       48604      0.0089         -0.1146  0.0176  -0.1492  -0.0801
+[3 row(s)]
+
+
+A3 - VOLUME trajectory: final monthly review rate / baseline monthly rate.
+     NOTE: alignment on last review guarantees decline in BOTH groups.
+     Only the closed-vs-control gap is interpretable, never the level.
+------------------------------------------------------------------------------
+end_year  n_closed  mean_ratio_closed  med_ratio_closed  n_control  mean_ratio_control  med_ratio_control
+---------------------------------------------------------------------------------------------------------
+2019      7743      1.411              1.000             206        1.293               0.916            
+2020      8913      0.825              0.545             2610       0.835               0.500            
+2021      2446      0.728              0.462             59220      1.235               0.857            
+[3 row(s)]
+
+
+A4 - LEVEL (a different question): are closed businesses just rated worse?
+------------------------------------------------------------------------------
+grp      n_biz  mean_rating  median_rating
+------------------------------------------
+closed   27955  4.124        4.205        
+control  71804  4.303        4.378        
+[2 row(s)]
+
+
+A5 - LEVEL, matched within category x review-band cells
+------------------------------------------------------------------------------
+n_cells  closed_biz_covered  mean_gap_closed_minus_control  cells_where_closed_lower
+------------------------------------------------------------------------------------
+787      24755               -0.1824                        658                     
+[1 row(s)]
+
+
+
+==============================================================================
+A6 -- IS THE CLOSURE SIGNAL ACTUALLY USABLE? (AUC)
+==============================================================================
+
+AUC = P(a random closed business scores lower than a random open one).
+0.50 = chance pairwise ranking. Practical utility needs a decision context.
+
+year    n_closed  n_control  AUC level  AUC traj  AUC final
+2019       6,035        135      0.558     0.547      0.578
+2020       5,747      1,077      0.541     0.533      0.560
+2021       1,458     48,604      0.556     0.547      0.569
+
+INTERPRETATION
+These three signals rank closed versus comparison businesses only weakly
+in this retrospective cohort. AUC alone does not determine utility at
+every decision threshold or establish a forecasting error rate.
+
+The average decline is clear in 2020 and 2021. The 2019 (pre-COVID)
+estimate has a 95% interval spanning zero on only 135 controls, so it
+does NOT establish that the effect predates the pandemic.
+
+The distributions of closed and surviving businesses overlap heavily.
+AUC measures RANKING, not accuracy: it does not imply a
+particular error rate, and does not show that closure prediction is
+impossible in general -- only that these three signals rank weakly in
+this retrospective cohort.
+
+The final-window rating level (AUC 0.56-0.58) separates the groups slightly
+better than the trajectory (0.53-0.55). The weak signal that exists is more
+'rated poorly right now' than 'declining', the opposite of the
+leading-indicator idea this phase set out to test.
+
+[[CORRECTION:04a_correction.txt:BEGIN]]
+NOTE ON A4/A5 -- the pooled level gap is inflated by year composition
+
+A4 reports closed businesses averaging 4.124 against controls' 4.303, a gap
+of -0.179, and A5 puts the category-matched gap at -0.182. Both overstate
+the difference because they pool across years.
+
+Closed businesses stop being reviewed earlier (A1: closed cluster 2018-2021,
+controls overwhelmingly 2021), and businesses that end earlier are rated
+lower: among controls alone the mean rises 3.894 (2018) -> 4.169 (2019)
+-> 4.234 (2020) -> 4.307 (2021). Pooling compares mostly earlier-ending
+closed businesses with mostly 2021-ending controls, so part of the gap is
+"earlier is worse", not "closed is worse".
+
+Within year of last review, the gap is much smaller:
+
+    2018   closed 4.026  control 3.894   gap +0.131   (n_control=57, unreliable)
+    2019   closed 4.126  control 4.169   gap -0.043
+    2020   closed 4.190  control 4.234   gap -0.044
+    2021   closed 4.197  control 4.307   gap -0.110
+
+So the level gap is roughly -0.04 to -0.11, not -0.18: a Simpson's paradox.
+
+The two groups also barely overlap in end year. In 2019 and 2020 the
+controls are businesses whose last review came long before the September
+2021 crawl, so they are dormant and arguably declining themselves. Only the
+2021 stratum compares closed businesses with normal active ones.
+
+The trajectory effect (A2) is clear in 2020 and 2021, where both intervals
+exclude zero. 2019 is consistent with it, but its 95% interval
+[-0.1973, +0.0083] includes zero on only 135 controls, so it cannot show
+that the effect predates COVID.
+[[CORRECTION:04a_correction.txt:END]]

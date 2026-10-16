@@ -1,0 +1,222 @@
+PHASE 2 -- DESCRIPTIVE SQL RESULTS
+======================================================================
+
+Q1a - Rating distribution, OVERALL (reviews_global_clean)
+---------------------------------------------------------
+rating  n        pct  
+----------------------
+1       715035   7.20 
+2       321585   3.24 
+3       787432   7.93 
+4       1803137  18.16
+5       6303510  63.47
+[5 row(s)]
+
+
+Q1b - Rating distribution, BY STATE (reviews_stratified_clean)
+--------------------------------------------------------------
+state                 n       mean_rating  pct_1star  pct_5star
+---------------------------------------------------------------
+other                 162952  4.543        4.10       74.50    
+Hawaii                197561  4.373        4.27       63.57    
+Vermont               197575  4.352        5.34       64.43    
+Maine                 198300  4.348        5.38       64.32    
+Idaho                 198795  4.337        6.22       65.82    
+New_Hampshire         198753  4.333        6.02       64.55    
+Rhode_Island          198962  4.329        6.32       64.91    
+South_Dakota          197403  4.329        5.87       64.28    
+Utah                  198777  4.322        7.08       66.56    
+Montana               197593  4.315        6.14       64.05    
+Oregon                198978  4.314        6.20       64.01    
+Massachusetts         198541  4.312        6.35       63.87    
+Arizona               198839  4.304        7.16       65.46    
+Connecticut           198965  4.304        6.89       64.38    
+Alaska                198428  4.304        6.05       63.05    
+Florida               198572  4.303        7.57       66.14    
+District_of_Columbia  197252  4.303        6.10       62.58    
+California            198689  4.293        6.44       62.88    
+Minnesota             198975  4.293        6.64       63.43    
+Washington            198977  4.292        6.34       62.75    
+North_Carolina        198787  4.288        7.25       64.42    
+Wisconsin             198945  4.288        6.53       62.91    
+New_Jersey            199079  4.286        7.43       64.18    
+Pennsylvania          198726  4.284        6.76       63.11    
+Wyoming               196946  4.279        6.43       62.39    
+Nebraska              198228  4.277        6.82       62.83    
+Colorado              198620  4.275        7.93       64.89    
+New_York              198928  4.275        6.91       62.48    
+Tennessee             198357  4.274        7.19       63.81    
+Illinois              198779  4.273        7.33       63.45    
+Delaware              199146  4.267        6.98       62.45    
+Virginia              198174  4.267        7.28       62.99    
+Iowa                  198424  4.265        6.73       61.94    
+Louisiana             198212  4.263        7.15       63.15    
+Kansas                198870  4.263        6.80       62.10    
+Missouri              198847  4.263        7.01       62.74    
+South_Carolina        198483  4.259        7.49       63.34    
+Nevada                198988  4.259        7.34       63.03    
+Texas                 198958  4.256        8.03       63.88    
+Michigan              199036  4.254        7.48       62.59    
+Maryland              198567  4.253        7.35       62.21    
+Arkansas              198465  4.249        7.05       62.03    
+North_Dakota          197994  4.246        6.91       60.95    
+Ohio                  198978  4.241        7.29       61.76    
+Alabama               198514  4.240        7.43       61.96    
+West_Virginia         198086  4.239        6.66       60.44    
+Oklahoma              198871  4.237        7.48       62.19    
+Georgia               198592  4.229        8.39       62.86    
+New_Mexico            198094  4.227        7.74       61.62    
+Kentucky              198517  4.225        7.44       61.12    
+Indiana               198894  4.222        7.54       60.98    
+Mississippi           198416  4.198        7.85       60.35    
+[52 row(s)]
+
+
+Q2 - Reviews per year (reviews_global_clean)
+--------------------------------------------
+year        n      
+-------------------
+1990-01-01  9      
+2002-01-01  7      
+2003-01-01  15     
+2004-01-01  30     
+2005-01-01  45     
+2006-01-01  54     
+2007-01-01  88     
+2008-01-01  173    
+2009-01-01  301    
+2010-01-01  2111   
+2011-01-01  7162   
+2012-01-01  14399  
+2013-01-01  29402  
+2014-01-01  43134  
+2015-01-01  108105 
+2016-01-01  415364 
+2017-01-01  1300607
+2018-01-01  2370612
+2019-01-01  2886266
+2020-01-01  1878448
+2021-01-01  874367 
+[21 row(s)]
+
+
+Q3 - Rating inflation, mean rating by year + YoY change (reviews_global_clean)
+------------------------------------------------------------------------------
+year        mean_rating         change_from_prior_year
+------------------------------------------------------
+1990-01-01  4.1111111111111111  None                  
+2002-01-01  4.0000000000000000  -0.1111               
+2003-01-01  4.2666666666666667  0.2667                
+2004-01-01  3.9666666666666667  -0.3000               
+2005-01-01  3.7555555555555556  -0.2111               
+2006-01-01  3.7962962962962963  0.0407                
+2007-01-01  3.7840909090909091  -0.0122               
+2008-01-01  3.8728323699421965  0.0887                
+2009-01-01  3.7973421926910299  -0.0755               
+2010-01-01  3.8289909995262909  0.0316                
+2011-01-01  3.9884110583635856  0.1594                
+2012-01-01  4.1316063615528856  0.1432                
+2013-01-01  4.0699952384191552  -0.0616               
+2014-01-01  4.0486159410210043  -0.0214               
+2015-01-01  4.0299431108644374  -0.0187               
+2016-01-01  4.1129130112383355  0.0830                
+2017-01-01  4.2046529043746497  0.0917                
+2018-01-01  4.2470568781394847  0.0424                
+2019-01-01  4.3006562804675661  0.0536                
+2020-01-01  4.3393668603016959  0.0387                
+2021-01-01  4.3603452554819658  0.0210                
+[21 row(s)]
+
+
+Q4 - Review length vs rating, mean + median (reviews_global_clean)
+------------------------------------------------------------------
+rating  n_with_text  mean_length  median_length
+-----------------------------------------------
+1       555007       336.4        200.0        
+2       211923       248.1        133.0        
+3       379047       148.3        73.0         
+4       860287       110.6        59.0         
+5       3729126      133.2        74.0         
+[5 row(s)]
+
+
+Q5 - Category comparison, min 500 sampled reviews (reviews_global_clean x businesses)
+-------------------------------------------------------------------------------------
+category                                     n      mean_rating
+---------------------------------------------------------------
+Periodontist                                 533    4.949      
+Home inspector                               6741   4.926      
+Personal trainer                             975    4.914      
+Orthodontist                                 6811   4.912      
+Firearms academy                             671    4.896      
+Physical therapy clinic                      3689   4.880      
+Chiropractor                                 15325  4.878      
+Mortgage broker                              1024   4.877      
+Permanent make-up clinic                     743    4.873      
+Pressure washing service                     1771   4.873      
+Wedding photographer                         587    4.871      
+Window cleaning service                      1045   4.869      
+Physical therapist                           1145   4.865      
+Martial arts school                          2195   4.854      
+Audiologist                                  845    4.852      
+Auto dent removal service                    700    4.851      
+Acupuncture clinic                           629    4.844      
+Garage door supplier                         4508   4.839      
+Carpet cleaning service                      7483   4.829      
+Cosmetic dentist                             4483   4.829      
+DJ service                                   551    4.828      
+Escape room center                           6784   4.827      
+Website designer                             506    4.822      
+Yoga studio                                  1455   4.821      
+Garbage dump service                         1254   4.817      
+Health and beauty shop                       1691   4.817      
+Church of Jesus Christ of Latter-day Saints  2248   4.812      
+Pregnancy care center                        556    4.809      
+Skydiving center                             1356   4.805      
+Dental implants periodontist                 946    4.803      
+Lasik surgeon                                1728   4.803      
+Air duct cleaning service                    1103   4.802      
+Loan agency                                  11381  4.799      
+Pediatric dentist                            7158   4.797      
+Endodontist                                  1132   4.796      
+Oral surgeon                                 2878   4.795      
+Catholic cathedral                           667    4.795      
+Jewelry designer                             618    4.793      
+Hearing aid store                            1045   4.788      
+Water softening equipment supplier           1013   4.776      
+Painter                                      1445   4.776      
+Criminal justice attorney                    2339   4.776      
+Photographer                                 2123   4.774      
+Painting studio                              918    4.771      
+Mortgage lender                              6636   4.770      
+Air conditioning repair service              5280   4.769      
+Sign shop                                    1928   4.768      
+Real estate agents                           2506   4.768      
+Hindu temple                                 1663   4.762      
+Chimney sweep                                727    4.762      
+Bankruptcy attorney                          1238   4.761      
+Recording studio                             887    4.760      
+Electrician                                  4200   4.759      
+Mosque                                       1946   4.758      
+Christian book store                         716    4.758      
+Water damage restoration service             1538   4.756      
+Waterproofing company                        629    4.755      
+HVAC contractor                              15627  4.755      
+Podiatrist                                   2342   4.754      
+Training centre                              604    4.752      
+... (901 more rows not shown)
+[961 row(s)]
+
+
+Q6 - Owner response rate by rating (reviews_global_clean)
+---------------------------------------------------------
+rating  n        n_with_response  pct_with_response
+---------------------------------------------------
+1       715035   127232           17.79            
+2       321585   44537            13.85            
+3       787432   73079            9.28             
+4       1803137  172399           9.56             
+5       6303510  1036987          16.45            
+[5 row(s)]
+
+

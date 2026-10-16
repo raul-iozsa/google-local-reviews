@@ -1,0 +1,27 @@
+# Secrets -- never commit
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Large generated data lives on the external drive, not in the repo
+*.csv.gz
+*.json.gz
+
+# Local scratch
+*.log
+
+# Local backups made by repair scripts -- not part of the published project
+.audit_fix_backups/
+
+# Check and test logs; regenerate with verify_project.py and unittest
+results/verification_checklist.txt
+results/regression_tests.txt
+
+# Disposable test fixtures and local Python environments
+.test-runs/
+.audit-test-runs/
+.final-review-tests/
+.addendum-test-runs/
+.venv/

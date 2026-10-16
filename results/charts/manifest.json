@@ -1,0 +1,91 @@
+{
+  "schema": 1,
+  "renderer_sha256": "fd2261cb2cba40e92e30fd44498b774991b346cc74b2aa97467723a02e03836d",
+  "charts": {
+    "01_rating_distribution": {
+      "inputs": {
+        "p2_rating_distribution": "17b3eff8cdace899d6cb0588019f1e355e87bfe54047f2f7ab680727eb0cfcba"
+      },
+      "png_sha256": "301f723a297aa14a01cf83c9f5b3b4a63015d4b2ddfe77a331e470562311bb51",
+      "title_subtitle_overlap": false
+    },
+    "02_volume_and_rating_inflation": {
+      "inputs": {
+        "p2_reviews_per_year": "07a2d196295e800dea9a2f6d614430bc5b36fba1eed2838df3b95a8f324ac525",
+        "p2_mean_rating_per_year": "e72b6b1346c174d8c3d43e971caf19a7ec33c8ff5d4551ab64ae2ce83581c636"
+      },
+      "png_sha256": "2903679bba8848ca0c1f3093462e8cdb9077b2417344a3a042e32f994adf6570",
+      "title_subtitle_overlap": false
+    },
+    "03_length_vs_rating": {
+      "inputs": {
+        "p2_length_vs_rating": "f105d3152170de5c7f6aaf9bab279f57ab8158ed34a13011c6591b5dfb8f6f2e"
+      },
+      "png_sha256": "e841b630c51af827676d60f3b36ce0cb6b7cc0c59b4f4f36da3efa7bad4d825a",
+      "title_subtitle_overlap": false
+    },
+    "04_owner_response_rate": {
+      "inputs": {
+        "p2_response_rate_by_rating": "aff02ca146210410610c0c1447c47efb78bf2e59884ec03b270d1a7610f74326"
+      },
+      "png_sha256": "3e6da16d30e65f01239d5254c2d9da506b9d6663b74b94438c7f10a369cb811b",
+      "title_subtitle_overlap": false
+    },
+    "05_state_rank_shift": {
+      "inputs": {
+        "p3_state_raw_vs_std": "e7683b96bde600d88410de6291068f0cebbfa1377ac9a1818f725456d93a2019"
+      },
+      "png_sha256": "7e5926b681fcfd7186f3ca60a75337e80f787558cbf77e25774f8549f6bc6111",
+      "title_subtitle_overlap": false
+    },
+    "06_reliability_contrast": {
+      "inputs": {
+        "reliability_contrast": "948d55eff35a2f7a63083517218fa9645e3d008aab03464db8451513856b58f2"
+      },
+      "png_sha256": "2de782e5acfe8c4a2da9ffadac45b021a04a2b370455abbc5563fa0e92d37340",
+      "title_subtitle_overlap": false
+    },
+    "07_closure_auc": {
+      "inputs": {
+        "p4a_auc": "983da1db29805564368875d7a742238efceeefb0e47920335ec33e16df3febec"
+      },
+      "png_sha256": "6b47141860e5892c284a3a5c069088040c98d47e2998131a99312b41eeb82fd0",
+      "title_subtitle_overlap": false
+    },
+    "08_closure_did": {
+      "inputs": {
+        "p4a_did_by_year": "fbe2e83336d9571a0d94e8917930a84d9a94a65c6aa0dff4da5df734b5669120"
+      },
+      "png_sha256": "cebf6a5fef989c25166eaefbba5c0b245148e41446d9715e7c7831cf08161d07",
+      "title_subtitle_overlap": false
+    },
+    "09_sentiment_accuracy_by_star": {
+      "inputs": {
+        "p5_accuracy_by_star": "db9b516863c813fac9a727f8a9dbc350368dceb8b29a232fcde90112f333000f"
+      },
+      "png_sha256": "c6a0acabb891840174a8d810f6fe9e46e4ab54faf133cf1019596ba5c4d748b5",
+      "title_subtitle_overlap": false
+    },
+    "10_category_gap": {
+      "inputs": {
+        "p6_category_gap": "ceb10bce6e274ca499dee7cbe1e01499d4789173bae4ada2d5c123833095c176"
+      },
+      "png_sha256": "6063ecaa9038e7e7e392f36225bfe786fcfbe6e9f87309e911ff6aec69e39300",
+      "title_subtitle_overlap": false
+    },
+    "11_length_effect": {
+      "inputs": {
+        "p6_length_vader": "b243cd9bab8ae1049c6cb8111a22bcb66f2817ac136909affe989569c8865d5d"
+      },
+      "png_sha256": "e9138b5f72beca6dc3b72a000a60bd1dc777c4c1128505451c82e8b185706ec3",
+      "title_subtitle_overlap": false
+    },
+    "12_bert_check": {
+      "inputs": {
+        "p6_bert_check": "8ca3e90993d7513040e8d9d7c217d45bce4e400788128a28ef7d59665076f53d"
+      },
+      "png_sha256": "ee49970187309ca4dc03b680d4d44bdde0fc29fdb0d7a19460a095f5d2f70c28",
+      "title_subtitle_overlap": false
+    }
+  }
+}

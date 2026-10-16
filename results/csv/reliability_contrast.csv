@@ -1,0 +1,3 @@
+measure,split_half_observed,noise_only_expected,spearman_brown_full
+Phase 3: how states RATE,0.4451,0.9408,0.616
+Phase 6: how warmly states WRITE,0.811,0.9153,0.8956

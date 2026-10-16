@@ -1,0 +1,9 @@
+group,n,mean_len,vader_mean,bert_expected_star,bert_p_pos
+A_grim,1500,246.1,0.8231,4.6048,0.935
+A_reference,1500,243.4,0.8329,4.5553,0.9209
+B_cold10,1500,244.9,0.6931,4.5133,0.9095
+B_warm10,1500,244.0,0.8888,4.654,0.9494
+
+test,vader_effect,bert_effect
+A_grim_minus_reference,-0.037,0.102
+B_cold10_minus_warm10,-0.729,-0.289

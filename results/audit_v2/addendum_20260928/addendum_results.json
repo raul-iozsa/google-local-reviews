@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "archive": "results/audit_v2/analysis_20260927",
+  "post_hoc": true,
+  "comparable_n": 243,
+  "majority_baseline": {
+    "label": "positive",
+    "agreed": 202,
+    "fraction": 0.831275720164609
+  },
+  "models": {
+    "vader": {
+      "all": {
+        "disagreements": 33,
+        "denominator": 243,
+        "fraction": 0.13580246913580246,
+        "wilson_95": [
+          0.09835953419833116,
+          0.1845810186341127
+        ]
+      },
+      "excluding_discussed": {
+        "disagreements": 28,
+        "denominator": 233,
+        "fraction": 0.12017167381974249,
+        "wilson_95": [
+          0.08446523431634452,
+          0.16819939255541605
+        ]
+      },
+      "within_discussed": {
+        "disagreements": 5,
+        "denominator": 10,
+        "fraction": 0.5,
+        "wilson_95": [
+          0.236593090512564,
+          0.7634069094874361
+        ]
+      },
+      "per_class": {
+        "positive": {
+          "human_n": 202,
+          "agreed": 188,
+          "model_n": 196
+        },
+        "negative": {
+          "human_n": 38,
+          "agreed": 19,
+          "model_n": 23
+        },
+        "neutral": {
+          "human_n": 3,
+          "agreed": 3,
+          "model_n": 24
+        }
+      }
+    },
+    "bert": {
+      "all": {
+        "disagreements": 17,
+        "denominator": 243,
+        "fraction": 0.06995884773662552,
+        "wilson_95": [
+          0.04413435625206666,
+          0.10916833042579077
+        ]
+      },
+      "excluding_discussed": {
+        "disagreements": 14,
+        "denominator": 233,
+        "fraction": 0.060085836909871244,
+        "wilson_95": [
+          0.036125734665616194,
+          0.09831634730450198
+        ]
+      },
+      "within_discussed": {
+        "disagreements": 3,
+        "denominator": 10,
+        "fraction": 0.3,
+        "wilson_95": [
+          0.10779126740630099,
+          0.6032218525388546
+        ]
+      },
+      "per_class": {
+        "positive": {
+          "human_n": 202,
+          "agreed": 193,
+          "model_n": 196
+        },
+        "negative": {
+          "human_n": 38,
+          "agreed": 32,
+          "model_n": 36
+        },
+        "neutral": {
+          "human_n": 3,
+          "agreed": 1,
+          "model_n": 11
+        }
+      }
+    }
+  },
+  "mcnemar": {
+    "vader_only_wrong": 26,
+    "bert_only_wrong": 10,
+    "p_exact_two_sided": 0.011330984183587134
+  },
+  "discussed": {
+    "n": 25,
+    "in_random_sample": 11,
+    "in_comparable_random_sample": 10,
+    "archive_reported_n": 4,
+    "archive_reported_in_random_sample": 1,
+    "with_suggestion": 21,
+    "annotator_differed_from_suggestion": 3,
+    "items": [
+      {
+        "item_id": "IT-020D652AEF",
+        "source": "assistant 1",
+        "pool": "probability_sample",
+        "annotator_label": "neutral",
+        "suggested_label": null
+      },
+      {
+        "item_id": "IT-2B3285E651",
+        "source": "assistant 1",
+        "pool": "panel_coldwarm_warm",
+        "annotator_label": "positive",
+        "suggested_label": null
+      },
+      {
+        "item_id": "IT-6CA1A3D1A1",
+        "source": "assistant 1",
+        "pool": "panel_extremes",
+        "annotator_label": "negative",
+        "suggested_label": null
+      },
+      {
+        "item_id": "IT-C545370B12",
+        "source": "both",
+        "pool": "panel_model_disagreement",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-DEDCEB8953",
+        "source": "assistant 2",
+        "pool": "panel_model_disagreement",
+        "annotator_label": "positive",
+        "suggested_label": null
+      },
+      {
+        "item_id": "IT-AF5AA3DFA9",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-6071B04D7D",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "positive",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-CCB33ED9FC",
+        "source": "assistant 2",
+        "pool": "panel_model_disagreement",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-F325334165",
+        "source": "assistant 2",
+        "pool": "panel_model_disagreement",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-4B7D137741",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "positive",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-4C61B006DB",
+        "source": "assistant 2",
+        "pool": "panel_coldwarm_cold",
+        "annotator_label": "neutral",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-7CC9565B77",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "positive",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-BC57474D97",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "positive",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-E58D157188",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "positive",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-58EE30B8BB",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-57B426F115",
+        "source": "assistant 2",
+        "pool": "panel_extremes",
+        "annotator_label": "positive",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-3AAC14C751",
+        "source": "assistant 2",
+        "pool": "panel_extremes",
+        "annotator_label": "mixed",
+        "suggested_label": "mixed"
+      },
+      {
+        "item_id": "IT-877071D221",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "cannot_tell",
+        "suggested_label": "cannot_tell"
+      },
+      {
+        "item_id": "IT-D172627655",
+        "source": "assistant 2",
+        "pool": "panel_model_disagreement",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-0FE7EC23D0",
+        "source": "assistant 2",
+        "pool": "panel_model_disagreement",
+        "annotator_label": "neutral",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-DB19840162",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "neutral",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-97BD46E8E4",
+        "source": "assistant 2",
+        "pool": "probability_sample",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-9514E19C5F",
+        "source": "assistant 2",
+        "pool": "panel_model_disagreement",
+        "annotator_label": "negative",
+        "suggested_label": "negative"
+      },
+      {
+        "item_id": "IT-2FAA491705",
+        "source": "assistant 2",
+        "pool": "panel_extremes",
+        "annotator_label": "positive",
+        "suggested_label": "positive"
+      },
+      {
+        "item_id": "IT-33C8A35A9D",
+        "source": "assistant 2",
+        "pool": "panel_extremes",
+        "annotator_label": "cannot_tell",
+        "suggested_label": "cannot_tell"
+      }
+    ]
+  }
+}

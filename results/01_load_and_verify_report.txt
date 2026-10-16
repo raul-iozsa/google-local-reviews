@@ -1,0 +1,62 @@
+PUBLIC COPY: individual duplicate-review diagnostic rows omitted to remove reviewer IDs.
+Aggregate results and historical correction notes are retained.
+
+[22:32:18] Connected to google_local.
+[22:32:18] Dropping and recreating all 3 tables (clean slate)...
+[22:32:18] Tables created.
+[22:32:18] Loading businesses (52 files)...
+[22:32:55] businesses: all 52 files COPY'd
+[22:32:55] Loading reviews_stratified (52 files)...
+[22:36:10] reviews_stratified: all 52 files COPY'd
+[22:36:10] Loading reviews_global (52 files)...
+[22:39:44] reviews_global: all 52 files COPY'd
+[22:39:44] Building indexes (7)...
+[22:43:37] Indexes built.
+[22:43:37] === Verification ===
+[22:43:48] Check 1 (row counts)   -> stratified=10,362,952  global=9,994,108  businesses=4,989,684
+[22:43:48]            expected    -> stratified=10,362,952  global=9,994,108  businesses=4,989,684
+[22:43:48]            result      -> PASS
+[22:43:48] Check 2 (review_time range):
+[22:43:48]            stratified: 1990-12-31 00:00:00  to  2021-09-09 00:47:17
+[22:43:48]            global: 1990-12-31 00:00:00  to  2021-09-08 22:44:51
+[22:43:49] Check 3 (rating distribution, reviews_stratified):
+[22:43:49]            rating=1: 702,248
+[22:43:49]            rating=2: 331,523
+[22:43:49]            rating=3: 825,752
+[22:43:49]            rating=4: 1,909,804
+[22:43:49]            rating=5: 6,518,081
+[22:43:49]            rating=None: 75,544
+[22:43:49] Check 4 (duplicate user_id+gmap_id+review_time): 20 found (expect 0)
+[22:44:01] Check 5 (orphan reviews, gmap_id not in businesses): 0 (expect 0 or near-0)
+[22:44:01] Done.
+
+=== NOTES (added after the run above) ===
+Check 4's "20 found" is the query's LIMIT 20, not a count. A COUNT(*) gives
+14,070 duplicate (user_id, gmap_id, review_time) groups. The same JSON
+review appears twice in the raw source file (checked in
+review-Vermont.json.gz), so the duplicates come from the UCSD data, not
+from sampling or loading.
+
+The 75,544 rows with no rating (Check 3) also have no user_id, always both
+together. They are third-party reviews syndicated into Google listings:
+one is from a "Travelocity reviewer", dated 1999-12-31 at midnight, with
+text that mentions October 2007. That is 0.73% of reviews_stratified.
+Analyses that need a rating or a user exclude them with
+user_id IS NOT NULL (the _clean views).
+
+run_load_and_verify.py now counts Check 4 correctly and reports these rows
+as Check 6.
+
+[[CORRECTION:01_correction.txt:BEGIN]]
+NOTE: PRE-2005 DATES SURVIVE THE CLEAN FILTER
+
+61 reviews in reviews_global_clean are dated before 2005, some in 1990:
+
+    SELECT count(*) FROM reviews_global_clean WHERE review_time < '2005-01-01';
+    -> 61
+
+The syndicated rows and the bad-date rows overlap but are not the same set,
+so filtering on user_id does not remove the bad dates. They are too few to
+affect the yearly analyses (61 of 9.93M), but anything that depends on
+dates should filter on review_time explicitly.
+[[CORRECTION:01_correction.txt:END]]

@@ -1,0 +1,324 @@
+{
+  "main_labels_sha256": "e946d5053a0d8329756854693428958945c825f75f0ad41941498ffba24c9430",
+  "labels": {
+    "negative": 104,
+    "positive": 319,
+    "neutral": 6,
+    "mixed": 17,
+    "cannot_tell": 4
+  },
+  "rows_with_tags": 119,
+  "rows_with_notes": 34,
+  "rows_with_implied_stars": 0,
+  "pilot_hash_matches_freeze": true,
+  "crosschecks": {
+    "panel_coldwarm_cold": {
+      "total_n": 50,
+      "comparable_n": 50,
+      "joint_agreement": {
+        "both_agree": 44,
+        "vader_only_agrees": 2,
+        "neither_agrees": 1,
+        "bert_only_agrees": 3
+      },
+      "vader_disagreements": 4,
+      "bert_disagreements": 3
+    },
+    "panel_coldwarm_warm": {
+      "total_n": 50,
+      "comparable_n": 50,
+      "joint_agreement": {
+        "both_agree": 49,
+        "bert_only_agrees": 1
+      },
+      "vader_disagreements": 1,
+      "bert_disagreements": 0
+    },
+    "panel_extremes": {
+      "total_n": 50,
+      "comparable_n": 45,
+      "joint_agreement": {
+        "both_agree": 7,
+        "neither_agrees": 17,
+        "bert_only_agrees": 21
+      },
+      "vader_disagreements": 38,
+      "bert_disagreements": 17
+    },
+    "panel_model_disagreement": {
+      "total_n": 50,
+      "comparable_n": 41,
+      "joint_agreement": {
+        "vader_only_agrees": 7,
+        "bert_only_agrees": 31,
+        "neither_agrees": 3
+      },
+      "vader_disagreements": 34,
+      "bert_disagreements": 10
+    },
+    "probability_sample": {
+      "total_n": 250,
+      "comparable_n": 243,
+      "joint_agreement": {
+        "both_agree": 200,
+        "vader_only_agrees": 10,
+        "neither_agrees": 7,
+        "bert_only_agrees": 26
+      },
+      "vader_disagreements": 33,
+      "bert_disagreements": 17
+    }
+  },
+  "exploratory_tag_summaries": {
+    "cannot_assess_language": {
+      "all_panels_descriptive": {
+        "total_n": 2,
+        "comparable_n": 0,
+        "joint_agreement": {},
+        "vader_disagreements": 0,
+        "bert_disagreements": 0
+      },
+      "probability_sample_only": {
+        "total_n": 0,
+        "comparable_n": 0,
+        "joint_agreement": {},
+        "vader_disagreements": 0,
+        "bert_disagreements": 0
+      }
+    },
+    "mixed_content": {
+      "all_panels_descriptive": {
+        "total_n": 69,
+        "comparable_n": 51,
+        "joint_agreement": {
+          "both_agree": 13,
+          "bert_only_agrees": 26,
+          "vader_only_agrees": 6,
+          "neither_agrees": 6
+        },
+        "vader_disagreements": 32,
+        "bert_disagreements": 12
+      },
+      "probability_sample_only": {
+        "total_n": 23,
+        "comparable_n": 17,
+        "joint_agreement": {
+          "both_agree": 9,
+          "bert_only_agrees": 3,
+          "vader_only_agrees": 3,
+          "neither_agrees": 2
+        },
+        "vader_disagreements": 5,
+        "bert_disagreements": 5
+      }
+    },
+    "no_sentiment_words": {
+      "all_panels_descriptive": {
+        "total_n": 23,
+        "comparable_n": 22,
+        "joint_agreement": {
+          "vader_only_agrees": 6,
+          "bert_only_agrees": 8,
+          "neither_agrees": 5,
+          "both_agree": 3
+        },
+        "vader_disagreements": 13,
+        "bert_disagreements": 11
+      },
+      "probability_sample_only": {
+        "total_n": 16,
+        "comparable_n": 16,
+        "joint_agreement": {
+          "vader_only_agrees": 4,
+          "neither_agrees": 4,
+          "bert_only_agrees": 5,
+          "both_agree": 3
+        },
+        "vader_disagreements": 9,
+        "bert_disagreements": 8
+      }
+    },
+    "not_english": {
+      "all_panels_descriptive": {
+        "total_n": 21,
+        "comparable_n": 20,
+        "joint_agreement": {
+          "both_agree": 17,
+          "bert_only_agrees": 2,
+          "neither_agrees": 1
+        },
+        "vader_disagreements": 3,
+        "bert_disagreements": 1
+      },
+      "probability_sample_only": {
+        "total_n": 17,
+        "comparable_n": 16,
+        "joint_agreement": {
+          "both_agree": 14,
+          "neither_agrees": 1,
+          "bert_only_agrees": 1
+        },
+        "vader_disagreements": 2,
+        "bert_disagreements": 1
+      }
+    },
+    "off_topic": {
+      "all_panels_descriptive": {
+        "total_n": 5,
+        "comparable_n": 4,
+        "joint_agreement": {
+          "neither_agrees": 2,
+          "bert_only_agrees": 2
+        },
+        "vader_disagreements": 4,
+        "bert_disagreements": 2
+      },
+      "probability_sample_only": {
+        "total_n": 0,
+        "comparable_n": 0,
+        "joint_agreement": {},
+        "vader_disagreements": 0,
+        "bert_disagreements": 0
+      }
+    },
+    "quotes_complaint": {
+      "all_panels_descriptive": {
+        "total_n": 4,
+        "comparable_n": 3,
+        "joint_agreement": {
+          "neither_agrees": 2,
+          "bert_only_agrees": 1
+        },
+        "vader_disagreements": 3,
+        "bert_disagreements": 2
+      },
+      "probability_sample_only": {
+        "total_n": 0,
+        "comparable_n": 0,
+        "joint_agreement": {},
+        "vader_disagreements": 0,
+        "bert_disagreements": 0
+      }
+    },
+    "sarcasm": {
+      "all_panels_descriptive": {
+        "total_n": 2,
+        "comparable_n": 2,
+        "joint_agreement": {
+          "neither_agrees": 1,
+          "bert_only_agrees": 1
+        },
+        "vader_disagreements": 2,
+        "bert_disagreements": 1
+      },
+      "probability_sample_only": {
+        "total_n": 0,
+        "comparable_n": 0,
+        "joint_agreement": {},
+        "vader_disagreements": 0,
+        "bert_disagreements": 0
+      }
+    },
+    "slang_or_emoji": {
+      "all_panels_descriptive": {
+        "total_n": 5,
+        "comparable_n": 3,
+        "joint_agreement": {
+          "neither_agrees": 3
+        },
+        "vader_disagreements": 3,
+        "bert_disagreements": 3
+      },
+      "probability_sample_only": {
+        "total_n": 1,
+        "comparable_n": 1,
+        "joint_agreement": {
+          "neither_agrees": 1
+        },
+        "vader_disagreements": 1,
+        "bert_disagreements": 1
+      }
+    },
+    "very_long": {
+      "all_panels_descriptive": {
+        "total_n": 11,
+        "comparable_n": 10,
+        "joint_agreement": {
+          "bert_only_agrees": 6,
+          "neither_agrees": 4
+        },
+        "vader_disagreements": 10,
+        "bert_disagreements": 4
+      },
+      "probability_sample_only": {
+        "total_n": 0,
+        "comparable_n": 0,
+        "joint_agreement": {},
+        "vader_disagreements": 0,
+        "bert_disagreements": 0
+      }
+    }
+  },
+  "known_discussed_items_found": 4,
+  "known_discussed_items_in_random_sample": 1,
+  "random_sample_excluding_known_discussed_items": {
+    "total_n": 249,
+    "comparable_n": 242,
+    "joint_agreement": {
+      "both_agree": 200,
+      "neither_agrees": 7,
+      "vader_only_agrees": 9,
+      "bert_only_agrees": 26
+    },
+    "vader_disagreements": 33,
+    "bert_disagreements": 16
+  },
+  "truncation_sensitivity": {
+    "random_sample": {
+      "false": {
+        "total_n": 246,
+        "comparable_n": 240,
+        "joint_agreement": {
+          "both_agree": 197,
+          "vader_only_agrees": 10,
+          "neither_agrees": 7,
+          "bert_only_agrees": 26
+        },
+        "vader_disagreements": 33,
+        "bert_disagreements": 17
+      },
+      "true": {
+        "total_n": 4,
+        "comparable_n": 3,
+        "joint_agreement": {
+          "both_agree": 3
+        },
+        "vader_disagreements": 0,
+        "bert_disagreements": 0
+      }
+    },
+    "extremes": {
+      "false": {
+        "total_n": 22,
+        "comparable_n": 18,
+        "joint_agreement": {
+          "both_agree": 7,
+          "neither_agrees": 8,
+          "bert_only_agrees": 3
+        },
+        "vader_disagreements": 11,
+        "bert_disagreements": 8
+      },
+      "true": {
+        "total_n": 28,
+        "comparable_n": 27,
+        "joint_agreement": {
+          "neither_agrees": 9,
+          "bert_only_agrees": 18
+        },
+        "vader_disagreements": 27,
+        "bert_disagreements": 9
+      }
+    }
+  }
+}

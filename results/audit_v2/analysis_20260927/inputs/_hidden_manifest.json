@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "created_utc": "2026-09-20T16:56:12.341363+00:00",
+  "seed": 20260920,
+  "selection": "Python Random reservoir over review_id ascending; shuffle and split 25 pilot / 250 main",
+  "frame": {
+    "clean_total": 9930699,
+    "nonempty_text": 5735390,
+    "text_1_to_19": 701509,
+    "eligible_before_exclusions": 5033881,
+    "eligible_after_exclusions": 5033861
+  },
+  "frame_ids_sha256": "3b06e5de51a6ff0e44b817c6e68024c25004b67adc9f215ae49a181cf1cf623f",
+  "database_snapshot": "1080:1080:",
+  "excluded_review_ids": [
+    29439,
+    142335,
+    684861,
+    1026814,
+    1286008,
+    1570634,
+    2053376,
+    2064723,
+    3324721,
+    4158270,
+    4178766,
+    4276199,
+    5508024,
+    5564708,
+    5902400,
+    6282387,
+    7222188,
+    8181039,
+    9309213,
+    9330515
+  ],
+  "exposure_sources": {
+    "report_sha256": "0c329dde63d4d266e8765eeafc370e9685ac57d8a5d1c98b9c1002fcf9af1155",
+    "resolved_excerpt_count": 20
+  },
+  "categories": {
+    "cold": [
+      "Appliance repair service",
+      "Post office",
+      "Bus company",
+      "Water damage restoration service",
+      "Smog inspection station",
+      "Tax preparation service",
+      "Parking garage",
+      "Plumber",
+      "International airport",
+      "Distribution service"
+    ],
+    "warm": [
+      "Escape room center",
+      "Wine bar",
+      "Brewpub",
+      "Tanning salon",
+      "Bed & breakfast",
+      "Brewery",
+      "Orthodontist",
+      "Bridal shop",
+      "Dinner theater",
+      "Winery"
+    ]
+  },
+  "coldwarm_max_character_difference": 10,
+  "model": "nlptown/bert-base-multilingual-uncased-sentiment",
+  "model_revision": "8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d",
+  "max_tokens": 256,
+  "builder_sha256": "9a331e153ed0280af0550e797311487c67de34c4055bad78a494b7592358c793",
+  "sheet_identities": {
+    "labelling_sheet.csv": "edc277a85b62c904094d09e20c8372bd68d6223406e38e5794294a242efd6833",
+    "pilot_sheet.csv": "1dded6281b2e893f53c4f77467edf17c762b966644a4e5911cd04a175a806bf6",
+    "labelling_sheet_annotator2.csv": "0ec35dfbc39a777813d7a278a7d0e351225c0a19283da1992a8c48d45f336d80"
+  },
+  "immutable_hashes": {
+    "_hidden_metadata.csv": "cd33ac06f94bc97b6415b16dc477b8d675251b465da62d6630fb0d95170d1ecf",
+    "_hidden_pilot_metadata.csv": "c3fe217bff23b9d68c395ed091b34217b15752ef63f1589a3230bb9af6f55850",
+    "ANALYSIS_PLAN.md": "aaec1bcea5ce56dbf93b5fcab7f0ace727d0207797c7470df7f6a40a716a3f66"
+  }
+}

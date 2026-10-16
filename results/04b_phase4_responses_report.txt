@@ -1,0 +1,104 @@
+PHASE 4B -- OWNER RESPONSES
+==============================================================================
+
+B1 - Response adoption over time (share of reviews receiving an owner reply)
+------------------------------------------------------------------------------
+year  n_reviews  n_responded  pct_responded
+-------------------------------------------
+2010  5246       54           1.03         
+2011  15482      179          1.16         
+2012  28861      570          1.97         
+2013  58090      1612         2.78         
+2014  71823      2891         4.03         
+2015  176031     9868         5.61         
+2016  629411     37283        5.92         
+2017  1763072    116882       6.63         
+2018  3043940    286742       9.42         
+2019  3472101    444568       12.80        
+2020  2014164    347313       17.24        
+2021  1051501    204674       19.46        
+[12 row(s)]
+
+
+B2 - Who gets replied to, and how fast, by star rating
+------------------------------------------------------------------------------
+rating  n        pct_responded  replies_dated_before_review  median_days_raw  median_days_valid_lag
+---------------------------------------------------------------------------------------------------
+1       932759   13.99          8604                         1.18             1.58                 
+2       416639   11.51          2364                         1.41             1.64                 
+3       964626   7.78           3248                         1.73             1.88                 
+4       2277392  8.01           6238                         1.97             2.13                 
+5       7741168  13.13          30974                        1.90             2.04                 
+[5 row(s)]
+
+
+B3 - NAIVE before/after around first response, with no comparison group.
+     Not an effect estimate: ratings drift on their own (see B4).
+------------------------------------------------------------------------------
+grp        n_biz  pre_rating  post_rating  naive_change
+-------------------------------------------------------
+never      25171  4.173       4.184        0.0109      
+responder  23071  4.297       4.324        0.0268      
+[2 row(s)]
+
+
+B4 - MATCHED difference-in-differences (pre-rating bin x t0 year cells).
+     did = responders' change minus never-responders' change, from the same
+     pre-period rating level and the same calendar period.
+------------------------------------------------------------------------------
+n_cells  responder_biz  never_biz  mean_change_responders  mean_change_never  did_cell_unweighted  did_att  cells_favouring_responders
+--------------------------------------------------------------------------------------------------------------------------------------
+60       22358          24712      0.2838                  0.1684             0.1154               0.0667   53                        
+[1 row(s)]
+
+
+B5 - Same comparison, by pre-period rating bin
+------------------------------------------------------------------------------
+pre_bin  pre_rating_from  pre_rating_to  n_resp  chg_resp  n_never  chg_never  did   
+-------------------------------------------------------------------------------------
+0        1.00             1.98           136     1.2800    191      0.9194     0.3606
+1        2.00             2.24           102     1.1806    124      0.7272     0.4534
+2        2.25             2.49           120     0.8663    159      0.7319     0.1344
+3        2.50             2.74           204     0.9754    271      0.6683     0.3071
+4        2.75             2.98           213     0.7186    301      0.5247     0.1939
+5        3.00             3.24           534     0.6570    733      0.4785     0.1785
+6        3.25             3.50           695     0.4439    947      0.3370     0.1069
+7        3.50             3.75           1191    0.3552    1769     0.2329     0.1223
+8        3.75             4.00           1862    0.1682    2615     0.1369     0.0314
+9        4.00             4.25           3645    0.1065    4829     0.0382     0.0683
+10       4.25             4.50           4479    -0.0095   5176     -0.0596    0.0501
+11       4.50             4.75           4656    -0.1178   4658     -0.1554    0.0376
+12       4.75             4.99           2882    -0.2136   2351     -0.2745    0.0608
+13       5.00             5.00           2352    -0.3014   1047     -0.3752    0.0738
+[14 row(s)]
+
+
+B6 - Reply targeting (descriptive, full-follow-up responders only)
+------------------------------------------------------------------------------
+targeting                   n_biz  pre_rating  change
+-----------------------------------------------------
+rarely replies to 1-2 star  4621   4.125       0.0492
+replies to most 1-2 star    1575   4.236       0.0098
+replies to some             5445   4.116       0.0209
+[3 row(s)]
+
+[[CORRECTION:04b_correction.txt:BEGIN]]
+NOTES ON B3-B6
+
+B3-B6 require a full 12-month window before the end of the data.
+
+The B4 contrast weighted by responders (did_att) is descriptive, not an
+average causal effect. Matching uses broad pre-rating bins and calendar
+years, and parallel trends are not demonstrated. Requiring five post-period
+reviews selects on later activity. B5 pools calendar years within each
+rating bin, so it is a less adjusted breakdown, not an exact decomposition
+of B4.
+
+B6 defines targeting from the whole review history, including the outcome
+period, so it cannot show what would happen under a particular targeting
+policy. Follow-up availability is calendar coverage, not proof that every
+review or reply was captured.
+
+Replies dated before their review are excluded from the valid-lag median.
+Edited reviews are a possible explanation, not a verified one.
+[[CORRECTION:04b_correction.txt:END]]

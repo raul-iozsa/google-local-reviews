@@ -1,0 +1,5860 @@
+{
+  "model": "nlptown/bert-base-multilingual-uncased-sentiment",
+  "model_revision": "8f6f4e3a8f70be4b65d3a4a8762b6d781cda240d",
+  "max_tokens": 256,
+  "torch_version": "2.14.0+cpu",
+  "transformers_version": "5.17.0",
+  "manifest_sha256": "b802d26b2c5310daa9b08e87eaab32f05f00d5b9bd592659b1911002895d610d",
+  "predictions": {
+    "IT-DCAC95BBFE": {
+      "text_sha256": "402d2a69b45158faae23de1c23adbac6fe1f8697631750a0c134dd79da6649ac",
+      "bert_probabilities": [
+        0.004338328260928392,
+        0.0033468003384768963,
+        0.025343623012304306,
+        0.19285964965820312,
+        0.7741116285324097
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-1C85B63645": {
+      "text_sha256": "7b5162dc9d8e3fabd2d03e2672fd37dd052f655ae408bb48ad7ed8e9e7c72619",
+      "bert_probabilities": [
+        0.6718323826789856,
+        0.1879407912492752,
+        0.07310284674167633,
+        0.03220145404338837,
+        0.03492247685790062
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-020D652AEF": {
+      "text_sha256": "5493c025c3a3467166d27608486da7baf87f38b8a3dd123cebe682045c7d6f15",
+      "bert_probabilities": [
+        0.5862433910369873,
+        0.2384994477033615,
+        0.10129988193511963,
+        0.04017993062734604,
+        0.033777374774217606
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-9A3238A6D1": {
+      "text_sha256": "b5ab16482d35fb242182452ab05b254b10253b1ccff41722c8f3fc134889a9b9",
+      "bert_probabilities": [
+        0.21687838435173035,
+        0.3987961411476135,
+        0.2701271176338196,
+        0.08014415949583054,
+        0.0340542197227478
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-0A880B4F4A": {
+      "text_sha256": "5e371d8663d3a48f23c5141d20d658d91c46f77e495f64bf542c6b79b6ed2f84",
+      "bert_probabilities": [
+        0.006426380015909672,
+        0.012011115439236164,
+        0.08314325660467148,
+        0.39557671546936035,
+        0.5028425455093384
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-52D12935A6": {
+      "text_sha256": "62c4892e9efde8f296466477eb03171faef2f1ce4f3508efd5e04d91de8d3c7d",
+      "bert_probabilities": [
+        0.00497240386903286,
+        0.005265769548714161,
+        0.03374245762825012,
+        0.2942954897880554,
+        0.6617238521575928
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2C9558B11E": {
+      "text_sha256": "e9f7343272c7037c7bd7431a06396b11221bfa94c3dfe7ccdc1d2591b239db0c",
+      "bert_probabilities": [
+        0.00397155899554491,
+        0.0030003541614860296,
+        0.019419770687818527,
+        0.13408558070659637,
+        0.8395227789878845
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9D860BC95B": {
+      "text_sha256": "ae440cbbeeb5ba5e9c8c4237295b0d585818ced2d0475acf3f5751548312b91c",
+      "bert_probabilities": [
+        0.003808982204645872,
+        0.004151298198848963,
+        0.028931206092238426,
+        0.2917695641517639,
+        0.6713389754295349
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-677778F6A8": {
+      "text_sha256": "13b9c48b7d5b273c6aaa029513882c097dc3faf9bee0e96a89d0d4dd44429edf",
+      "bert_probabilities": [
+        0.004867548123002052,
+        0.0050207204185426235,
+        0.020322712138295174,
+        0.18704411387443542,
+        0.7827448844909668
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-71C0F7D7BB": {
+      "text_sha256": "8da75849baed0e2e485c77cb301c1dcc0ea152272e3a25b88a22611ab58a4211",
+      "bert_probabilities": [
+        0.004313626326620579,
+        0.005261960905045271,
+        0.03591466322541237,
+        0.3244987726211548,
+        0.6300109624862671
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-FEFC4C328E": {
+      "text_sha256": "adb4b78f833b02488364130c01c06d40b9802285e9674d8e1631e6a373c5c3b0",
+      "bert_probabilities": [
+        0.3073199391365051,
+        0.2009776532649994,
+        0.13262127339839935,
+        0.12881092727184296,
+        0.23027022182941437
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-1D53824AA4": {
+      "text_sha256": "d92a5a93f4b0ca57f93ab41e5f67932b8b318633dd64470e00ea145f51c3ed2b",
+      "bert_probabilities": [
+        0.0055957334116101265,
+        0.008113909512758255,
+        0.10832855105400085,
+        0.5172054767608643,
+        0.3607563078403473
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7E3E52EABB": {
+      "text_sha256": "3fb13eb2551485d99b602bad432ae7def7c5b7c0dc33e6b64010935b57f58693",
+      "bert_probabilities": [
+        0.003285353071987629,
+        0.004304755013436079,
+        0.06460687518119812,
+        0.46331557631492615,
+        0.4644874334335327
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-01D8DEE22A": {
+      "text_sha256": "23c376d1906f438820860c6bcc686fda6657dccfd6f3d4397421c7585d4f6577",
+      "bert_probabilities": [
+        0.002433336339890957,
+        0.0019272383069619536,
+        0.013897702097892761,
+        0.14257602393627167,
+        0.8391656875610352
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-98B116DC02": {
+      "text_sha256": "fad49e255a508a033ceee374d41201ea8d3ad333e358cbb59e640e0d48f29360",
+      "bert_probabilities": [
+        0.008592458441853523,
+        0.01136841718107462,
+        0.11703600734472275,
+        0.5133517384529114,
+        0.34965139627456665
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-90A6D485BA": {
+      "text_sha256": "4d12b81c44a9f38f20f4ddab538991cd8d5e05655715ba088f1800f1d907b2b8",
+      "bert_probabilities": [
+        0.0027648950926959515,
+        0.0022914307191967964,
+        0.013970095664262772,
+        0.18859755992889404,
+        0.7923759818077087
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-CB161A1E54": {
+      "text_sha256": "8bdd6cbb7701bed066773b7b558b87239a464bb88be95258e7b1ffae7048de97",
+      "bert_probabilities": [
+        0.004159650765359402,
+        0.006097784731537104,
+        0.060913361608982086,
+        0.42128440737724304,
+        0.5075448155403137
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-F8BAEE8E90": {
+      "text_sha256": "080683595ac4a3d953a311d2b4f2db920de783c5856aa409253f12b850f6ee8f",
+      "bert_probabilities": [
+        0.002169166225939989,
+        0.002039213664829731,
+        0.013657665811479092,
+        0.21205337345600128,
+        0.77008056640625
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-5C5587206A": {
+      "text_sha256": "06e313d79b4747b8faff76aa6494c5afac53d0f8c4fdd3454891ba806e772ca5",
+      "bert_probabilities": [
+        0.00976688414812088,
+        0.017229381948709488,
+        0.12971694767475128,
+        0.4680442810058594,
+        0.3752425014972687
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-8503542F94": {
+      "text_sha256": "7824885eb8bf38d10aab4c64fb9aee381f4a82f59b61a2a9858a6a632bb20e94",
+      "bert_probabilities": [
+        0.00284636695869267,
+        0.002188984304666519,
+        0.014174253679811954,
+        0.15648232400417328,
+        0.8243080377578735
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7CC9565B77": {
+      "text_sha256": "da584b6a5a544323ee7395be0257d1cac90e009fff1ab37dc36c043d65d67b84",
+      "bert_probabilities": [
+        0.0051030926406383514,
+        0.004782427567988634,
+        0.028349189087748528,
+        0.188230499625206,
+        0.7735347747802734
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-22ACD1F52A": {
+      "text_sha256": "c640c59b47250ee2efda61a99d007f1a2760f337a89f21facf5b1cd0f596109b",
+      "bert_probabilities": [
+        0.0030782020185142756,
+        0.0030615145806223154,
+        0.01013196911662817,
+        0.08448506891727448,
+        0.8992432951927185
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3AD18445A1": {
+      "text_sha256": "a79a1174ddd34229caa21b4d2816dfa451ed64c91972e21d5f62c37f49959124",
+      "bert_probabilities": [
+        0.0018825313309207559,
+        0.002188317244872451,
+        0.022157175466418266,
+        0.3091976046562195,
+        0.664574384689331
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-EA41903589": {
+      "text_sha256": "c47cf12d0d512f607854ef9ba9b15a670abe5418a1301df1eae4c7602cdc5d38",
+      "bert_probabilities": [
+        0.0030131428502500057,
+        0.00227566622197628,
+        0.013516840524971485,
+        0.1763877123594284,
+        0.8048065900802612
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-84C81FBE37": {
+      "text_sha256": "85d66883c03f90897dd4e7b6d5c57d3a736942083572ccea7b01191e125d34ae",
+      "bert_probabilities": [
+        0.0029829794075340033,
+        0.0024999117013067007,
+        0.0110600171610713,
+        0.10483229160308838,
+        0.8786247968673706
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B559AAAFB3": {
+      "text_sha256": "4eab7c7e48f90e27a6ba9c4e05ed7db6a4ad61719366711c6a41e64f8db1ec56",
+      "bert_probabilities": [
+        0.00216758344322443,
+        0.0023974275682121515,
+        0.02295878902077675,
+        0.24851711094379425,
+        0.7239590883255005
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-41A515F180": {
+      "text_sha256": "0a3f2ff6d5e6ebaa4f5c6456b09fb60ad852cb108d70b515d7ef61fd815240fc",
+      "bert_probabilities": [
+        0.003966477233916521,
+        0.003464717883616686,
+        0.012452653609216213,
+        0.11059418320655823,
+        0.869521975517273
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D1BCE81876": {
+      "text_sha256": "44ab14cd9df5d1f87e5f6e754aca85e76df297410f542dce9507476330c096a1",
+      "bert_probabilities": [
+        0.0017254363046959043,
+        0.0011892658658325672,
+        0.006128641776740551,
+        0.10360312461853027,
+        0.8873535394668579
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-195F32E067": {
+      "text_sha256": "4bd2b44aa2bd2df3e53e804faf52b30d279113722dc71fec805244781a1ad67f",
+      "bert_probabilities": [
+        0.0033309105783700943,
+        0.0029270811937749386,
+        0.030673185363411903,
+        0.32756033539772034,
+        0.6355084776878357
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-ABCDF004A8": {
+      "text_sha256": "2a847d4e49c80c26c2ae7283e1a55c7bde0d97a62c72fdd09d58a5ba676509fa",
+      "bert_probabilities": [
+        0.00485403323546052,
+        0.007646454498171806,
+        0.031192367896437645,
+        0.34952452778816223,
+        0.6067826151847839
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-44EA02B539": {
+      "text_sha256": "6a0495d95d6ebc0ba3c3dfa3bd3f4779ce9198913ea6d4e06c96a5a6dca6a812",
+      "bert_probabilities": [
+        0.00410845223814249,
+        0.006213812157511711,
+        0.05528375133872032,
+        0.48741063475608826,
+        0.44698330760002136
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9D83376C5E": {
+      "text_sha256": "0f342b75bc9c820bb1587b3cbbd358c54fc177eb1d8a0a0c941f293c33090a76",
+      "bert_probabilities": [
+        0.45141884684562683,
+        0.25696659088134766,
+        0.102943055331707,
+        0.07464107125997543,
+        0.11403048038482666
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-DE7EF0D56C": {
+      "text_sha256": "93541c6649a9cbf9419ecd5a41fc8cdeb8e50bb9e6c10fdeda0d80a10a77f781",
+      "bert_probabilities": [
+        0.4907798767089844,
+        0.3943445384502411,
+        0.10285947471857071,
+        0.009285125881433487,
+        0.002730976091697812
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-EAAE20CB62": {
+      "text_sha256": "a9edcf8daab6792c7cfae285803d1e704f4d81282bf665ccc1ea670fa38029f7",
+      "bert_probabilities": [
+        0.0032050199806690216,
+        0.002288518939167261,
+        0.015075529925525188,
+        0.12733842432498932,
+        0.8520925045013428
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E0383F33AB": {
+      "text_sha256": "ae29914fb28bfaf3dad64b6ca1ece4c9b4922279fd2e31b0bf6474fd0d0206eb",
+      "bert_probabilities": [
+        0.00599063141271472,
+        0.010325652547180653,
+        0.15173877775669098,
+        0.5660830140113831,
+        0.265861839056015
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-388A9544BC": {
+      "text_sha256": "7777d498c753f337989123f1cfa4ddccf1ed6888d93de1cf0c0e95c43220e7cf",
+      "bert_probabilities": [
+        0.5838474631309509,
+        0.2721407115459442,
+        0.10237620025873184,
+        0.02528754621744156,
+        0.01634802110493183
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-87AA533A0C": {
+      "text_sha256": "04d8e59eb8e4ae361aab1b39996813ba90899718096a88a76f5ce010fa4fd287",
+      "bert_probabilities": [
+        0.007063445169478655,
+        0.008559771813452244,
+        0.045383285731077194,
+        0.3408759832382202,
+        0.598117470741272
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-604295EB37": {
+      "text_sha256": "443afc0d5bf628a7aecd47d520ccc30e47f446cd600426a5fd573d0e7bd8e3b2",
+      "bert_probabilities": [
+        0.0020900194067507982,
+        0.003800995647907257,
+        0.043253760784864426,
+        0.463955283164978,
+        0.4868999421596527
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D7DAEF6C13": {
+      "text_sha256": "d29cdfbe961fc6a507d4f455821a33850ec2b0d7f498d90d4462c214a6b8eb08",
+      "bert_probabilities": [
+        0.04905564337968826,
+        0.09818249195814133,
+        0.27942055463790894,
+        0.3295936584472656,
+        0.2437477707862854
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7E229CFDD8": {
+      "text_sha256": "a82290a5df92aa069c9c47f9e66e24a66b5775c13f60bfc739a8ca49be720935",
+      "bert_probabilities": [
+        0.0025224497076123953,
+        0.003794001415371895,
+        0.0706956684589386,
+        0.5211929082870483,
+        0.4017949402332306
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9EDDFDF048": {
+      "text_sha256": "ab65c7b62e5d25c6bef2a395a4f4ef91c6c9017e0629e1d1cb677e609e804b9a",
+      "bert_probabilities": [
+        0.00578489201143384,
+        0.008862430229783058,
+        0.10516270250082016,
+        0.5290324091911316,
+        0.3511575162410736
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-BC57474D97": {
+      "text_sha256": "c305e096185f93e503ee471a26e0a01287735973258f1dc26169ace73f9c4789",
+      "bert_probabilities": [
+        0.022523870691657066,
+        0.02244359813630581,
+        0.0934736505150795,
+        0.30653536319732666,
+        0.5550235509872437
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-DB19840162": {
+      "text_sha256": "c9032ff98a592b82c76b9419b8ac0cc721c29a0329a16a24d2d2c124ddf4e1c7",
+      "bert_probabilities": [
+        0.19500510394573212,
+        0.07492814213037491,
+        0.06776952743530273,
+        0.16430743038654327,
+        0.4979897737503052
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-714AC342ED": {
+      "text_sha256": "8abcc72b0b81e2848b13d468fc3cb2e55060c18a33eee80ffb4bdfb2ea4843b5",
+      "bert_probabilities": [
+        0.3539682626724243,
+        0.556962251663208,
+        0.08455444872379303,
+        0.0033429416362196207,
+        0.0011720769107341766
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-5886BDDE1C": {
+      "text_sha256": "b14ebc3b9d022ba276a83e942c8f0ae4e5dec643e0e6a45dee761705c120817f",
+      "bert_probabilities": [
+        0.0017540014814585447,
+        0.0017652440583333373,
+        0.016380438581109047,
+        0.2715081572532654,
+        0.7085922360420227
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-42BA928368": {
+      "text_sha256": "8b4d88aeb3f9dd596ecd20718ca5bdb477af515de15c7ed77f60e643b535f8c6",
+      "bert_probabilities": [
+        0.0029546439182013273,
+        0.006810938008129597,
+        0.1258438229560852,
+        0.6068714261054993,
+        0.2575191855430603
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-BFCAF103E1": {
+      "text_sha256": "b46b116a40119e822fefdd50c0817ac8e89390d8f129c770fafea46c7cbbba62",
+      "bert_probabilities": [
+        0.0016494595911353827,
+        0.0013851533876731992,
+        0.010512562468647957,
+        0.19050739705562592,
+        0.795945405960083
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-234A4BD701": {
+      "text_sha256": "b2f99f1fc7d326a41221a6385975da02ad1969d86e5f5495e20a1ab7007a5cd7",
+      "bert_probabilities": [
+        0.0022745816968381405,
+        0.0017008817521855235,
+        0.009350880980491638,
+        0.08763835579156876,
+        0.8990352749824524
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-AA6528B151": {
+      "text_sha256": "0e064788ea5c42bca746a5942ca998a9216365eabdeb80db4c222822a3367927",
+      "bert_probabilities": [
+        0.14607550203800201,
+        0.13848693668842316,
+        0.21722851693630219,
+        0.25357308983802795,
+        0.2446359395980835
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-494E85045D": {
+      "text_sha256": "034728c4e833151a13bf9d3c3fdd477dedad5d5df5f94eb28295eb7da4b53139",
+      "bert_probabilities": [
+        0.001448185765184462,
+        0.0014670966193079948,
+        0.013358513824641705,
+        0.20175540447235107,
+        0.7819707989692688
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-879F612A86": {
+      "text_sha256": "7e97968d60603bf2c81583a0b6ae13b133c60bd96191cc01e6f5d0a16630097e",
+      "bert_probabilities": [
+        0.001806983957067132,
+        0.0014621035661548376,
+        0.010634723119437695,
+        0.18178799748420715,
+        0.8043081760406494
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7A384ADB68": {
+      "text_sha256": "6a56ade3e9b0c3fd665f461556a23661e0df0d09ee7c7a88d7cca39c89be0c2d",
+      "bert_probabilities": [
+        0.003118299413472414,
+        0.0026623280718922615,
+        0.01552046649158001,
+        0.1670113354921341,
+        0.8116875290870667
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-57C83CE691": {
+      "text_sha256": "32f256442f9d7b4651ac15a485d4fa7f568c0405d3150813d325c6aaf4143db8",
+      "bert_probabilities": [
+        0.0017142008291557431,
+        0.0010862606577575207,
+        0.0033543207682669163,
+        0.03440633788704872,
+        0.9594388604164124
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-707F63C54D": {
+      "text_sha256": "0b40d728429eda7ac3f6a04a20c6897f5e6825f68ca1bc3e070c7c040227b793",
+      "bert_probabilities": [
+        0.0024517769925296307,
+        0.002606120193377137,
+        0.025192443281412125,
+        0.2824483811855316,
+        0.6873012781143188
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-99EBD03E79": {
+      "text_sha256": "2504c9a2e89446ea261dd791aa6f1c1df8aeb88b5a7e4cde50bf7914cf6b7633",
+      "bert_probabilities": [
+        0.004267737735062838,
+        0.007738594431430101,
+        0.11238136142492294,
+        0.5513761639595032,
+        0.3242361545562744
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C6E3090330": {
+      "text_sha256": "acf390a2af64aa4647be38008f01c8adc2314e8a4a659e2844b4dac9e1462b7c",
+      "bert_probabilities": [
+        0.03345240280032158,
+        0.025553744286298752,
+        0.08744538575410843,
+        0.306287944316864,
+        0.5472604632377625
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-56642EE861": {
+      "text_sha256": "8c8dce5f129e5a97134f054f3058cc9d939eb7d89a9e9276a7bf90273c71f19b",
+      "bert_probabilities": [
+        0.012531628832221031,
+        0.009321307763457298,
+        0.028327997773885727,
+        0.16539247334003448,
+        0.7844266295433044
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-304A4A98FB": {
+      "text_sha256": "38d24563cb88e6856b92b52821f83287cdaea5d14ef2c378404260135d667b19",
+      "bert_probabilities": [
+        0.00204255199059844,
+        0.002852190053090453,
+        0.03583985194563866,
+        0.37427279353141785,
+        0.5849925875663757
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-22774C7E82": {
+      "text_sha256": "5deb410ffb47c5754e73f66a4ce7ac132a6a75fea5c088939be6e0d1f6cc8e85",
+      "bert_probabilities": [
+        0.004823995754122734,
+        0.005093930754810572,
+        0.03308315575122833,
+        0.24396872520446777,
+        0.7130301594734192
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-158AB4F7A8": {
+      "text_sha256": "55075e422a26922ad39304ced48ccfa9507d2a3c9d30f4c3a6e337776e011443",
+      "bert_probabilities": [
+        0.002041482599452138,
+        0.002382352715358138,
+        0.011131484061479568,
+        0.15789330005645752,
+        0.8265513777732849
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-0A3DA789FC": {
+      "text_sha256": "beb6086ec6e2e0befc1a997a29ca3a1a4243cf9743e8d7fd01f4caedfd334161",
+      "bert_probabilities": [
+        0.0021091413218528032,
+        0.0017774661537259817,
+        0.012670570984482765,
+        0.19647499918937683,
+        0.7869678139686584
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-58EE30B8BB": {
+      "text_sha256": "225cfcc5994b05be3e9eca5ea1017a50a1c1fba97fa9d505dc600c407852cbfc",
+      "bert_probabilities": [
+        0.36478865146636963,
+        0.35116100311279297,
+        0.16354092955589294,
+        0.07040925323963165,
+        0.05010019615292549
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-A6A5EF4126": {
+      "text_sha256": "aea5e729f871a4e0d1b268caf5e1faee62626d28b191bb4c6e189a42e0b7e0b0",
+      "bert_probabilities": [
+        0.0018457509577274323,
+        0.0017690033419057727,
+        0.01242398377507925,
+        0.24102605879306793,
+        0.7429352402687073
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3129660128": {
+      "text_sha256": "64377d41cf7c641e6f6811a221a3c8ccfe11df7f0282f56796eb5b4effb79da7",
+      "bert_probabilities": [
+        0.035256676375865936,
+        0.03692755848169327,
+        0.10021444410085678,
+        0.2939959168434143,
+        0.5336053371429443
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-EE4E31BD63": {
+      "text_sha256": "2540087c444d34fecf0e6b88f2520fd1ab41f5e17bb5e7245b5d32f349e5817a",
+      "bert_probabilities": [
+        0.002477223752066493,
+        0.006594914942979813,
+        0.07523442059755325,
+        0.5806800127029419,
+        0.3350134491920471
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-458E1FE64B": {
+      "text_sha256": "fa33f0e8dfaa96af2372734d7f88304cdaf1233f7723d9b3413de77b19044da8",
+      "bert_probabilities": [
+        0.001742952736094594,
+        0.0016574402106925845,
+        0.01182476244866848,
+        0.2005421668291092,
+        0.7842327356338501
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-595060D859": {
+      "text_sha256": "827e1dc6ea377ca3bb61f41dc1487461fddb1b50f86044fde56eadce4c746c0d",
+      "bert_probabilities": [
+        0.0015073767863214016,
+        0.00242661708034575,
+        0.04688143730163574,
+        0.4391377866268158,
+        0.5100467801094055
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2E276A657A": {
+      "text_sha256": "9dd6bfebd939e16f4bb6e7401670a358b26520913c0167f10d1d1ff27812ee04",
+      "bert_probabilities": [
+        0.0008868608274497092,
+        0.0007520031067542732,
+        0.0046142698265612125,
+        0.11181874573230743,
+        0.8819280862808228
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-BBB3704533": {
+      "text_sha256": "525e68de1a201c74dce7da6cda27096dd48387724f3d5bc891a35768331b6c15",
+      "bert_probabilities": [
+        0.039545588195323944,
+        0.17572714388370514,
+        0.542998731136322,
+        0.22321972250938416,
+        0.0185087937861681
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-50A8483B9F": {
+      "text_sha256": "000ff4e4a8005ada173dd287b21fa1a296b745f54571996a3dd7bd40f3ea048f",
+      "bert_probabilities": [
+        0.08124559372663498,
+        0.25036361813545227,
+        0.4375457465648651,
+        0.20259785652160645,
+        0.028247127309441566
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-132F34B905": {
+      "text_sha256": "369c1fe2b1f46ec10eb692a709fe7e7c09c922f13c2358a6833d550829bdc666",
+      "bert_probabilities": [
+        0.0009221629588864744,
+        0.0007400027825497091,
+        0.00383110367693007,
+        0.06676173210144043,
+        0.92774498462677
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-BA7D646208": {
+      "text_sha256": "da8d1b3f175754bda3956116f9be034c177a5c12384c4770da729dd8965350ab",
+      "bert_probabilities": [
+        0.497817724943161,
+        0.3285115957260132,
+        0.13781842589378357,
+        0.026508202776312828,
+        0.00934409350156784
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-5212E9831C": {
+      "text_sha256": "221d7656d9408fa3cece418c2d96f7e0426a302df2e563125264bc5dd6b0d7d2",
+      "bert_probabilities": [
+        0.004091165028512478,
+        0.004408255685120821,
+        0.03342140465974808,
+        0.34651610255241394,
+        0.6115630269050598
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-CCB33ED9FC": {
+      "text_sha256": "7ce025a1cb43da79bcac0fb938f3a854063b3fa2cdc9041674fac48d3f452755",
+      "bert_probabilities": [
+        0.5026328563690186,
+        0.3505193889141083,
+        0.12036246061325073,
+        0.017318496480584145,
+        0.009166841395199299
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-AB2092272E": {
+      "text_sha256": "22f4452a3c5234bccce1db9a79d228ada947c882d86c791e1f455b5f9e4abc23",
+      "bert_probabilities": [
+        0.0019515715539455414,
+        0.001783033018000424,
+        0.01259519997984171,
+        0.21886342763900757,
+        0.7648068070411682
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-DA0AC7E27C": {
+      "text_sha256": "61d9a1c3975c3a4d266684806eff198785140ab8f969be6d135ff7fe8241f38e",
+      "bert_probabilities": [
+        0.6532579660415649,
+        0.28633299469947815,
+        0.051146846264600754,
+        0.005812900606542826,
+        0.0034493200946599245
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-97BD46E8E4": {
+      "text_sha256": "f7225005e8fb72a7781dc18d2129b2baaf94768417817fcda3c720ae6cc45cfc",
+      "bert_probabilities": [
+        0.16093765199184418,
+        0.3760293424129486,
+        0.3708716630935669,
+        0.0701926201581955,
+        0.021968703716993332
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-54FF7036A5": {
+      "text_sha256": "1609e0f0c5ae8c425ee57e33a06d6cfe3e1676b7af7051f04fed551a2e53f9ce",
+      "bert_probabilities": [
+        0.0012532249093055725,
+        0.0012282184325158596,
+        0.00919700600206852,
+        0.19391889870166779,
+        0.7944027185440063
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6C3A87417D": {
+      "text_sha256": "caa3d0f14405e21442c275ff2de8dde565636974eba75cff473568fb7b8462d8",
+      "bert_probabilities": [
+        0.0018191999988630414,
+        0.004386390559375286,
+        0.10474183410406113,
+        0.6670699715614319,
+        0.22198264300823212
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-57B426F115": {
+      "text_sha256": "61335053df9814e19333ca040035a7b93bf5cf82def928bff8ef8f6681e64168",
+      "bert_probabilities": [
+        0.5883262157440186,
+        0.2690969407558441,
+        0.08467545360326767,
+        0.02473219856619835,
+        0.03316916525363922
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-A9B30D757D": {
+      "text_sha256": "72d2751fdfd9a1fec4762ea617af7caa4806d87e1c25990e45805dd04c9439aa",
+      "bert_probabilities": [
+        0.0019336260156705976,
+        0.002171169500797987,
+        0.012840945273637772,
+        0.17958727478981018,
+        0.8034669756889343
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3FEEB26EF7": {
+      "text_sha256": "0b94c8323ecf5a5bb7661b1bfd92fa83ec7928467fb1f9c4561127661c422c60",
+      "bert_probabilities": [
+        0.001318800961598754,
+        0.0009709712467156351,
+        0.004228458274155855,
+        0.058803457766771317,
+        0.934678316116333
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4199606458": {
+      "text_sha256": "c1e2d75baf83871e9d6e973a45c620281583332297b1d00163a5c68796eb119b",
+      "bert_probabilities": [
+        0.0015983047196641564,
+        0.0020363901276141405,
+        0.015512220561504364,
+        0.21984030306339264,
+        0.7610127925872803
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-8D51F79496": {
+      "text_sha256": "55718ebaa07193813a7d8477125eabd07be713d5f10781f1ccd7440dbe762d7d",
+      "bert_probabilities": [
+        0.0013259242987260222,
+        0.0012647678377106786,
+        0.0071429782547056675,
+        0.13238799571990967,
+        0.8578783273696899
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-39E432ADA0": {
+      "text_sha256": "a5ceadfc3a7be6c6c3f0640ad07aa62173697233ed22634b00d13ae1d5eabbbc",
+      "bert_probabilities": [
+        0.0021100344602018595,
+        0.0021271435543894768,
+        0.024780599400401115,
+        0.31713101267814636,
+        0.6538512110710144
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-309B705633": {
+      "text_sha256": "2127bcf929b336ecffc5c3d4c8dc05b0313841c23da5a8077b169fb9ca0384ab",
+      "bert_probabilities": [
+        0.0011473216582089663,
+        0.0011726287193596363,
+        0.008655047044157982,
+        0.23288297653198242,
+        0.7561420202255249
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-999A719ECA": {
+      "text_sha256": "8efa9e2ee688dbb718e7acdcabc33deffcf7685783b8bd765900d0d17658d679",
+      "bert_probabilities": [
+        0.02112613432109356,
+        0.009523098357021809,
+        0.034674692898988724,
+        0.13349184393882751,
+        0.8011842370033264
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-3F9D5101E6": {
+      "text_sha256": "cc8e9a277297105734078ea3cd75e10f758480633b831d69f1ad3c4bd206614e",
+      "bert_probabilities": [
+        0.0015038297278806567,
+        0.0011931698536500335,
+        0.006640309933573008,
+        0.1383250206708908,
+        0.8523375988006592
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-337B87AB52": {
+      "text_sha256": "ad0abfd7c8a5e84f07a247c28dac07dee4bd812abac954254b0b4ece458bba8d",
+      "bert_probabilities": [
+        0.029628856107592583,
+        0.018380915746092796,
+        0.03139117732644081,
+        0.17561589181423187,
+        0.7449830770492554
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4B7D137741": {
+      "text_sha256": "d3a3bca0622e8055ed25f65ee89842af7887eedbbcfc3c273cb0977a2d1ad32f",
+      "bert_probabilities": [
+        0.009977362118661404,
+        0.04964614659547806,
+        0.3218501806259155,
+        0.44520360231399536,
+        0.17332279682159424
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-1375DF9FBD": {
+      "text_sha256": "a028aea94a992d07e616ff2c2eb757f261b02d2c3c51dbdcea06d353d294c02f",
+      "bert_probabilities": [
+        0.0034766029566526413,
+        0.057040985673666,
+        0.7591593265533447,
+        0.17558641731739044,
+        0.004736727569252253
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-743150A989": {
+      "text_sha256": "e00873248fba37ac7d40a4b9c86a0d9c294b7fae8446c292d0c61be396d47b6a",
+      "bert_probabilities": [
+        0.0010831295512616634,
+        0.0011273387353867292,
+        0.010945211164653301,
+        0.2568068206310272,
+        0.7300374507904053
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-BF6123D8F8": {
+      "text_sha256": "9ce8e840b6ed0493d8bd3068e6351b183b43ee4571e7fd1ef28fcd9650b3d19b",
+      "bert_probabilities": [
+        0.004964240826666355,
+        0.006210484076291323,
+        0.04690556600689888,
+        0.2677886188030243,
+        0.6741310954093933
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D8173D7AF6": {
+      "text_sha256": "1efddbef87d9c4c5b445dc800c028db2a4114a104bd5cbda8eb00526c85fbc93",
+      "bert_probabilities": [
+        0.3034553825855255,
+        0.3087913990020752,
+        0.27977606654167175,
+        0.0758880227804184,
+        0.03208918869495392
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-620B5DDB6C": {
+      "text_sha256": "17c378f7f32b9bc277f718de8586c9681447324ca4442a02c9e8ff9b77d47eee",
+      "bert_probabilities": [
+        0.0013011356350034475,
+        0.0018109430093318224,
+        0.02595970593392849,
+        0.41857463121414185,
+        0.5523536205291748
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C545370B12": {
+      "text_sha256": "febfa772e345e8434257a7fbdde51e28c7cf9fc1a4b0d19e944cfeaf0306e43f",
+      "bert_probabilities": [
+        0.008159656077623367,
+        0.11088822782039642,
+        0.8359194397926331,
+        0.04305369406938553,
+        0.001978900283575058
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-0FE7EC23D0": {
+      "text_sha256": "c903952e36bd7ed745f6b4e0e663631567ee87de18cbdf0b7f51a9475a9df5a5",
+      "bert_probabilities": [
+        0.025375016033649445,
+        0.24819517135620117,
+        0.6816757917404175,
+        0.04128415137529373,
+        0.003469904651865363
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-877071D221": {
+      "text_sha256": "bdb987e27785596fc444fd18b9694db5e2b4d43fd3e5fe239269b8ef5702414c",
+      "bert_probabilities": [
+        0.0938180685043335,
+        0.04150428995490074,
+        0.06692352890968323,
+        0.16195443272590637,
+        0.6357997059822083
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-DEDCEB8953": {
+      "text_sha256": "aa276234237b59d1eee6b8059a709f2c28333aaac00be717a0751a23f8696f4c",
+      "bert_probabilities": [
+        0.03854109346866608,
+        0.2245914787054062,
+        0.5976173877716064,
+        0.118067666888237,
+        0.021182354539632797
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-51477DD0D9": {
+      "text_sha256": "c880327445c0b484babe21794adce6704e0fc0143028f066d92747ba368c872a",
+      "bert_probabilities": [
+        0.007566890213638544,
+        0.014324307441711426,
+        0.14820170402526855,
+        0.5314298868179321,
+        0.2984772026538849
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F97D25CFF7": {
+      "text_sha256": "72c08a9ce719df2666be2d29acadc738dc845fe20d6c2418dfac09818db57008",
+      "bert_probabilities": [
+        0.021747762337327003,
+        0.05831590294837952,
+        0.30604928731918335,
+        0.49123015999794006,
+        0.12265684455633163
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-73635CE013": {
+      "text_sha256": "19690dc255e21fa66064643f92b6960853bd60cff806d40fbdf861388a2b58f7",
+      "bert_probabilities": [
+        0.010116568766534328,
+        0.020539868623018265,
+        0.1199372410774231,
+        0.39478832483291626,
+        0.45461800694465637
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-EBD9AA4C5C": {
+      "text_sha256": "ace14702d27458dafe0ca5594589c031b7a495735ee126ba9442765fba3e7b87",
+      "bert_probabilities": [
+        0.0017247904324904084,
+        0.0019718201365321875,
+        0.010805435478687286,
+        0.16845016181468964,
+        0.8170478343963623
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6F3C871744": {
+      "text_sha256": "091c7f750511d5d90e14fca87d6f04cfed1ea00b47699786a30d31cb19859bdd",
+      "bert_probabilities": [
+        0.05467338487505913,
+        0.024563748389482498,
+        0.04439377784729004,
+        0.15494075417518616,
+        0.7214282751083374
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-349608050E": {
+      "text_sha256": "1c6face0dc64f5ea741be5d4c9fdc4b852a483f2669180d809882921d101fda2",
+      "bert_probabilities": [
+        0.04515296220779419,
+        0.26417386531829834,
+        0.5624194145202637,
+        0.11896873265504837,
+        0.009285024367272854
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-F325334165": {
+      "text_sha256": "ec2aff59b0e63de9c1510b97ef130eae3f071dece83ccc91761286e16f813561",
+      "bert_probabilities": [
+        0.22329774498939514,
+        0.3303406834602356,
+        0.3073633015155792,
+        0.09853095561265945,
+        0.04046735540032387
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-E84F7D8D30": {
+      "text_sha256": "27fae02396357a73639b439d8781c14ab600cf957bbcc2c809f69d1fe46b16e6",
+      "bert_probabilities": [
+        0.0008475756621919572,
+        0.0004921325598843396,
+        0.0021586779039353132,
+        0.05171159654855728,
+        0.9447900056838989
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7475112B82": {
+      "text_sha256": "e75f6daba782437d5952fc319987297264a786c667279ba66d88d728f73d400e",
+      "bert_probabilities": [
+        0.029544835910201073,
+        0.04826507344841957,
+        0.08975902944803238,
+        0.24907253682613373,
+        0.5833585262298584
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-FFB3AF5652": {
+      "text_sha256": "b3f39bd8a0ff1ab28e5ce980153742f98f47cd4c0d37f7dde0e0414419d0a79f",
+      "bert_probabilities": [
+        0.009102673269808292,
+        0.008469600230455399,
+        0.03364981338381767,
+        0.20219464600086212,
+        0.7465832829475403
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-5EE80BA462": {
+      "text_sha256": "17fa300ca90b001c9d348df72d1b7f61d069341533a49206dbb6f52480d95242",
+      "bert_probabilities": [
+        0.004394312389194965,
+        0.00478742178529501,
+        0.03426407277584076,
+        0.31255850195884705,
+        0.6439957022666931
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A1F24653CB": {
+      "text_sha256": "8d17eda35bcbadb5a747004096c4c7e298ca5c42ee1273622b78479556b3ce0d",
+      "bert_probabilities": [
+        0.010204938240349293,
+        0.008244035765528679,
+        0.01567072607576847,
+        0.0727226659655571,
+        0.8931576609611511
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D7B4E6D400": {
+      "text_sha256": "33a6a925fe4b22de126ffc023abe97373b18e1afd68f18622a2c054fb62e2b76",
+      "bert_probabilities": [
+        0.004664866719394922,
+        0.004395106807351112,
+        0.028080854564905167,
+        0.273219496011734,
+        0.689639687538147
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E876B1307A": {
+      "text_sha256": "8ec6ab492096cc74b4ee0dd76ebbef818d6863f97376706c9aab8b7653baf6fa",
+      "bert_probabilities": [
+        0.064499631524086,
+        0.2135307490825653,
+        0.42392224073410034,
+        0.20363734662532806,
+        0.09441006928682327
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-BCCA3FD089": {
+      "text_sha256": "ed271edffa9ef1fba19d86133bbcb04ee319fdc0bd992e38e4f298588da4bcef",
+      "bert_probabilities": [
+        0.0022296528331935406,
+        0.001745619927532971,
+        0.010940168052911758,
+        0.15203291177749634,
+        0.8330516219139099
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F1EF1E10E8": {
+      "text_sha256": "8052ddbaa0ee31d044a0aa67b4935ecd6affa5ef8cd05827501a27b74f78b3a0",
+      "bert_probabilities": [
+        0.0027844428550451994,
+        0.00399036193266511,
+        0.04001832380890846,
+        0.45581406354904175,
+        0.49739280343055725
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4CDFE75969": {
+      "text_sha256": "838cbd9f228a59d4e24eafdcd0c187f4261ee9f275e336b826bb6d2271357dcf",
+      "bert_probabilities": [
+        0.25578609108924866,
+        0.2920157015323639,
+        0.30207574367523193,
+        0.10167098045349121,
+        0.0484515056014061
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-447C226367": {
+      "text_sha256": "4e8158629a27062259b23e8097bd4caed9370886379db13f02a043566131b281",
+      "bert_probabilities": [
+        0.02734416350722313,
+        0.024141129106283188,
+        0.08932837843894958,
+        0.2581070065498352,
+        0.6010792851448059
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E598272CE6": {
+      "text_sha256": "a2e7947ca3304caa5c66467e4c969ad0be47f96ab2de854098461e99ba2cbcd4",
+      "bert_probabilities": [
+        0.0008116466924548149,
+        0.0006061377353034914,
+        0.0028719829861074686,
+        0.07823969423770905,
+        0.9174705743789673
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D8E80B87B0": {
+      "text_sha256": "94b097900c6cc906931c5c89d4287c79605db7eb1c1cde5f7d0d1981068cc998",
+      "bert_probabilities": [
+        0.0009029146167449653,
+        0.0006676972261629999,
+        0.0032804368529468775,
+        0.07555042207241058,
+        0.9195985198020935
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B309313561": {
+      "text_sha256": "239480378ca9f30561b978fe171e25e7aa5c14e2d6dc0134d3e4dc402c17fe60",
+      "bert_probabilities": [
+        0.09939245879650116,
+        0.4327666759490967,
+        0.3738279640674591,
+        0.0771477222442627,
+        0.016865190118551254
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-1CD0FEFB4E": {
+      "text_sha256": "cbcd4f3b7d5743daf890f03a1373ce2b2559f5d95dab4023a3532fbe3daaa571",
+      "bert_probabilities": [
+        0.0012817307142540812,
+        0.0010378261795267463,
+        0.007489124778658152,
+        0.1502247154712677,
+        0.8399665951728821
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-72BE0CE53F": {
+      "text_sha256": "b7ad9cba0ba80e33aedc2fe5c8da6c9ac749c45099bdb9cf175be1046bc57f39",
+      "bert_probabilities": [
+        0.006061272229999304,
+        0.01607469655573368,
+        0.11057678610086441,
+        0.4467111825942993,
+        0.4205760359764099
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6071B04D7D": {
+      "text_sha256": "8a54d11eaa5e6bec6314f9cd43e9393b5e3f481340c1ac658c774bc33d89893d",
+      "bert_probabilities": [
+        0.07241798937320709,
+        0.033485621213912964,
+        0.06407482177019119,
+        0.16829009354114532,
+        0.6617314219474792
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-DF2240FEC4": {
+      "text_sha256": "d72b50ac9860627d7b7d5a91776fbd2fc76216c276d80e34b266d5195864d6a3",
+      "bert_probabilities": [
+        0.0021125345956534147,
+        0.002239992842078209,
+        0.01914946362376213,
+        0.23778192698955536,
+        0.7387160658836365
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-97C42753D0": {
+      "text_sha256": "0994ec0f1841a001f81c29f4f74cc08cefb78bcccc98b72bbf6e4bc4ffe8cbae",
+      "bert_probabilities": [
+        0.0013644617283716798,
+        0.0015908480854704976,
+        0.013148889876902103,
+        0.20287995040416718,
+        0.7810158133506775
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-54E4B9943C": {
+      "text_sha256": "b8a1f4076aa1183ec4aa2643ab0446ee7daf4982d3ca98c29512e4d7b337c401",
+      "bert_probabilities": [
+        0.006140675395727158,
+        0.00490146828815341,
+        0.018049146980047226,
+        0.1367475986480713,
+        0.8341611623764038
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3AB4E12DE7": {
+      "text_sha256": "b526e5700db58324818af221bb44e71105466a1ea01bebfb4d87e85dd7dfb851",
+      "bert_probabilities": [
+        0.0010763274040073156,
+        0.0014430673327296972,
+        0.022492744028568268,
+        0.3503061830997467,
+        0.6246817111968994
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3BB6140F36": {
+      "text_sha256": "7d1e7add74e0684f81fb882bbe71ebda81151b194dfeba60eadd632bbda67ed9",
+      "bert_probabilities": [
+        0.006330452859401703,
+        0.0048430501483380795,
+        0.015193158760666847,
+        0.11234437674283981,
+        0.8612889647483826
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-02891A6D5D": {
+      "text_sha256": "ed548db077ca959b71f2122101d263b3fdcdea3710ac3af0d20dae637ea20dfe",
+      "bert_probabilities": [
+        0.29258427023887634,
+        0.5971155166625977,
+        0.10674643516540527,
+        0.002967765321955085,
+        0.0005860399687662721
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-26DB9FA92A": {
+      "text_sha256": "bcb743ccc139a68af92763a543af6ee682dfb27fbd21a432c91bf00562d74bd8",
+      "bert_probabilities": [
+        0.0011106941383332014,
+        0.0011541267158463597,
+        0.009679959155619144,
+        0.2200533151626587,
+        0.7680018544197083
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-69F5A20DC7": {
+      "text_sha256": "c14051e755fb466b8f724594e325cd0f8ce2cef70b44588a918e6a8539d0432e",
+      "bert_probabilities": [
+        0.0013749388745054603,
+        0.0006141986814327538,
+        0.002082015387713909,
+        0.024093346670269966,
+        0.9718354940414429
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-CB7FAD7C84": {
+      "text_sha256": "7f862a93e95a5a455ed0025a2a02ff66353bd1b2f98db35751efcb94842e9130",
+      "bert_probabilities": [
+        0.01274537481367588,
+        0.011365891434252262,
+        0.049101587384939194,
+        0.2555661201477051,
+        0.6712210774421692
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-85DD202682": {
+      "text_sha256": "7baec4534deffd6d1bb1a20c6450d01a7fd793c4158c9d3284315e065bcc3b01",
+      "bert_probabilities": [
+        0.001743916654959321,
+        0.0049004992470145226,
+        0.18794852495193481,
+        0.670121431350708,
+        0.13528572022914886
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-42A3B76B06": {
+      "text_sha256": "4253d828ce24910b6e20391c17be753fc7819dc0aeaf6fa5f52f379f44906957",
+      "bert_probabilities": [
+        0.0015149370301514864,
+        0.0012248624116182327,
+        0.0036823241971433163,
+        0.04351937770843506,
+        0.9500585198402405
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-AF5AA3DFA9": {
+      "text_sha256": "8e07826e7da471f13bbf28e85cac0389df5e7dccb8f7310eb05f4f596fb66944",
+      "bert_probabilities": [
+        0.09658879041671753,
+        0.24438107013702393,
+        0.2896386682987213,
+        0.23363836109638214,
+        0.13575313985347748
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-0EFF6E2020": {
+      "text_sha256": "41d75f36a84f672f97a1dfa6927828cccf569a83b5abaab5fcf1bfb89ad90b6e",
+      "bert_probabilities": [
+        0.09554124623537064,
+        0.3701874017715454,
+        0.43327268958091736,
+        0.0836026594042778,
+        0.017396066337823868
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-C6EF536AAD": {
+      "text_sha256": "c2531041ce242312ed83449fb9d6f15ed5dc9583b4902ffd1c8d18dc7ef60bc6",
+      "bert_probabilities": [
+        0.006097407545894384,
+        0.006159860175102949,
+        0.03489605709910393,
+        0.2296597808599472,
+        0.7231869101524353
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A0F9FC1052": {
+      "text_sha256": "c7998ce0bf696cab8bdcc3c06d3c21c3e210ec9e4ec781ac89163b9697d1bb60",
+      "bert_probabilities": [
+        0.008553380146622658,
+        0.008011463098227978,
+        0.03499111533164978,
+        0.25794535875320435,
+        0.6904986500740051
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4A2AAD3A48": {
+      "text_sha256": "a2865c7685d5d584e8a866182068046ff9d31e4c1bc5e96c5661ba3da16a4112",
+      "bert_probabilities": [
+        0.2110985517501831,
+        0.4065910279750824,
+        0.24213162064552307,
+        0.06792981177568436,
+        0.07224903255701065
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-0139F6918B": {
+      "text_sha256": "ff5e2684f33c7307a658286c7f04e98c4b58de76b959d200a4b160c3a2d155bc",
+      "bert_probabilities": [
+        0.0009648633422330022,
+        0.0008499446557834744,
+        0.006600612308830023,
+        0.1537521928548813,
+        0.8378323316574097
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B70499F4C8": {
+      "text_sha256": "f997cdaff1346d0795132393eb36ac143a24b327dabdfaa3f842cc4e320b20f5",
+      "bert_probabilities": [
+        0.003440959146246314,
+        0.003766783745959401,
+        0.02313871495425701,
+        0.27899637818336487,
+        0.6906571388244629
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-DFF4F8E590": {
+      "text_sha256": "4c55ef8ac99e2eb3af974997f5ad9358608a73adc09155397ea7706a5f704086",
+      "bert_probabilities": [
+        0.0015318153891712427,
+        0.0018598638707771897,
+        0.014060985296964645,
+        0.24433204531669617,
+        0.7382153272628784
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-66EAA375DA": {
+      "text_sha256": "ad34afaff873db29ff6dbd3fd47dd20abf7608b9031bc8388fd67f0e56029cac",
+      "bert_probabilities": [
+        0.0014359081396833062,
+        0.0011812393786385655,
+        0.003787236288189888,
+        0.037448856979608536,
+        0.9561467170715332
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-82493226C5": {
+      "text_sha256": "69af772340831939bde2794224a13684a785fe3c9c43c95067dd5c3734a85c05",
+      "bert_probabilities": [
+        0.32533374428749084,
+        0.16408230364322662,
+        0.1630694419145584,
+        0.14576776325702667,
+        0.20174679160118103
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-C82BDA639C": {
+      "text_sha256": "9fa7884207bddb68855ed8b8b2a0d08516b84aa5faef3b07beaa121194dc487d",
+      "bert_probabilities": [
+        0.19341431558132172,
+        0.5451346039772034,
+        0.24917472898960114,
+        0.011007450520992279,
+        0.0012688805582001805
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-1F2F127B3E": {
+      "text_sha256": "85de0523eef797598a1960dedd646f6a7e21498dc9df7c29a2633461b0f831c6",
+      "bert_probabilities": [
+        0.0013026738306507468,
+        0.0013520136708393693,
+        0.006046389229595661,
+        0.11023668199777603,
+        0.8810622692108154
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A7EB25D7A7": {
+      "text_sha256": "740a7f7c457b520f48d1e3f505e88d17daed90f455b64c0a8884c175d4bdc934",
+      "bert_probabilities": [
+        0.9452199935913086,
+        0.04819588363170624,
+        0.004830363672226667,
+        0.000682698329910636,
+        0.001071087783202529
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-2BE54DFDB1": {
+      "text_sha256": "90d67640add48f8820eb178f8100b2d2121ea73f599a939617dba37c30ffb4bb",
+      "bert_probabilities": [
+        0.005576047580689192,
+        0.006888928357511759,
+        0.03533536568284035,
+        0.2406148761510849,
+        0.711584746837616
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C1D28A2F49": {
+      "text_sha256": "9b4fb945b718bf9c666f3fb4e7fcabf1fae6bb5e2a0b78d08ceedb8eabe66e12",
+      "bert_probabilities": [
+        0.002540145069360733,
+        0.00198855297639966,
+        0.010443640872836113,
+        0.13732287287712097,
+        0.8477048277854919
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A08045A0F4": {
+      "text_sha256": "db62edc9a1f2b9e09ac6b82a209e2f8b10a9c59234ee23c47c442679dcb1142e",
+      "bert_probabilities": [
+        0.14247727394104004,
+        0.5254904627799988,
+        0.28549274802207947,
+        0.038153212517499924,
+        0.008386269211769104
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-D7D492169C": {
+      "text_sha256": "aafbf652226bc58de41707093c3ef9ae32b178c89c05a3b78d33389c1309c42f",
+      "bert_probabilities": [
+        0.3932684063911438,
+        0.42379242181777954,
+        0.15382209420204163,
+        0.021028291434049606,
+        0.008088823407888412
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-6C33FE78F9": {
+      "text_sha256": "4db7381541abb1ef6c853992e50becdcce940a98ba5112c17993d1eca03d03bb",
+      "bert_probabilities": [
+        0.01185121200978756,
+        0.012800931930541992,
+        0.06140850484371185,
+        0.29374635219573975,
+        0.6201930046081543
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-27DDA2F9F8": {
+      "text_sha256": "76618f5c6084a389a7ea46e424fac1670be1dfc2c0faf4994d939d265fd94430",
+      "bert_probabilities": [
+        0.3529193699359894,
+        0.5147709250450134,
+        0.12355662137269974,
+        0.007350407540798187,
+        0.0014026251155883074
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-FE18CFDFB1": {
+      "text_sha256": "f8386cda4a97102bdfe4de5cd7224287f50713963b8c7bce61826492d3585afb",
+      "bert_probabilities": [
+        0.10525506734848022,
+        0.15104304254055023,
+        0.3135746419429779,
+        0.24706782400608063,
+        0.1830594539642334
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E64EB5A85F": {
+      "text_sha256": "25efb227cd8993a4235a7f8c67312ec52818ca7c66b07e2e9eead1ccef605241",
+      "bert_probabilities": [
+        0.000923877174500376,
+        0.0010514105670154095,
+        0.01350448653101921,
+        0.2509956359863281,
+        0.7335246205329895
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-EDD235F2FC": {
+      "text_sha256": "a292f645610951c7a77b78bfe8d5b7e715d572266fe0a24d37e0f7a5b753d039",
+      "bert_probabilities": [
+        0.28498879075050354,
+        0.3045380711555481,
+        0.2770170569419861,
+        0.09567243605852127,
+        0.03778371587395668
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-9A2EA826E0": {
+      "text_sha256": "4cb5c2f45157c6c77f8283180045c2548e9f59cc1f6eb297b16009774440bdef",
+      "bert_probabilities": [
+        0.002033368917182088,
+        0.0030863445717841387,
+        0.027630135416984558,
+        0.3013710677623749,
+        0.6658791303634644
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3B3A89DED7": {
+      "text_sha256": "52f0bf9356a5c36903da406ba0f11301e5ecec3ecb7beb4c6d0b4f42961f622c",
+      "bert_probabilities": [
+        0.7798107266426086,
+        0.17788463830947876,
+        0.027266571298241615,
+        0.0068592494353652,
+        0.00817879382520914
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-E3CC32AEBF": {
+      "text_sha256": "f611fac81113cd06cb1f471051dd85563d261f6819eef66edfb7c09b9f3bec1f",
+      "bert_probabilities": [
+        0.012605973519384861,
+        0.04640655219554901,
+        0.28408801555633545,
+        0.4455649256706238,
+        0.21133455634117126
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-94D5A61120": {
+      "text_sha256": "9d80bd20564a0e41ab3df896ce681da680f7f052b1d46fd413d0033d2b5d69c5",
+      "bert_probabilities": [
+        0.0007032809662632644,
+        0.000655876356177032,
+        0.0027265327516943216,
+        0.06763593852519989,
+        0.9282783269882202
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6FC8F4CFA4": {
+      "text_sha256": "b33b3dc40c501bf55ba4c9178e7a4d03a553018632bc56516c4fdfcba88c733f",
+      "bert_probabilities": [
+        0.001507898443378508,
+        0.001661237794905901,
+        0.011321302503347397,
+        0.17327553033828735,
+        0.8122339844703674
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C301A54824": {
+      "text_sha256": "89c1526344dc6bab6580ceab45ebfb3055063f0ba19fd779138535f45a32c170",
+      "bert_probabilities": [
+        0.16493773460388184,
+        0.19612111151218414,
+        0.2945418655872345,
+        0.25035613775253296,
+        0.09404309093952179
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-ED6EEC0C7B": {
+      "text_sha256": "3fa1db4a1a56e0a4da48ffce3b2d17fe58c3e6c38d410965cdab5e2872bea47a",
+      "bert_probabilities": [
+        0.0428532138466835,
+        0.39115583896636963,
+        0.518970787525177,
+        0.044779855757951736,
+        0.0022403388284146786
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-460CA03642": {
+      "text_sha256": "7faedded34d4a994fb4a583722ce4f32f8046951e5eb8d81d27664f8f9468017",
+      "bert_probabilities": [
+        0.0007862315978854895,
+        0.0010509705170989037,
+        0.01067567802965641,
+        0.27603137493133545,
+        0.7114557027816772
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-26F03FDAD1": {
+      "text_sha256": "d0f4689e99baadf7bd4a85962b46df5e5ba7962cb0ebfc134a4ae4551eb2b853",
+      "bert_probabilities": [
+        0.0023762998171150684,
+        0.001783785060979426,
+        0.008701536804437637,
+        0.11288851499557495,
+        0.8742499351501465
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-62D3477875": {
+      "text_sha256": "d8a39e178e346cb2bccb3b192a0bf0ce0d13b9791251224e8ef27b62c8fc0e2c",
+      "bert_probabilities": [
+        0.004070410504937172,
+        0.017888803035020828,
+        0.1927514225244522,
+        0.5958227515220642,
+        0.18946664035320282
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-D308756308": {
+      "text_sha256": "8a0d315475026b0e9286d45a065f219ca7c0ce29ca8f05e82be0e7929569acb5",
+      "bert_probabilities": [
+        0.007829681038856506,
+        0.024146875366568565,
+        0.1511959433555603,
+        0.44784313440322876,
+        0.3689843416213989
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E6E1CA56EF": {
+      "text_sha256": "cc75d3fffbeb3d6f35e63474744def6bdc4e7d086385d655a6c33c65334aafda",
+      "bert_probabilities": [
+        0.002744063502177596,
+        0.007651940453797579,
+        0.08522830903530121,
+        0.4919359087944031,
+        0.41243982315063477
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B04B55CD83": {
+      "text_sha256": "014b0731af0969ce0dd32a5533c923a9adedead96d1c2297b8b93d22c8dd489f",
+      "bert_probabilities": [
+        0.0011232857359573245,
+        0.0008621183224022388,
+        0.0034401416778564453,
+        0.08096838742494583,
+        0.9136059880256653
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2A850AECDB": {
+      "text_sha256": "f35816650d9c5c0d2a9cb153b7806e457d932545857ec32f1f13ba6fc27d89a5",
+      "bert_probabilities": [
+        0.0013594874180853367,
+        0.001191757502965629,
+        0.007659777533262968,
+        0.16576561331748962,
+        0.8240233659744263
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-18F1AF8F02": {
+      "text_sha256": "9b1dd1965b68a7f6fa3f52287f9ef41d5883e4db1ac5c8f478ce813290379c41",
+      "bert_probabilities": [
+        0.002429862739518285,
+        0.0039588529616594315,
+        0.023608002811670303,
+        0.30223792791366577,
+        0.6677654385566711
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7CF5DCE54D": {
+      "text_sha256": "6cbf24e70d407c7355f925d605a6f14bc4528d2035bc2c2ecc97dbd6cad47555",
+      "bert_probabilities": [
+        0.6579907536506653,
+        0.24072742462158203,
+        0.06604471057653427,
+        0.016406629234552383,
+        0.018830444663763046
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-DC1365E359": {
+      "text_sha256": "e8ed94fd3698a973355be958d0e50a2084cd3b2cca6df010f01c72778d216868",
+      "bert_probabilities": [
+        0.44164639711380005,
+        0.2834297716617584,
+        0.1621888279914856,
+        0.06677365303039551,
+        0.04596124216914177
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-9426D3555D": {
+      "text_sha256": "a8578f04525433d7ba80c5dff2f3955aacf1cfe46ac97522b90ab1799fc6d6ca",
+      "bert_probabilities": [
+        0.006061636842787266,
+        0.006181433796882629,
+        0.040162719786167145,
+        0.3046005368232727,
+        0.642993688583374
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-6B5519BE28": {
+      "text_sha256": "7984577246a765bfea147c63ab6421d1c089c7903ba40b16b21f9556bb60282a",
+      "bert_probabilities": [
+        0.0008594326791353524,
+        0.0011002778774127364,
+        0.014797247014939785,
+        0.3383665680885315,
+        0.6448764801025391
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-573CCD9CE4": {
+      "text_sha256": "7865bea5325c860a5380c985c222fd8cba75266e11e2be0f30d7f2ce0f08f62f",
+      "bert_probabilities": [
+        0.24154795706272125,
+        0.543745756149292,
+        0.20459122955799103,
+        0.009160691872239113,
+        0.0009543493506498635
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-5071EF57CE": {
+      "text_sha256": "5fc323e2b9a44b7a6edb6a0f36c861477ec6d6e7edc1fa5992dedbb608be9142",
+      "bert_probabilities": [
+        0.9471396803855896,
+        0.0482834167778492,
+        0.0036349561996757984,
+        0.0003932934196200222,
+        0.0005486118607223034
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-9EAAE999E7": {
+      "text_sha256": "dfd49c5f472cb0956cb2bb40f36c7ec9ecc8ebf9265e1663c55999f49897b0fd",
+      "bert_probabilities": [
+        0.001289082458242774,
+        0.001182087231427431,
+        0.007476310711354017,
+        0.14014272391796112,
+        0.849909782409668
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2512C03EB9": {
+      "text_sha256": "eb4ea6b5fa6155e3f1aa3e2d21cc74d6cd1b431589a59dbb18d842cdad74bc04",
+      "bert_probabilities": [
+        0.002042385982349515,
+        0.0027002631686627865,
+        0.02640708163380623,
+        0.3908694088459015,
+        0.5779808163642883
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4CCD0E70CB": {
+      "text_sha256": "bd8899e80b3c49149bbed71e71b47bc2268d3cbed3861d01a10b0cd76806e017",
+      "bert_probabilities": [
+        0.0005089394981041551,
+        0.0003891403030138463,
+        0.0014847733546048403,
+        0.032074686139822006,
+        0.9655424952507019
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-0D24EA0C18": {
+      "text_sha256": "30ac4e5c9fec7a254def106e3cfc5295123cf6736c882b9d4cbe5a15de01deac",
+      "bert_probabilities": [
+        0.04864354431629181,
+        0.07639744877815247,
+        0.17087097465991974,
+        0.3622565269470215,
+        0.3418314456939697
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-5CCBD1B4D5": {
+      "text_sha256": "84fe60c37c160640c29706d6b4a60979b3b0e35b304e4469ab4bb78948ae4e52",
+      "bert_probabilities": [
+        0.038505811244249344,
+        0.044890742748975754,
+        0.07597049325704575,
+        0.20541995763778687,
+        0.6352129578590393
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2BF4EE9ADD": {
+      "text_sha256": "1f6e5e17a67bbeb282573fcabccc5e1fe62b54e983cc49010fc047915119c60a",
+      "bert_probabilities": [
+        0.0016571164596825838,
+        0.001565999467857182,
+        0.007669469341635704,
+        0.14712153375148773,
+        0.8419859409332275
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-092C4FCE71": {
+      "text_sha256": "83d7b4b9dfc01e26c26d21fe38a75b9422e61c3492fc8031e156c06b2645f48e",
+      "bert_probabilities": [
+        0.004799120593816042,
+        0.007363478187471628,
+        0.037010740488767624,
+        0.28741782903671265,
+        0.6634089350700378
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-501FA66903": {
+      "text_sha256": "84ee35e66d2d7c873eda48dbe4d868972675e2aba45bfd96acf090666392ecd9",
+      "bert_probabilities": [
+        0.004807109944522381,
+        0.005293391179293394,
+        0.015776673331856728,
+        0.1686718612909317,
+        0.8054510354995728
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-0B690FA8E5": {
+      "text_sha256": "70bb8c6e2ebc86479adeaa7bdaced8e8b7bbf1782bce9fdd7ccd83adf558a6d7",
+      "bert_probabilities": [
+        0.024248816072940826,
+        0.0243033729493618,
+        0.06931672245264053,
+        0.35571369528770447,
+        0.5264173746109009
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-4C61B006DB": {
+      "text_sha256": "92d4eb0a5e43c285a384db8aafdf2cb991e42fa561c2fe126c427229f1efc887",
+      "bert_probabilities": [
+        0.5497682690620422,
+        0.24260151386260986,
+        0.11057877540588379,
+        0.05157219246029854,
+        0.04547930508852005
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-5462E184EE": {
+      "text_sha256": "a3389a054f0baf7a39e226a8cdbc77cce4afff15e9fd506d82b1c8b58adce1e2",
+      "bert_probabilities": [
+        0.11982203274965286,
+        0.411729633808136,
+        0.4212890565395355,
+        0.04181080311536789,
+        0.005348498933017254
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-5E0F19121B": {
+      "text_sha256": "d779966adff5bd820b18b2d637a9f5dd5d355ce767e5b729277753777bd93e82",
+      "bert_probabilities": [
+        0.019967855885624886,
+        0.03458854556083679,
+        0.08824906498193741,
+        0.39399442076683044,
+        0.46320006251335144
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-99E1D3DB5B": {
+      "text_sha256": "8bde70a341c78e355044eb7bb326ec645e9f73cd1d86990aaf0ea3c507d09815",
+      "bert_probabilities": [
+        0.0010023150825873017,
+        0.0009581978665664792,
+        0.004695577081292868,
+        0.10087408125400543,
+        0.8924698829650879
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E58D157188": {
+      "text_sha256": "ae6c6dd418d31239adfb930567db8d1b83e09d8b5a66a386b69d1c5c7e5e1d3b",
+      "bert_probabilities": [
+        0.0011113876244053245,
+        0.002633461030200124,
+        0.04005780816078186,
+        0.5950691103935242,
+        0.36112821102142334
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-176A1C7017": {
+      "text_sha256": "3f9a6ffa047a349a033a0f47a36c7b3ded284601587c14d828edbe91d5cdcecf",
+      "bert_probabilities": [
+        0.0008248360827565193,
+        0.000696676317602396,
+        0.003129680175334215,
+        0.07792843878269196,
+        0.9174203276634216
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D140100498": {
+      "text_sha256": "03e26649aefbbcba232c22a5a8fbe7f234e7c561d36f1b2bc401146c008f74cc",
+      "bert_probabilities": [
+        0.0027707661502063274,
+        0.00812222994863987,
+        0.09737540036439896,
+        0.5300558805465698,
+        0.3616757094860077
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2383A0DFC9": {
+      "text_sha256": "c598256906da08990384f022d264560f03a79906ca326db80b5dcf7e4b06b322",
+      "bert_probabilities": [
+        0.5590041279792786,
+        0.15182295441627502,
+        0.08539195358753204,
+        0.06724731624126434,
+        0.13653366267681122
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-0A8D030EE5": {
+      "text_sha256": "d28bb5c27ed77fca62bb3bbebeec9f417ccc4d09cdef6f26f17320cd7151419f",
+      "bert_probabilities": [
+        0.0012071713572368026,
+        0.0019102174555882812,
+        0.02586750127375126,
+        0.4555756747722626,
+        0.5154393911361694
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4356F56548": {
+      "text_sha256": "0f2880777311b79f5f70912c2607d2100044e158803f7b61fa390b56394a3938",
+      "bert_probabilities": [
+        0.0011824282119050622,
+        0.0033315089531242847,
+        0.07147867232561111,
+        0.5858088135719299,
+        0.3381985127925873
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-0C1BD05885": {
+      "text_sha256": "917dcd2fa2182315ae7fc1104de71292cad9a42e88a6e1d794efd7318e5fac59",
+      "bert_probabilities": [
+        0.01167276594787836,
+        0.09714315086603165,
+        0.547483503818512,
+        0.3067685067653656,
+        0.036932095885276794
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-0D89345BAA": {
+      "text_sha256": "d2de7520f83e3d21cce8c5a3da0d74fad779542d8ea8f25fbac246f3e37e449c",
+      "bert_probabilities": [
+        0.0006647472619079053,
+        0.001164505840279162,
+        0.020299462601542473,
+        0.4763655960559845,
+        0.5015056729316711
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2C9D0492AB": {
+      "text_sha256": "b07ab212d682a15e53f1f883f8301307ae9fc04502553538a13be0be231a060f",
+      "bert_probabilities": [
+        0.004657113924622536,
+        0.005013527348637581,
+        0.021664654836058617,
+        0.23632895946502686,
+        0.7323357462882996
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B6ECA3893A": {
+      "text_sha256": "8b38cb9a91dc5750de5b0ac997841578ee360dd680dad7597678bf7eb6a2d8e5",
+      "bert_probabilities": [
+        0.0017080202233046293,
+        0.002466730074957013,
+        0.023907937109470367,
+        0.3855153024196625,
+        0.5864020586013794
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C919841C3A": {
+      "text_sha256": "5bd09c12f02e5389691fe4e5d453875c74ebd5e106f2fcc6b781b2d786bb3c8a",
+      "bert_probabilities": [
+        0.011817369610071182,
+        0.020845217630267143,
+        0.0487009696662426,
+        0.22467832267284393,
+        0.6939581632614136
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6BB8BB9EA0": {
+      "text_sha256": "c1fd3e9747c9142c4c1f8d9b3f68e5aae2e72b5c3041f650ee84e9ad46bfd52f",
+      "bert_probabilities": [
+        0.0009721847018226981,
+        0.0008216988062486053,
+        0.004961802624166012,
+        0.08925136923789978,
+        0.9039929509162903
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-68B4520E00": {
+      "text_sha256": "1905a8700e81953c413ac00105ecf3f72ff64ca0bc1fa80895528b1b1b4700b3",
+      "bert_probabilities": [
+        0.0006931300740689039,
+        0.0005271529662422836,
+        0.0017514321953058243,
+        0.03817061707377434,
+        0.9588577151298523
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6F77EF2891": {
+      "text_sha256": "57383ee5f936ac29d457a861ba5ad0f0cc3ac458d731fc9248a0dba4aa87c2f4",
+      "bert_probabilities": [
+        0.0025782757438719273,
+        0.0027846454177051783,
+        0.01646287925541401,
+        0.1831834316253662,
+        0.7949908375740051
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-A4DC0110CC": {
+      "text_sha256": "01ff429b451a4c64b09f8208e8d1c0ecff074fb8f187fa58b8314644f6155387",
+      "bert_probabilities": [
+        0.0034084354992955923,
+        0.0027772635221481323,
+        0.009721603244543076,
+        0.10788755118846893,
+        0.8762052059173584
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-94CC656E64": {
+      "text_sha256": "912aa36bb223174d0d2d5b7d84c91b61db3cc03b9bb686dd381465096a58a2db",
+      "bert_probabilities": [
+        0.0018200486665591598,
+        0.004000382032245398,
+        0.08224181830883026,
+        0.6360357403755188,
+        0.2759019732475281
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4D17D1EA3F": {
+      "text_sha256": "14588cc2b149db19034e535db89251f306f2a0d0dd4148528cb3f6ee6212e967",
+      "bert_probabilities": [
+        0.43311455845832825,
+        0.33150938153266907,
+        0.1707381308078766,
+        0.04395696148276329,
+        0.020681003108620644
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-21F684BF24": {
+      "text_sha256": "c33ce45d450768ababf0f482d74592de63e35aaf84cf635aef61a85e5c87e538",
+      "bert_probabilities": [
+        0.17006772756576538,
+        0.3682929277420044,
+        0.3541443347930908,
+        0.0826251283288002,
+        0.02486990951001644
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-F67F80C477": {
+      "text_sha256": "9b8e17954fc9249f22886b392b340050ec1ea5d5d9dcd9be5548c2130244d30d",
+      "bert_probabilities": [
+        0.008040406741201878,
+        0.009369945153594017,
+        0.053069546818733215,
+        0.3039407730102539,
+        0.625579297542572
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F8ECF48A7C": {
+      "text_sha256": "9f51548ac8b1fbf7dee8eaa25d5247477700e92dd0b62c03fde3f68355629461",
+      "bert_probabilities": [
+        0.0010143480030819774,
+        0.000767211546190083,
+        0.004311289172619581,
+        0.08812591433525085,
+        0.9057812690734863
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-8D26ED9B70": {
+      "text_sha256": "a1c5df3de4860e0b82933d7b4d2c2719a1fe4b7ba69f7d2042c5b6bd58003f4e",
+      "bert_probabilities": [
+        0.0005849940935149789,
+        0.0003612736763898283,
+        0.0008444792474620044,
+        0.019580742344260216,
+        0.9786285161972046
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-FB2D65125E": {
+      "text_sha256": "ad6c132196c1ee85791c1147f1bcf6ec1652de64dc4cbb5789768e9a726d9816",
+      "bert_probabilities": [
+        0.0010319153079763055,
+        0.0013808202929794788,
+        0.018203195184469223,
+        0.33128035068511963,
+        0.648103654384613
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6AEC89349C": {
+      "text_sha256": "ca35cadce809978b2828c5faf152783806ac1ccb949c1e49c666388b11879214",
+      "bert_probabilities": [
+        0.0008318618638440967,
+        0.0006232223240658641,
+        0.003496424062177539,
+        0.08256715536117554,
+        0.9124813675880432
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-783BEA1688": {
+      "text_sha256": "b4d5e568895c87211ab710a81fcb3fc92f8548965b8ccebd53d1084b05a45033",
+      "bert_probabilities": [
+        0.025186320766806602,
+        0.09826657921075821,
+        0.2342832237482071,
+        0.38026511669158936,
+        0.2619987428188324
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-ABBFF2ED5D": {
+      "text_sha256": "1407476fbf8c7feb704e15104a8f6be578d6827d40764323a486aab82a285926",
+      "bert_probabilities": [
+        0.01765563152730465,
+        0.0075309700332582,
+        0.043972741812467575,
+        0.6489366292953491,
+        0.28190404176712036
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-0495315FFA": {
+      "text_sha256": "e52899b8e231e9f2240556376f05fe936343e9231f8913b1aa08e539315c63fb",
+      "bert_probabilities": [
+        0.0007917070761322975,
+        0.0005773402517661452,
+        0.002260613488033414,
+        0.06226629763841629,
+        0.9341040253639221
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-DE520B5C89": {
+      "text_sha256": "8bd42c3633139652f72d5d616e98d72d20bffc049bf786750b0330ba480d7f54",
+      "bert_probabilities": [
+        0.0017200349830091,
+        0.002173400018364191,
+        0.017887486144900322,
+        0.24457749724388123,
+        0.7336415648460388
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-1098605CEA": {
+      "text_sha256": "0d87d9943ad1635d6ea888c05102c20f2584d8f68aba3aacc2ef9c5a17f01b7f",
+      "bert_probabilities": [
+        0.0007155747734941542,
+        0.0006083020707592368,
+        0.0030301178339868784,
+        0.11582436412572861,
+        0.8798217177391052
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C8B8F971A7": {
+      "text_sha256": "32c9414fb76d780c6787ab335ab1691031e04b4849b9eeb51c5c1b34484d758f",
+      "bert_probabilities": [
+        0.00116778165102005,
+        0.0010881605558097363,
+        0.006278154440224171,
+        0.16865572333335876,
+        0.822810173034668
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-93460D7BD8": {
+      "text_sha256": "3a99b67118ec21ab551fe92a748df862a5af79dfd19c95d9635da60c5cf2a6d7",
+      "bert_probabilities": [
+        0.000953059468884021,
+        0.003113565267995,
+        0.1301947683095932,
+        0.7380591630935669,
+        0.12767936289310455
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7575220C52": {
+      "text_sha256": "a6d4307d27c57dfdbdf34f6d092c662bf1ab6bf9c79bf90d2fd564b5a7b464c8",
+      "bert_probabilities": [
+        0.09661625325679779,
+        0.3927640914916992,
+        0.396102637052536,
+        0.09960953891277313,
+        0.014907484874129295
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-3F39DD1536": {
+      "text_sha256": "12fcb68fc7287a31a67c4acd2d7a9efa0f957322b60e84bece8a03c26cd86e6d",
+      "bert_probabilities": [
+        0.002186422236263752,
+        0.002692412119358778,
+        0.021320518106222153,
+        0.23231978714466095,
+        0.7414807677268982
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3AF7A53C02": {
+      "text_sha256": "f9fa8b9547448a1a7ff211849d50e7145ff2a12eac545cd9de6af16a328d15c5",
+      "bert_probabilities": [
+        0.18550018966197968,
+        0.16775186359882355,
+        0.15241093933582306,
+        0.20611849427223206,
+        0.28821849822998047
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-2BE0BF1F7D": {
+      "text_sha256": "2eb609cf5fc5d31d99b420dc0eb5368c1b3103ea6f8df92a66c3ff43ff669d00",
+      "bert_probabilities": [
+        0.5291132926940918,
+        0.2595709264278412,
+        0.08609103411436081,
+        0.04861365631222725,
+        0.07661106437444687
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-0404DC995D": {
+      "text_sha256": "0fcd2b8a5abe91d5d85ca93492765646374668dfdfed70f89b45b92eea679376",
+      "bert_probabilities": [
+        0.002466463251039386,
+        0.004664718639105558,
+        0.014710486866533756,
+        0.19728365540504456,
+        0.7808746099472046
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4465526C61": {
+      "text_sha256": "49b613d5984af66f895a37b380f53f72374df02ae6dd0100ab4da7f677a765bc",
+      "bert_probabilities": [
+        0.0007471289718523622,
+        0.0007523936801590025,
+        0.0033136894926428795,
+        0.09586942195892334,
+        0.8993173837661743
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-424A71C857": {
+      "text_sha256": "d2de9d60674c0874a7384416917c54730d3332ea6c2aa40998e8eddc3ad2d566",
+      "bert_probabilities": [
+        0.0034513368736952543,
+        0.004118330776691437,
+        0.018356816843152046,
+        0.23313583433628082,
+        0.7409377098083496
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "neutral"
+    },
+    "IT-8D9B1B2AF4": {
+      "text_sha256": "da8df02601dcbbea74345b9b42dc562cf6587f93ae71eb12fd6a53b3dbe625bb",
+      "bert_probabilities": [
+        0.0008271468686871231,
+        0.0010169540764763951,
+        0.004000051878392696,
+        0.09876539558172226,
+        0.8953904509544373
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C28464D399": {
+      "text_sha256": "053caac6372dde4ba63252e99a077ff62c7036f33a6741a89132f0b090eb7458",
+      "bert_probabilities": [
+        0.0013882500352337956,
+        0.002474993234500289,
+        0.035352788865566254,
+        0.4132775068283081,
+        0.5475064516067505
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-83443028AF": {
+      "text_sha256": "28f28c95c880f0d39cf2ad00f6b2b5ced9f99b827c468e48eee570d7d09dac53",
+      "bert_probabilities": [
+        0.0009546883520670235,
+        0.0006636270554736257,
+        0.0036934930831193924,
+        0.07907797396183014,
+        0.9156101942062378
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C3E5BCD619": {
+      "text_sha256": "7a665587b0b84843b7692f0028fe86ca6f24518bade540682e5fb98e4c31e57f",
+      "bert_probabilities": [
+        0.002217728877440095,
+        0.0015039722202345729,
+        0.0045031774789094925,
+        0.04798416048288345,
+        0.9437909126281738
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9C371711C8": {
+      "text_sha256": "ec1cbd33873bd62d381ca2b4ff94e3811d290597b31de8fa6530b1e1fb5185fb",
+      "bert_probabilities": [
+        0.47167494893074036,
+        0.44099000096321106,
+        0.07991167902946472,
+        0.006116828415542841,
+        0.0013065427774563432
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-8C562A7F7A": {
+      "text_sha256": "71f5802485e5bc8c63987de6d441dffe06c6fa83e5080590ede1ad4492a7af14",
+      "bert_probabilities": [
+        0.7979658246040344,
+        0.1798664778470993,
+        0.018630970269441605,
+        0.001977421110495925,
+        0.0015592026757076383
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-E9DA6F6488": {
+      "text_sha256": "471491be3c1049cad48d3cfb1b1b8edcf1733cea84eddfe79dbd0c9d35e774b1",
+      "bert_probabilities": [
+        0.0006873065722174942,
+        0.0006479810690507293,
+        0.004002162721008062,
+        0.10015647113323212,
+        0.89450603723526
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-FC05FAE88E": {
+      "text_sha256": "14d79864d368812a7a705bce03fb90e45e8c32b44abb3835711768cc64c280f1",
+      "bert_probabilities": [
+        0.003142058616504073,
+        0.004847320262342691,
+        0.06846903264522552,
+        0.38899362087249756,
+        0.5345479249954224
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-0C28C541FD": {
+      "text_sha256": "5f6026c6fd0e7df630efd22f4deb5d3e742552a77afaa4f7c6244d103129e202",
+      "bert_probabilities": [
+        0.0021625387016683817,
+        0.0016240269178524613,
+        0.0081605464220047,
+        0.09189863502979279,
+        0.8961542844772339
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-247DE4669A": {
+      "text_sha256": "4417b221242f1f455f2bdd56b482ab75147c81e89493a21086c3992a14cdfe1c",
+      "bert_probabilities": [
+        0.6831232905387878,
+        0.22643084824085236,
+        0.07358904182910919,
+        0.012019334360957146,
+        0.004837437532842159
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-B88EE0A2C3": {
+      "text_sha256": "f84e60d16ec6dfc4a60a25c2615b622ba904cef169a9c1198eb948d4d1f0a7c5",
+      "bert_probabilities": [
+        0.008389502763748169,
+        0.16932012140750885,
+        0.7942718863487244,
+        0.027255916967988014,
+        0.0007625863654538989
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-79AC7599C1": {
+      "text_sha256": "62422cafceeb7cc14627334d419ea1430d5670a16fae89856f383f657c7f83a3",
+      "bert_probabilities": [
+        0.001250352361239493,
+        0.001476653735153377,
+        0.006417831405997276,
+        0.18194657564163208,
+        0.8089085221290588
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B83B940AF9": {
+      "text_sha256": "24db33d81dadd713f620f83cb9b42c5266336d7fc872a7f7a127538b8098e358",
+      "bert_probabilities": [
+        0.0014651238452643156,
+        0.0011976594105362892,
+        0.007212954107671976,
+        0.11047549545764923,
+        0.8796488046646118
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-8A71816CA0": {
+      "text_sha256": "990d15312f08dcf94ae3bf12c6b92b1f2c89797f8003a0368c498c1fac0aaa70",
+      "bert_probabilities": [
+        0.0008786520338617265,
+        0.000978248892351985,
+        0.008717358112335205,
+        0.19010885059833527,
+        0.7993168234825134
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A86C078ACE": {
+      "text_sha256": "b82a92f7a11f96d1a2a2d7e8a875a744c449eae96ec554c81a769918aa89193c",
+      "bert_probabilities": [
+        0.0016260456759482622,
+        0.003064581658691168,
+        0.03128840774297714,
+        0.3675305247306824,
+        0.5964903831481934
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-ACEB86700B": {
+      "text_sha256": "48780956099dcefa6a4295a221c72b57e2da4ab47a14fea9884c53da9f1e0ccb",
+      "bert_probabilities": [
+        0.0009659779025241733,
+        0.0019253040663897991,
+        0.026055915281176567,
+        0.4809166491031647,
+        0.49013617634773254
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D44E68255C": {
+      "text_sha256": "d3972729ce73ef6ffad7996586d3b3997b15f0f7d6bef5b6c278b4c92a31575f",
+      "bert_probabilities": [
+        0.0038588996976614,
+        0.0018034429522231221,
+        0.0019509225385263562,
+        0.007334401831030846,
+        0.9850522875785828
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-1763D0AA78": {
+      "text_sha256": "e47ddb4e8bed9845bc72d0a68aee4cf74f2c9c4a77fb72a42640d10a0685b0a8",
+      "bert_probabilities": [
+        0.0032559349201619625,
+        0.00413904245942831,
+        0.020508186891674995,
+        0.3109152913093567,
+        0.6611815690994263
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F0AD51EB3A": {
+      "text_sha256": "046ec47ab9b3939fb2c3d08a86954377b317bb22d3a36538ea8002ac56f8325c",
+      "bert_probabilities": [
+        0.054124340415000916,
+        0.1434537023305893,
+        0.23737682402133942,
+        0.37814465165138245,
+        0.18690051138401031
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-97F7DC0CA6": {
+      "text_sha256": "74cb0730cf0c11274e4792c38d8ac84cb96d89674255574a4d95b5821fe59f47",
+      "bert_probabilities": [
+        0.0012130019022151828,
+        0.0022102450020611286,
+        0.016608184203505516,
+        0.43394508957862854,
+        0.5460234880447388
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-63C8E26894": {
+      "text_sha256": "298aaba5839135d99b27508fb25ab3876b751ee90fdfa18ac5ea4754372d716f",
+      "bert_probabilities": [
+        0.01394982822239399,
+        0.011288800276815891,
+        0.012073704041540623,
+        0.05000755563378334,
+        0.9126800894737244
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-AEA850ED3C": {
+      "text_sha256": "51fa0c985dd5d0e3145cc9daf47bd068a98c3f05b42fbc5e711cefabb995973f",
+      "bert_probabilities": [
+        0.004897492006421089,
+        0.01063551940023899,
+        0.06686019152402878,
+        0.3947462737560272,
+        0.5228604674339294
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C7D8C2EDB5": {
+      "text_sha256": "c397d6e19d6d5e9cd6aac9f9f776de5b6ddd9cb3d7cb16f3c8e3dffd7e103bc9",
+      "bert_probabilities": [
+        0.6703789234161377,
+        0.24237242341041565,
+        0.05947371572256088,
+        0.015636026859283447,
+        0.012138807214796543
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-BDB2B52ACD": {
+      "text_sha256": "0edf8e3dae4c2b6e24aa35d65db04568edff55feee9982eacd614efa36795e89",
+      "bert_probabilities": [
+        0.0010276183020323515,
+        0.0009426893666386604,
+        0.0037231198512017727,
+        0.0823790654540062,
+        0.9119275212287903
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F4A8BCFE58": {
+      "text_sha256": "0aac524b8086e29018bba98dc9ac32147bc59ec7de79b739fed55f2ee3a70c15",
+      "bert_probabilities": [
+        0.000822331290692091,
+        0.0009551981929689646,
+        0.010858217254281044,
+        0.3529201149940491,
+        0.6344441771507263
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-38230A411A": {
+      "text_sha256": "2f153db2ea65d3e0ac959b51a838a0135f55bc6a8250d6880decb825383c9fee",
+      "bert_probabilities": [
+        0.0006947586662136018,
+        0.0009816770907491446,
+        0.009884159080684185,
+        0.24452683329582214,
+        0.7439125776290894
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C98AC98228": {
+      "text_sha256": "962dbf8c2523efd5a8ddfe0ea37937bcfe8cbd435b1f7ad5c02941fd2eb27aa5",
+      "bert_probabilities": [
+        0.0014268355444073677,
+        0.0015804741997271776,
+        0.006975098513066769,
+        0.16559721529483795,
+        0.8244203329086304
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-71F7C64CA7": {
+      "text_sha256": "9bc3bb665a4361058ee6c63336400eeb6fb69d3682716a5cc62b3322e4ed21cd",
+      "bert_probabilities": [
+        0.002483668038621545,
+        0.00412830151617527,
+        0.046617988497018814,
+        0.3975963294506073,
+        0.5491737127304077
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B492CCD94C": {
+      "text_sha256": "e5e79fb8558cb4e44f3c52139e55a9678995fc46afb8b890b053cbb3989c81e6",
+      "bert_probabilities": [
+        0.027108270674943924,
+        0.04735370725393295,
+        0.12921135127544403,
+        0.44002336263656616,
+        0.35630327463150024
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-1520A079DB": {
+      "text_sha256": "1994846921a0db6d89d817dee90c87b106b9b0b29b0ddd3e38e5ec8f7cf91be3",
+      "bert_probabilities": [
+        0.004430362023413181,
+        0.008820781484246254,
+        0.05055888742208481,
+        0.37514862418174744,
+        0.5610414147377014
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D95EA00F16": {
+      "text_sha256": "3842908ad979427ed8eac41c94215ee74badf2a04b2c6e29b623610b3559ecb8",
+      "bert_probabilities": [
+        0.0006130122928880155,
+        0.0005712488782592118,
+        0.003387022763490677,
+        0.08550155162811279,
+        0.9099271893501282
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-766CB147DC": {
+      "text_sha256": "80ca462751add89b3a8506d357ff0b425a9a8707b1355e4e217b3942c5d3efd4",
+      "bert_probabilities": [
+        0.14102835953235626,
+        0.19817577302455902,
+        0.24272774159908295,
+        0.2561449110507965,
+        0.16192315518856049
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6028E0A326": {
+      "text_sha256": "f4cf363dbeae4334fc5e84cbe4cda30b02bbe6eb66193295913b254b99381a44",
+      "bert_probabilities": [
+        0.4344013035297394,
+        0.35113978385925293,
+        0.1790618598461151,
+        0.027954041957855225,
+        0.007442950736731291
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-2BD22C2FF3": {
+      "text_sha256": "9595282e053418d6a38db145bcc3ca1f07bd22fc43867bcc0f0ebf8ff0d5c2d9",
+      "bert_probabilities": [
+        0.02429586462676525,
+        0.04525558650493622,
+        0.09264172613620758,
+        0.3131914734840393,
+        0.5246154069900513
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7D2B2D7E40": {
+      "text_sha256": "e335b23eab750c6adfb1778e07ffa6b29e44e23ec953474952bf3046956705b4",
+      "bert_probabilities": [
+        0.0011027568252757192,
+        0.0014271829277276993,
+        0.017080120742321014,
+        0.3633403778076172,
+        0.617049515247345
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-EBE2DA54B1": {
+      "text_sha256": "703fe17c70b1b8bb6a382f32a5dc8cd14d1a53f74aca16d422ff29ad7d7f496c",
+      "bert_probabilities": [
+        0.0011153030209243298,
+        0.006220316048711538,
+        0.15322624146938324,
+        0.723143458366394,
+        0.11629466712474823
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-19E7DE3A45": {
+      "text_sha256": "73d6eda8e20dc0c550ad6850787b64fba965d99f1e41b7547a39a53d5b58ea8a",
+      "bert_probabilities": [
+        0.011135080829262733,
+        0.00955755915492773,
+        0.023984944447875023,
+        0.15481102466583252,
+        0.8005114197731018
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3F945DE3EC": {
+      "text_sha256": "12c0a95d4369fade0c6c1768cb5cd76aaa17b7b055568b32aefcd9f57c312609",
+      "bert_probabilities": [
+        0.0010420025791972876,
+        0.0009939095471054316,
+        0.0060615516267716885,
+        0.13334155082702637,
+        0.8585609793663025
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E6A9DE2F8F": {
+      "text_sha256": "07b72bdf38839e2459335e3b461a13d7c558c558d19f1f525c7311d38cc8934b",
+      "bert_probabilities": [
+        0.002082716440781951,
+        0.007767949718981981,
+        0.9846720099449158,
+        0.0038494004402309656,
+        0.0016279061092063785
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "neutral"
+    },
+    "IT-44EE712A9E": {
+      "text_sha256": "fff633fcbc04543c3909f78fb8eff2dc17eb7a03e2151443d40039750330c14e",
+      "bert_probabilities": [
+        0.0008910707547329366,
+        0.0006282555405050516,
+        0.0017151309875771403,
+        0.031474582850933075,
+        0.9652909636497498
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F999088982": {
+      "text_sha256": "04639017eb68f599c5ce6308206be42976902e2c7f9e3c7261c316206a726b49",
+      "bert_probabilities": [
+        0.001883215387351811,
+        0.0029813582077622414,
+        0.0236078929156065,
+        0.3512532711029053,
+        0.6202743053436279
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-BF59D2382E": {
+      "text_sha256": "24448b91728a435760bec3d28a26cc862446e79c54bd47ed941671ac4bab4710",
+      "bert_probabilities": [
+        0.0013485017698258162,
+        0.0006870681536383927,
+        0.0017552407225593925,
+        0.023187315091490746,
+        0.9730218052864075
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3170326F6B": {
+      "text_sha256": "90a1f2102bbfa33097ae5481039e299e9ad8824d44c19e52a477d21ff79f4ce3",
+      "bert_probabilities": [
+        0.0006686908891424537,
+        0.0016251017805188894,
+        0.052129898220300674,
+        0.7448110580444336,
+        0.2007652223110199
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4FCA5E91F5": {
+      "text_sha256": "fa8fe2e3afbb9e33fe0a30d6842828b3d277a04db6e3f29224ba19c618bfb511",
+      "bert_probabilities": [
+        0.010120398364961147,
+        0.019792042672634125,
+        0.11926788836717606,
+        0.47725364565849304,
+        0.37356606125831604
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6BCC266087": {
+      "text_sha256": "399fa608b5851fdf41da605aba3daeca7d8d9c3013e20aac4abff51c41e26a3e",
+      "bert_probabilities": [
+        0.21654273569583893,
+        0.42743992805480957,
+        0.3079451024532318,
+        0.04272172972559929,
+        0.0053504714742302895
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-A8DC9EDD0B": {
+      "text_sha256": "b909a81a5510302f653d8ba59680c859a91753839a9ce32e21f1b2bf44abf879",
+      "bert_probabilities": [
+        0.011270415969192982,
+        0.0175650492310524,
+        0.06941968947649002,
+        0.3877331018447876,
+        0.514011800289154
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-5066E93A34": {
+      "text_sha256": "ccf06ae0ee778d765bb7682a2d0ed02692dd6f01cb1db996005f11c18fa56586",
+      "bert_probabilities": [
+        0.00048109918134287,
+        0.0004676605458371341,
+        0.0023908941075205803,
+        0.0879286602139473,
+        0.9087316989898682
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A728C7CA87": {
+      "text_sha256": "7ebbb8bcc674d6e531e4475154dfd9a4e62e3634c01872d901eac1df2130e990",
+      "bert_probabilities": [
+        0.07290433347225189,
+        0.05933300405740738,
+        0.10639940202236176,
+        0.275138795375824,
+        0.4862244725227356
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E49950AF5D": {
+      "text_sha256": "2a9be55f1a0b36be8457e975f5544356a2e66b8a5c03449286e757997f5b7520",
+      "bert_probabilities": [
+        0.0017821693327277899,
+        0.0022260742262005806,
+        0.012551079504191875,
+        0.24984245002269745,
+        0.7335982322692871
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3A07A0AFA0": {
+      "text_sha256": "c2f776ca4d0b8a0b852c1a9d2c031680a1ae6ed81e3ba7805c56d70f82a01389",
+      "bert_probabilities": [
+        0.0763477012515068,
+        0.12981951236724854,
+        0.300978422164917,
+        0.2915838360786438,
+        0.20127061009407043
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4C7902CBB7": {
+      "text_sha256": "c0e4d4c67119833f2c3c18cf43015d55acfc861f0cb10c570870b0d5f491ef27",
+      "bert_probabilities": [
+        0.6086928248405457,
+        0.29630595445632935,
+        0.07131170481443405,
+        0.013797953724861145,
+        0.009891485795378685
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-8BF2E08A9C": {
+      "text_sha256": "6e565b3929945765512fa612b2401ee8164f3a5cecd3c6ade31e41803befe93d",
+      "bert_probabilities": [
+        0.002125625731423497,
+        0.004176040645688772,
+        0.03199299797415733,
+        0.40873152017593384,
+        0.5529738664627075
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6404E422B5": {
+      "text_sha256": "f608eac570da5ad7c7c9fc8633726848055794be0f07f49c691baedc5115f199",
+      "bert_probabilities": [
+        0.0009000904392451048,
+        0.0008978999103419483,
+        0.006112984847277403,
+        0.1487978845834732,
+        0.8432911038398743
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-6EAAFBD9EB": {
+      "text_sha256": "58a817a570b20b84ba277278549ce06b566c2b379cf0520c37039f061631487c",
+      "bert_probabilities": [
+        0.05246159806847572,
+        0.3331415057182312,
+        0.4927643835544586,
+        0.11460017412900925,
+        0.0070324065163731575
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-454A748CD2": {
+      "text_sha256": "006b8fabc4761abee16159b138361efd18efb35b688c168ec9277ecb23f42891",
+      "bert_probabilities": [
+        0.0010678267572075129,
+        0.0009727157885208726,
+        0.004269975703209639,
+        0.09307773411273956,
+        0.9006117582321167
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-251DE24109": {
+      "text_sha256": "4c72c00496a36bdcd462e9264bf45521ec077fbffce7f45c43377a6d41355975",
+      "bert_probabilities": [
+        0.0038069456350058317,
+        0.010581827722489834,
+        0.1077653169631958,
+        0.5385879874229431,
+        0.3392578661441803
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-154359B096": {
+      "text_sha256": "98a25a928bf9357a2a4a7ef4a8e1f0ff05ae543e2e27630e0a07e5abb3fe7581",
+      "bert_probabilities": [
+        0.0010529911378398538,
+        0.0018732986645773053,
+        0.030832456424832344,
+        0.4776424169540405,
+        0.4885987937450409
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9EF647A8CE": {
+      "text_sha256": "e0d17ba79e27e43ab45c89820c39f4f6ef8e99b925b85a015da95f0ec60f4cc8",
+      "bert_probabilities": [
+        0.0007406136719509959,
+        0.000738549220841378,
+        0.004248562268912792,
+        0.10728134214878082,
+        0.8869909644126892
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-250DA49A72": {
+      "text_sha256": "150503aa88050abcc431723b11196f8d8dc8c3a9bec36447f725679a70eb6833",
+      "bert_probabilities": [
+        0.0010256923269480467,
+        0.00110495591070503,
+        0.009912505745887756,
+        0.20930561423301697,
+        0.7786512970924377
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F9CB2828D8": {
+      "text_sha256": "467d5ba7237ab1ceb583bf918c86b650449dbd98e86d95b725b15ace03793340",
+      "bert_probabilities": [
+        0.00100610195659101,
+        0.0014302621129900217,
+        0.007848772220313549,
+        0.19227147102355957,
+        0.7974433302879333
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-77C6C9242F": {
+      "text_sha256": "ef656b8dc487ceb9eb0639c898af9568c64c4108e0174cab453ab2a916c64651",
+      "bert_probabilities": [
+        0.00402675149962306,
+        0.004101915750652552,
+        0.00998325739055872,
+        0.1589723378419876,
+        0.8229157328605652
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-60BCE9F423": {
+      "text_sha256": "c798f4b707b1365a1380e17ee8fd0ed262e9b7116d5cac2207eb0c4af69a47ed",
+      "bert_probabilities": [
+        0.005563282407820225,
+        0.010682616382837296,
+        0.043986640870571136,
+        0.34859466552734375,
+        0.5911728739738464
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E0E6E1A079": {
+      "text_sha256": "1f5b51703c7cb2e75cc644ee6bc8379fdc50a0a0f4bde971e4c5c29ba3314695",
+      "bert_probabilities": [
+        0.002237229607999325,
+        0.0018912332598119974,
+        0.007304156199097633,
+        0.11537662148475647,
+        0.873190701007843
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-10E47F44F5": {
+      "text_sha256": "3f87bb2cae71a5157c80e5be89c2bbf264f8d9ff0c9af2878d42dc5f7bfb8b0d",
+      "bert_probabilities": [
+        0.0024133888073265553,
+        0.0011952115455642343,
+        0.0028659277595579624,
+        0.026909245178103447,
+        0.9666162729263306
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-CA37F65E64": {
+      "text_sha256": "5861acfe0297aed1b3811e17cd9d462bd6072fc08f2152b3ed33852581ab443b",
+      "bert_probabilities": [
+        0.019188400357961655,
+        0.053974706679582596,
+        0.11859418451786041,
+        0.3505999743938446,
+        0.45764273405075073
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7FD3F52DBD": {
+      "text_sha256": "61d7f0cbad382b34bf4aa2a2c3f32f58b42302b10320cba1598efc7f5ebdadcd",
+      "bert_probabilities": [
+        0.005972166545689106,
+        0.01575539819896221,
+        0.08451930433511734,
+        0.6993116140365601,
+        0.19444143772125244
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D36007A17A": {
+      "text_sha256": "69d105a63cb6a208443d7761130afca90b1b7c87caefdab39828a17e9e99a956",
+      "bert_probabilities": [
+        0.0007647268939763308,
+        0.000681444478686899,
+        0.003120560199022293,
+        0.07399313896894455,
+        0.9214401841163635
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2CE13C2A3D": {
+      "text_sha256": "55812048fbb68552d82af3821abe6db49530b5231b974c8848bfd35ed0b8ec06",
+      "bert_probabilities": [
+        0.0038557860534638166,
+        0.004850141704082489,
+        0.014531226828694344,
+        0.16189052164554596,
+        0.8148722648620605
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B966C98DC5": {
+      "text_sha256": "45b5c3ba43fe9fab0a84392541e119edd95c4990e81ba4126b3983949e60191d",
+      "bert_probabilities": [
+        0.005008232314139605,
+        0.009548457339406013,
+        0.06686276197433472,
+        0.3626207709312439,
+        0.5559597611427307
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-0B7530208E": {
+      "text_sha256": "070dabf67078db4991ff99d392104de7647a582f33592c29e397a0e57180abfb",
+      "bert_probabilities": [
+        0.00468661030754447,
+        0.01062755286693573,
+        0.07356811314821243,
+        0.47356975078582764,
+        0.4375480115413666
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-389B466380": {
+      "text_sha256": "14258ecc239903d6938202815b90bd1b5f4aa220fba0730dfd5a22c134e535e5",
+      "bert_probabilities": [
+        0.0008180321310646832,
+        0.0005305554368533194,
+        0.0021453597582876682,
+        0.05285734683275223,
+        0.9436487555503845
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-5BBD65BDA3": {
+      "text_sha256": "3732f4ba238ab8cba54e31d14b82f41cdc03a6635f206e3945a2fa046e932b41",
+      "bert_probabilities": [
+        0.0015370114706456661,
+        0.00161060132086277,
+        0.007296185940504074,
+        0.13425666093826294,
+        0.8552995920181274
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-46931F711F": {
+      "text_sha256": "480f3377ca20914e6ab917471735cbd99b00b84c65ce4fbd2185abac76bb823e",
+      "bert_probabilities": [
+        0.05166950821876526,
+        0.4004749655723572,
+        0.47246885299682617,
+        0.06745277345180511,
+        0.007933800108730793
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-A0EE35DAA4": {
+      "text_sha256": "5b94abef046da3836e6f462dd903b56a01db075abebb03a8a5f64606d891a696",
+      "bert_probabilities": [
+        0.0006422192673198879,
+        0.0005526586319319904,
+        0.004458281211555004,
+        0.15033560991287231,
+        0.8440111875534058
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7D90DEFCD1": {
+      "text_sha256": "19031b6637f47bb26202378ed2f768aa2fc159489f66b83ba50566ee9b8a1779",
+      "bert_probabilities": [
+        0.0005931176128797233,
+        0.0007374502602033317,
+        0.005844851955771446,
+        0.20055092871189117,
+        0.7922737002372742
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-86520F1DF1": {
+      "text_sha256": "20d40be82ff52444341717b169a5da0fb13cacc6c397119f5ca15db1cbaf0bf9",
+      "bert_probabilities": [
+        0.3374449610710144,
+        0.3679133951663971,
+        0.20814494788646698,
+        0.061524324119091034,
+        0.024972323328256607
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-F6A2260D6B": {
+      "text_sha256": "0f757d0d94aad19cc680667a2f71cb4ae39f174a67569173104ab52abff7181e",
+      "bert_probabilities": [
+        0.1170736625790596,
+        0.2417810559272766,
+        0.3151940107345581,
+        0.19932517409324646,
+        0.12662604451179504
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-98356EB0BE": {
+      "text_sha256": "26efc777ac05a7bf365244b80d9a11db1c2c5c49f2c8e5a0dc51b1285beeb8d8",
+      "bert_probabilities": [
+        0.3422478139400482,
+        0.4626137316226959,
+        0.16251221299171448,
+        0.026274481788277626,
+        0.006351721938699484
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-8DFA976FF5": {
+      "text_sha256": "13cfdada9c20273d592a2ba3d3511203526783f9bb8fc1655d49b059f7a46321",
+      "bert_probabilities": [
+        0.7438288331031799,
+        0.23312845826148987,
+        0.02140355296432972,
+        0.0012020322028547525,
+        0.00043706822907552123
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-D9ECD5E403": {
+      "text_sha256": "deeb88baf8164502ebcd0ae6086988505bf4c64b240bdd45425107c3dc701c3d",
+      "bert_probabilities": [
+        0.0005508961621671915,
+        0.001022118842229247,
+        0.015478746965527534,
+        0.48705610632896423,
+        0.49589216709136963
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9D8B658715": {
+      "text_sha256": "17e2d2ad4ac3e70dc7c3aa24b75e68a229535483ee7543bbf2209033e7d7b7d4",
+      "bert_probabilities": [
+        0.0024374534841626883,
+        0.005210836883634329,
+        0.06724589318037033,
+        0.5246354937553406,
+        0.4004703164100647
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-EDE93BB371": {
+      "text_sha256": "5ea4104ada632f2e296031f6a3e63e686def7c2e8fc1e5b82378e242fdfe9b2f",
+      "bert_probabilities": [
+        0.0012368571478873491,
+        0.0015677332412451506,
+        0.009021027944982052,
+        0.20572826266288757,
+        0.7824461460113525
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2B3285E651": {
+      "text_sha256": "d5e5a8fa270838dda877d17e4e53e0117420dd33e5ff9dfb552db9e7e42e00c4",
+      "bert_probabilities": [
+        0.00151062139775604,
+        0.001248977379873395,
+        0.005882542580366135,
+        0.1290998011827469,
+        0.8622580766677856
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C9097D6C11": {
+      "text_sha256": "2b6b71963a1a5e59ed51ac5f48f127c65238def17d91468df74abc6145543ef8",
+      "bert_probabilities": [
+        0.029995135962963104,
+        0.0226786807179451,
+        0.04477313533425331,
+        0.23099441826343536,
+        0.6715586185455322
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-47890D38DC": {
+      "text_sha256": "2798104a41f1e71cbcaff34c406607f0fb5c5cfea18cec4fddd785de59b861d5",
+      "bert_probabilities": [
+        0.9247377514839172,
+        0.06200634688138962,
+        0.0071518560871481895,
+        0.0018825907027348876,
+        0.004221430514007807
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-10E75174B1": {
+      "text_sha256": "38fb50e3509e469c1ea5e01354ca98e0c811653a5986279055a67bb20583bebe",
+      "bert_probabilities": [
+        0.10117822140455246,
+        0.4118318557739258,
+        0.4336489140987396,
+        0.04966619983315468,
+        0.003674895968288183
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-4CA6525B2E": {
+      "text_sha256": "c34422357b422bd91d2f3a3c17644b1624eb4e20d5481818b10cea11fadff8c5",
+      "bert_probabilities": [
+        0.7333903312683105,
+        0.2282639443874359,
+        0.023754844442009926,
+        0.005556201096624136,
+        0.009034634567797184
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-BCC90D1DC6": {
+      "text_sha256": "1780988b405a34353d8c392b592029c6a9f39d2fcaac7588659f1dced4fa30d8",
+      "bert_probabilities": [
+        0.0007767827482894063,
+        0.0011069418396800756,
+        0.008800889365375042,
+        0.24787253141403198,
+        0.7414429187774658
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-8F35256242": {
+      "text_sha256": "8561b66237cff3df56093ef5d9fc62c3b638fd3e0a2e7218578684ebb047cf24",
+      "bert_probabilities": [
+        0.00366568542085588,
+        0.016372062265872955,
+        0.10976231098175049,
+        0.5845577716827393,
+        0.28564217686653137
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-68948ACED2": {
+      "text_sha256": "7270efd0510708f0ca088dce2d86ec9d911c557b7ef81538626b7af463400480",
+      "bert_probabilities": [
+        0.0019873741548508406,
+        0.002519995905458927,
+        0.015214831568300724,
+        0.2508264183998108,
+        0.7294514179229736
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-53EBC140AF": {
+      "text_sha256": "57b5c9c57c96684037e189edbd8669ac4d3b33b0a21969d509b161d196102603",
+      "bert_probabilities": [
+        0.0006461507291533053,
+        0.00043970352271571755,
+        0.0015692480374127626,
+        0.027832582592964172,
+        0.9695122838020325
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-085E8D01BB": {
+      "text_sha256": "505f9390018bf6a22ce07152fcabaf9236f648f00d64b23620fbaf5c0c609c86",
+      "bert_probabilities": [
+        0.11013345420360565,
+        0.263394296169281,
+        0.354099839925766,
+        0.19771574437618256,
+        0.07465673983097076
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-1A8F083DA7": {
+      "text_sha256": "79b3c7057511b708f815c89213b45b9bc9b5910a4ef58719dbd5d735c06d0fd3",
+      "bert_probabilities": [
+        0.0005013162735849619,
+        0.0004464556113816798,
+        0.0021655727177858353,
+        0.048414457589387894,
+        0.9484722018241882
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4E8E170213": {
+      "text_sha256": "45be53eb149b192c14170d0f2cbc6176efdbb64d06ccf65a2c871d95f2fff8ee",
+      "bert_probabilities": [
+        0.004875070881098509,
+        0.011663488112390041,
+        0.05429341271519661,
+        0.5163981914520264,
+        0.4127698540687561
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-1C5C4736B5": {
+      "text_sha256": "e7e50cf444d0719d51001c1555686b448dfab6be463ac0a5909194e442630d75",
+      "bert_probabilities": [
+        0.11885330826044083,
+        0.5332320332527161,
+        0.3133504092693329,
+        0.03181196376681328,
+        0.002752305706962943
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-E56C674B9E": {
+      "text_sha256": "c288d53188b7f786f5576d5686ff6a67cf1bc4d9694eaa4d5f674c790fe9a88d",
+      "bert_probabilities": [
+        0.5793166160583496,
+        0.3301442265510559,
+        0.07522353529930115,
+        0.010632950812578201,
+        0.004682647529989481
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-57710E2A97": {
+      "text_sha256": "77aee8f63be0d243567c43d30f12c2c476123ed538f67de2fef0df2834cbe8ec",
+      "bert_probabilities": [
+        0.010827362537384033,
+        0.9374341368675232,
+        0.04608287662267685,
+        0.004127623979002237,
+        0.0015279230428859591
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-BBAF259161": {
+      "text_sha256": "a4065227b7e64acfa1cd7e4e9b5743d877cac35816f54d816d2748d60331b616",
+      "bert_probabilities": [
+        0.18161243200302124,
+        0.46162840723991394,
+        0.289305180311203,
+        0.05639398843050003,
+        0.011060168966650963
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-EBEC01D917": {
+      "text_sha256": "77a253f69d61062514743a6397fe60c8873912de7260f3f34afd6e873f59885e",
+      "bert_probabilities": [
+        0.025125671178102493,
+        0.014769923873245716,
+        0.02483522891998291,
+        0.16831587255001068,
+        0.7669532299041748
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-B17C93482A": {
+      "text_sha256": "d002ef1150660a9945a291ad93d3522f398e1d85a98de95601f62adfa69751da",
+      "bert_probabilities": [
+        0.395984023809433,
+        0.5077833533287048,
+        0.09075332432985306,
+        0.004665842745453119,
+        0.0008135073003359139
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-17E74B9375": {
+      "text_sha256": "707be0a6752923448365ccc0e24afc341ae70dbd37c76790b68c93ad15399deb",
+      "bert_probabilities": [
+        0.8099018931388855,
+        0.15590791404247284,
+        0.025557860732078552,
+        0.004249987192451954,
+        0.0043823919259011745
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-A8AB75E15D": {
+      "text_sha256": "0562634d50846304f3d51f306cffeea629b6d077bbff452a869c7021f29aaed8",
+      "bert_probabilities": [
+        0.0009928448125720024,
+        0.0009444780880585313,
+        0.004675574600696564,
+        0.08979399502277374,
+        0.903593122959137
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E5950E3530": {
+      "text_sha256": "e535edd4477e8f5f51a02ad1004cc2ffdf8b3e004feebfe1151211947d8cda78",
+      "bert_probabilities": [
+        0.0015385514125227928,
+        0.002255735220387578,
+        0.011664305813610554,
+        0.21000882983207703,
+        0.7745326161384583
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-59BC3B6550": {
+      "text_sha256": "90191bf8dd5d56af4517a72a997f0a353e99b5b016b0876d6a208effa377d176",
+      "bert_probabilities": [
+        0.0008974268566817045,
+        0.0008871906320564449,
+        0.0033797002397477627,
+        0.07392734289169312,
+        0.9209083914756775
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A155C03D66": {
+      "text_sha256": "a26d4781b8c2db8a713abe48833419ffc5920b047f21622474925f3dbbcd97a6",
+      "bert_probabilities": [
+        0.0011176710249856114,
+        0.0009808308677747846,
+        0.003459705039858818,
+        0.08102557808160782,
+        0.9134162068367004
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C2033DC24F": {
+      "text_sha256": "dadeafcd4fea1bf7e0708f265aa003666325ceb8ce3ce47d02f5dffca7d59b09",
+      "bert_probabilities": [
+        0.0005806877743452787,
+        0.0005212782416492701,
+        0.0019491856219246984,
+        0.0547136589884758,
+        0.9422352313995361
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-48351B7CBE": {
+      "text_sha256": "2d2e66f1a3751bba9cb57e9867d6525b4a884e2b42c5f89127994d288dd16b0b",
+      "bert_probabilities": [
+        0.0004939957289025187,
+        0.0022801170125603676,
+        0.061619315296411514,
+        0.7605941295623779,
+        0.1750124841928482
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-341E235724": {
+      "text_sha256": "8bd0f6dd59d93b8073db4466a2b7ebbec497c189f55e983ad617e125691ab445",
+      "bert_probabilities": [
+        0.000996604561805725,
+        0.0009146509109996259,
+        0.0034307341556996107,
+        0.0955917239189148,
+        0.8990663290023804
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D1E24DD558": {
+      "text_sha256": "88f1b356f85aaec2efaa7c29f97ec02801724657b19feff00acb622acbad63c5",
+      "bert_probabilities": [
+        0.00171956536360085,
+        0.0010320841101929545,
+        0.002320200437679887,
+        0.030695773661136627,
+        0.9642324447631836
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2287D9FA2E": {
+      "text_sha256": "b4669ecb23af1219c1d1fe51b7ea114399f70358978ea2085a83a0510f734f39",
+      "bert_probabilities": [
+        0.001050217542797327,
+        0.0013322267914190888,
+        0.016061659902334213,
+        0.3051743507385254,
+        0.6763815879821777
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-DA5D177334": {
+      "text_sha256": "90727048e8565bd8df8b7eb06fa164e268771d4bff255b80b404f2c95447ab1d",
+      "bert_probabilities": [
+        0.0007720841676928103,
+        0.0006203796365298331,
+        0.002574211684986949,
+        0.06169770285487175,
+        0.9343355894088745
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C0741C9958": {
+      "text_sha256": "d795e243ac25acad44d071ba15b535d4c4a748bbf78f3348af737eee8d8dac70",
+      "bert_probabilities": [
+        0.0023549317847937346,
+        0.0017701421165838838,
+        0.0030854959040880203,
+        0.02189493179321289,
+        0.9708945155143738
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4018A75363": {
+      "text_sha256": "569f5bba2a44b79d13ae224b83f577e062be5e8f2e4c6d5781caf9cbb373bf32",
+      "bert_probabilities": [
+        0.001463228720240295,
+        0.0012685466790571809,
+        0.0033046745229512453,
+        0.06932704150676727,
+        0.9246365427970886
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2D851BB5E7": {
+      "text_sha256": "30ad9c8efdb0429b22acda550a36446b216a83a05bc640a72cbb1a9b59b980a9",
+      "bert_probabilities": [
+        0.19386090338230133,
+        0.34256425499916077,
+        0.2697106897830963,
+        0.13492116332054138,
+        0.058943040668964386
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-EE579EB4ED": {
+      "text_sha256": "39cbac061572e98c78adbffb033dce96149724688a04006ce9998577f5be74cb",
+      "bert_probabilities": [
+        0.0007970722508616745,
+        0.0011113062500953674,
+        0.007451261393725872,
+        0.21516264975070953,
+        0.7754776477813721
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3A3D271D41": {
+      "text_sha256": "22b934fc24bfd98e4e8656735cabb5fdfee172bf4b847e7a9c4bcbdf8a1ca51c",
+      "bert_probabilities": [
+        0.011013944633305073,
+        0.18149231374263763,
+        0.6563425064086914,
+        0.14668510854244232,
+        0.0044660260900855064
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-16ECFF9BDD": {
+      "text_sha256": "9e82a1abe9e32192dfef9d79d323f2bfba7c7b725673f1c77de748bc0c1f24d4",
+      "bert_probabilities": [
+        0.003687871154397726,
+        0.011665941216051579,
+        0.07944436371326447,
+        0.4816216230392456,
+        0.42358022928237915
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9514E19C5F": {
+      "text_sha256": "15f744e959115f14f9de3bf74c7dfc7863e2680663bc94c0e01edc8da6c0d13d",
+      "bert_probabilities": [
+        0.1319749355316162,
+        0.46522700786590576,
+        0.32748663425445557,
+        0.06456238031387329,
+        0.010749053210020065
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-FBD38615C4": {
+      "text_sha256": "f7b1a402c39a443a0e526d9c97e81b1bcbe8ca6288a3cc63558ac00b3838f507",
+      "bert_probabilities": [
+        0.01473706029355526,
+        0.016287729144096375,
+        0.03589048981666565,
+        0.2029615044593811,
+        0.7301232814788818
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-78F9E24662": {
+      "text_sha256": "1ea1f37d866658ea66d99213565ad8e05ecfc658cc18417d6945f3ae1dae4b58",
+      "bert_probabilities": [
+        0.002006422495469451,
+        0.0014265496283769608,
+        0.004414855502545834,
+        0.06225261837244034,
+        0.9298995733261108
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-35DAA0F15F": {
+      "text_sha256": "dfe437615b89a4eb6a259499c33eed0a82c39b7a6046b0b6d364737e71d43083",
+      "bert_probabilities": [
+        0.001403541537001729,
+        0.001129593700170517,
+        0.002914965385571122,
+        0.05511148273944855,
+        0.9394403696060181
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-8FFEAD539C": {
+      "text_sha256": "46e3b0d72e212b8fbd40b56fb1f6451ebcc18e0adceb97586d1343e306236a53",
+      "bert_probabilities": [
+        0.03342455253005028,
+        0.03485524281859398,
+        0.041839294135570526,
+        0.23891155421733856,
+        0.6509693264961243
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-1011FCDB59": {
+      "text_sha256": "2e27f397ebdd57ac894dcedfd6286e3d213ba731609982d878b22adff8791475",
+      "bert_probabilities": [
+        0.0011607598280534148,
+        0.0008816916379146278,
+        0.003718721680343151,
+        0.06287794560194016,
+        0.9313608407974243
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A60CC62A74": {
+      "text_sha256": "75c83c099973442ddf10cc9e1e82e883031e1235b5a2e884c9d24a6fa0905a71",
+      "bert_probabilities": [
+        0.0005650842795148492,
+        0.0005365518154576421,
+        0.0034629525616765022,
+        0.08036148548126221,
+        0.9150739312171936
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F18FED9E5A": {
+      "text_sha256": "3278e771b8d41988147b4a13abd35021caa2e7125286be9a45dd6a6cca31cfe8",
+      "bert_probabilities": [
+        0.5684688687324524,
+        0.34343796968460083,
+        0.07679323107004166,
+        0.008293637074530125,
+        0.00300635676831007
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-00E030B523": {
+      "text_sha256": "1325fb1df8d11ef0d45aeb9ee66f3a33a2868399e2ea3b9cea58e095f726f7ea",
+      "bert_probabilities": [
+        0.0007369935628958046,
+        0.0010763099417090416,
+        0.009552370756864548,
+        0.23765462636947632,
+        0.7509796619415283
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-D7F15B81F7": {
+      "text_sha256": "33972dd8d0f667be0a1915c8e762c42d1cd1d617c32a7930baf880736ce9488a",
+      "bert_probabilities": [
+        0.0010380931198596954,
+        0.001135830651037395,
+        0.00723861763253808,
+        0.17232827842235565,
+        0.8182591795921326
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-4102886DE1": {
+      "text_sha256": "119059684c66ef449d0698d17af9c3436e1133962ecb49952fab366b7444b176",
+      "bert_probabilities": [
+        0.23811864852905273,
+        0.5701522827148438,
+        0.16042150557041168,
+        0.02312803827226162,
+        0.008179455064237118
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-FF2F2BB47B": {
+      "text_sha256": "053fc7fdbe9db66828a71fa8f190a7cec2ce5e3da6332d4a13177d3804929d8d",
+      "bert_probabilities": [
+        0.0014848723076283932,
+        0.0013051675632596016,
+        0.003539839293807745,
+        0.07332709431648254,
+        0.9203429818153381
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2B8422989C": {
+      "text_sha256": "e8ab33f9fb6ffa35eaef47e2107b389dd611074ad598d66f819fcc13d88e3470",
+      "bert_probabilities": [
+        0.0011427561985328794,
+        0.0006693899631500244,
+        0.001441065571270883,
+        0.01962079294025898,
+        0.9771260023117065
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2820AF1DE4": {
+      "text_sha256": "9552325752de429550dda51c24fe493ec200200b6c0a2908b7e9d01e85d1d038",
+      "bert_probabilities": [
+        0.03115166909992695,
+        0.02142861858010292,
+        0.029301805421710014,
+        0.18376874923706055,
+        0.7343491315841675
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-34AAA09927": {
+      "text_sha256": "d43d5bb7fcc432fa887b53d49b3e5bfcff4f30846ed73b83d957e6b1f544d2f4",
+      "bert_probabilities": [
+        0.0008088565664365888,
+        0.0006714192568324506,
+        0.00229561235755682,
+        0.047891244292259216,
+        0.9483328461647034
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F464299E1C": {
+      "text_sha256": "f81bb12b19c2acf2034085ffe7acb39618d3c307d900729df1dc759747e2d7eb",
+      "bert_probabilities": [
+        0.0005958772962912917,
+        0.0005906805163249373,
+        0.0032586974557489157,
+        0.12200535833835602,
+        0.8735493421554565
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-7142839235": {
+      "text_sha256": "81037132e3a56871ce833e506022f2b7dbb084141558e8bd5ce353e377d45eaf",
+      "bert_probabilities": [
+        0.024569392204284668,
+        0.055382926017045975,
+        0.17326635122299194,
+        0.45029351115226746,
+        0.29648783802986145
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-97EF0007A9": {
+      "text_sha256": "6ff9feeff8cc07177bc70cfb2a0b3f89632dc21cef7a8d7842f9652a9d3717cc",
+      "bert_probabilities": [
+        0.0006225609104149044,
+        0.0010751328663900495,
+        0.014633974991738796,
+        0.37098458409309387,
+        0.6126837730407715
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-DA7682445E": {
+      "text_sha256": "d3aec84ff6fab32342d99f6e5f12d2811cb6afc96540b314d09f6ef047e66fcd",
+      "bert_probabilities": [
+        0.8661760091781616,
+        0.11434215307235718,
+        0.016375703737139702,
+        0.001857255818322301,
+        0.001248843502253294
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-98EC1C5AAE": {
+      "text_sha256": "bf75b527069ba4d0b86d8505d970b92ad75121bc5ad72485d32ffdad1291fc60",
+      "bert_probabilities": [
+        0.0008164586615748703,
+        0.0006831500213593245,
+        0.002043643733486533,
+        0.04839424788951874,
+        0.948062539100647
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-913406E6FA": {
+      "text_sha256": "ce1966d77c648ac108ccf2dd8fafc843e62704f881a676f744f323f9f8d7cfc1",
+      "bert_probabilities": [
+        0.0055666593834757805,
+        0.005958400666713715,
+        0.01197846606373787,
+        0.1259440928697586,
+        0.8505523800849915
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A78815BA12": {
+      "text_sha256": "b18fb6b395f07d376d049647439e7df0b18bb0fb7e91501a36f81127167720a2",
+      "bert_probabilities": [
+        0.33346065878868103,
+        0.3643815815448761,
+        0.22478826344013214,
+        0.053563326597213745,
+        0.02380608208477497
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-4DBFE0C655": {
+      "text_sha256": "5a9de953df6ceee2563133d2bcd7631b302a9146a1546924579b462c732fa1e3",
+      "bert_probabilities": [
+        0.003575843758881092,
+        0.0033547189086675644,
+        0.006285861600190401,
+        0.0799618661403656,
+        0.9068217277526855
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-65B5840C49": {
+      "text_sha256": "c2b0abe14bcc6ccd7f220356bd82ab1afa01e2d7f7475b2b9eb6092bd6d0c71c",
+      "bert_probabilities": [
+        0.19523058831691742,
+        0.2708664834499359,
+        0.2635333240032196,
+        0.1959810107946396,
+        0.0743885412812233
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-ABB3CC126A": {
+      "text_sha256": "337365f1d30cb346184bca6c81d9a6d7ecb5ba2143e0b20651c7e7ca7459df38",
+      "bert_probabilities": [
+        0.19118450582027435,
+        0.36515915393829346,
+        0.31316787004470825,
+        0.10734326392412186,
+        0.023145189508795738
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-79454F1193": {
+      "text_sha256": "e3b77e1c029a0ac8b525ad100efdd5da89fc35f1ee6b16d7fa62720c3932066f",
+      "bert_probabilities": [
+        0.0007628292660228908,
+        0.0008502057753503323,
+        0.006535022519528866,
+        0.16856332123279572,
+        0.82328861951828
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-28047B8C7B": {
+      "text_sha256": "823a0132ea74a9a4d676a4d87e8a9c078c7353da370241da3fa6cef196ec7780",
+      "bert_probabilities": [
+        0.8320044875144958,
+        0.1371714025735855,
+        0.020611435174942017,
+        0.005052162334322929,
+        0.005160434637218714
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-B458B4F110": {
+      "text_sha256": "4a20b805138d675986e3e2e5f64cce70e7af08d939a130d6e0c1da07e44fc4c6",
+      "bert_probabilities": [
+        0.001277196453884244,
+        0.0016611783066764474,
+        0.009009397588670254,
+        0.17529296875,
+        0.812759280204773
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-5BF7731563": {
+      "text_sha256": "e3a06ce29b2e467f5739db83228b12c7f2bc9778269e1f369ac9666dc421e248",
+      "bert_probabilities": [
+        0.0008930956246331334,
+        0.001122383400797844,
+        0.009794528596103191,
+        0.2026531845331192,
+        0.7855368256568909
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-AC4AC82C0B": {
+      "text_sha256": "61d2ad8a73d017be395c221f404f7df5b8796a6a255e5be1615cadd0223daa19",
+      "bert_probabilities": [
+        0.6225285530090332,
+        0.33189719915390015,
+        0.03702126070857048,
+        0.0050396849401295185,
+        0.0035132381599396467
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-F0115FF245": {
+      "text_sha256": "8d8cbbe2cdb59605a941162eafd27d1a3341a6e70a5e1cbe9454c701fcf349e9",
+      "bert_probabilities": [
+        0.8204324245452881,
+        0.1140613928437233,
+        0.020632749423384666,
+        0.010824250988662243,
+        0.03404916822910309
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-3ED386B482": {
+      "text_sha256": "ea5c53a8bf898791a25d2aa6cc12603c45ad981495dbaee94cd66d6de92e0a07",
+      "bert_probabilities": [
+        0.0024119983427226543,
+        0.0030357239302247763,
+        0.017488623037934303,
+        0.23109915852546692,
+        0.745964527130127
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-FDC5874790": {
+      "text_sha256": "a75893a6f447c48bef7c812c80163f9019857720a2aa7be6362294fec0a6dd15",
+      "bert_probabilities": [
+        0.058523960411548615,
+        0.05802229046821594,
+        0.06926373392343521,
+        0.23777197301387787,
+        0.5764180421829224
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-6C5626731A": {
+      "text_sha256": "198b03dc9dd9d6c0643dd00f4bc16e49fc2c86c830a341977a82ec6bf757d0b9",
+      "bert_probabilities": [
+        0.006858374457806349,
+        0.008448142558336258,
+        0.018014702945947647,
+        0.14867472648620605,
+        0.8180040717124939
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-CF6E547950": {
+      "text_sha256": "2a4c634d0ba39436f4d7cf90de6cdc46a27a09e40d49157cef55c41dcd205646",
+      "bert_probabilities": [
+        0.004729702603071928,
+        0.006894578225910664,
+        0.019740886986255646,
+        0.2113513946533203,
+        0.7572834491729736
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-CBEF60C6DA": {
+      "text_sha256": "6f6a8369c51cfdc3a38841ae3ef1f63af29366bfdc551e35489ef6c27c40c079",
+      "bert_probabilities": [
+        0.05956818908452988,
+        0.44738754630088806,
+        0.40296876430511475,
+        0.08258772641420364,
+        0.0074876523576676846
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-B5A5BF31A3": {
+      "text_sha256": "83446575e990d167205311aca90726fa7647e9ac6f775fc9f6e05a10dac74c2f",
+      "bert_probabilities": [
+        0.3088977634906769,
+        0.5035299062728882,
+        0.164962038397789,
+        0.019117124378681183,
+        0.0034931721165776253
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-D089ED9479": {
+      "text_sha256": "f2cd851e9787ba42852de01cd9e1aab8454a89592497701347d5cc0a1fafd66c",
+      "bert_probabilities": [
+        0.0014649651711806655,
+        0.001540071563795209,
+        0.004851266276091337,
+        0.08232693374156952,
+        0.9098168015480042
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-82DD35AE01": {
+      "text_sha256": "a3c4e8a35fba0ac96d370db5a1f1d5bccee9ce2bfc63aaa333b17f9353c87fb2",
+      "bert_probabilities": [
+        0.013268505223095417,
+        0.9808105826377869,
+        0.0038680408615618944,
+        0.000792754755821079,
+        0.0012602073838934302
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-5A308BED03": {
+      "text_sha256": "8e29942f20f6c398db95e95385300ce082517873eb18f83d99a7e5a0654f7fd6",
+      "bert_probabilities": [
+        0.6782329678535461,
+        0.23491328954696655,
+        0.05756935104727745,
+        0.016668878495693207,
+        0.012615450657904148
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-047E429430": {
+      "text_sha256": "fc9f69ca67b8bf361c63e4414397c6a3a2392192965c95386f7707503fb81287",
+      "bert_probabilities": [
+        0.24468283355236053,
+        0.381052166223526,
+        0.2112455815076828,
+        0.1038249284029007,
+        0.05919450521469116
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-8197343946": {
+      "text_sha256": "1955e49a451255b803c4d6a1e5149d79970a35f9983228fe7da3bf609e6a7d26",
+      "bert_probabilities": [
+        0.442990779876709,
+        0.36485588550567627,
+        0.12218604236841202,
+        0.0619661770761013,
+        0.008001149632036686
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-4585DD4EE1": {
+      "text_sha256": "c9c0c12eccc159748dc3f953d1ffec17d538c8ebf50a501da917a54330df8198",
+      "bert_probabilities": [
+        0.09548120945692062,
+        0.14356927573680878,
+        0.17308278381824493,
+        0.29696333408355713,
+        0.2909034490585327
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-E5E21633BC": {
+      "text_sha256": "9a40ce625c8d6d31dbfbc0de7c3f9f29c6c26cc7f1ce94dceac0449132666793",
+      "bert_probabilities": [
+        0.024941513314843178,
+        0.32482820749282837,
+        0.5905678868293762,
+        0.05589667335152626,
+        0.0037656831555068493
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-66C13BA200": {
+      "text_sha256": "656fd7b40709fc7380231e0bdd220e2b16e7fba979a6261dfde80059b00aaf63",
+      "bert_probabilities": [
+        0.1340172290802002,
+        0.2952117323875427,
+        0.3660500645637512,
+        0.16120199859142303,
+        0.04351896047592163
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-2D2B1A63C3": {
+      "text_sha256": "ee05dbf8f22d153bfa2b3e97049ed8de35111ddb28e51c7430a6aa26007f8564",
+      "bert_probabilities": [
+        0.17830538749694824,
+        0.18197467923164368,
+        0.16458192467689514,
+        0.22460812330245972,
+        0.2505299150943756
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-F43D6F77B2": {
+      "text_sha256": "050bbae94e967d6513315de808ab3936f7f5ea9586ff6779eaab733509b625e4",
+      "bert_probabilities": [
+        0.0062837363220751286,
+        0.03621913865208626,
+        0.32123085856437683,
+        0.5486875772476196,
+        0.08757875114679337
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2F25CC7400": {
+      "text_sha256": "80acb99123e89520a348b34ad7d23b9e3d3f5f0e5a0f54dfd3685f5d15e499ec",
+      "bert_probabilities": [
+        0.0011217863066121936,
+        0.00222263066098094,
+        0.018869245424866676,
+        0.32656896114349365,
+        0.6512173414230347
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-C02FD3AFEC": {
+      "text_sha256": "6b2e9d72febd3f06d65dfe993391601212072af6889daea42bf88a9cf25529a4",
+      "bert_probabilities": [
+        0.0799739807844162,
+        0.08246857672929764,
+        0.1223168820142746,
+        0.2143716961145401,
+        0.5008688569068909
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-5C2ACD88E2": {
+      "text_sha256": "97a1127ef1b4ac9756ada430d4c7f52d7a8d4183de9278ebb9a5eba842b544c2",
+      "bert_probabilities": [
+        0.6026590466499329,
+        0.26802313327789307,
+        0.06216984614729881,
+        0.0259992815554142,
+        0.04114869236946106
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-D172627655": {
+      "text_sha256": "6d50f42ae767c1d669b9679538a5f11de83baa5bef43ced5bb00240b9751231f",
+      "bert_probabilities": [
+        0.012363404035568237,
+        0.14941877126693726,
+        0.5407068729400635,
+        0.277776300907135,
+        0.019734686240553856
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-7BD13FC0D1": {
+      "text_sha256": "ffb620dc550116dc0ab86f3a508ee7021af6882b42ec1dc455a012416e1fef9b",
+      "bert_probabilities": [
+        0.0007696507382206619,
+        0.0006751934997737408,
+        0.0017667089123278856,
+        0.039451632648706436,
+        0.9573367834091187
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A29E29C535": {
+      "text_sha256": "424ffc6beb7a73a0c240eef2c60323e19f750fa4f4c930c0204d19b6abfe336e",
+      "bert_probabilities": [
+        0.059590112417936325,
+        0.0628800243139267,
+        0.11677879095077515,
+        0.32744869589805603,
+        0.4333023726940155
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-2EDF88FDCC": {
+      "text_sha256": "c9c7e49bc8a27b5aeff76f14097656d0ade23644efd04ce22f54861659da7999",
+      "bert_probabilities": [
+        0.005022126249969006,
+        0.006661687046289444,
+        0.015725987032055855,
+        0.14705103635787964,
+        0.8255391716957092
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-EEE8FB5717": {
+      "text_sha256": "9c777a00f8fad20abcaf2ccf725a7a4cf0e0e3aa5c631e9590f111928cf0f3b4",
+      "bert_probabilities": [
+        0.8028966784477234,
+        0.1734963059425354,
+        0.01741010695695877,
+        0.0033900963608175516,
+        0.0028068257961422205
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-B7E0216422": {
+      "text_sha256": "df484a2a7165f0d267b9c8d4e027e8d86c00cdd8e4f24139c03c87f05dc7a158",
+      "bert_probabilities": [
+        0.057077087461948395,
+        0.14115874469280243,
+        0.1740478277206421,
+        0.3163414001464844,
+        0.31137508153915405
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-BBC1FF6E32": {
+      "text_sha256": "c285270895e66c484eb6c3ecf5eccc341c47a7338edfd164eba0a074695be897",
+      "bert_probabilities": [
+        0.6545994281768799,
+        0.24002820253372192,
+        0.07178322970867157,
+        0.019779112190008163,
+        0.01380997896194458
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-88BAE4121A": {
+      "text_sha256": "78c163385d6d3c0b514db744e873ea20ef3329475a6741b976174328aa569270",
+      "bert_probabilities": [
+        0.3330056667327881,
+        0.3330392837524414,
+        0.19734662771224976,
+        0.09498704969882965,
+        0.04162135347723961
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-2FAA491705": {
+      "text_sha256": "e9035acf7e9758793b298e92f0e07475f14ef1154410b0b602533a071202d235",
+      "bert_probabilities": [
+        0.3575877249240875,
+        0.22554689645767212,
+        0.1535913199186325,
+        0.13987213373184204,
+        0.123401939868927
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-B94981545C": {
+      "text_sha256": "f58f2cee2fca2e2bab09ed360d8bfb45aa0595af9d358063a615c43d5097201f",
+      "bert_probabilities": [
+        0.11729061603546143,
+        0.34752988815307617,
+        0.2910667657852173,
+        0.19249272346496582,
+        0.0516199953854084
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-842DAD9EB2": {
+      "text_sha256": "12b6d6289dd7fd4e14821abaff500975c7664d31b41086e408236488faa8ac4a",
+      "bert_probabilities": [
+        0.26430079340934753,
+        0.365729957818985,
+        0.21160757541656494,
+        0.10336747765541077,
+        0.05499422177672386
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-3DF15391C2": {
+      "text_sha256": "012b51b91c4fd44587a8088f5f10b22f8a19a44c0881bedc2467ebd28dfd6a06",
+      "bert_probabilities": [
+        0.11982961744070053,
+        0.28740668296813965,
+        0.3544827401638031,
+        0.19476264715194702,
+        0.0435183010995388
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-9717DEF5FB": {
+      "text_sha256": "87fd926c289970b7a61889fbf13060131768d6486f1c53335bbd38d97bfd2ed4",
+      "bert_probabilities": [
+        0.3431510925292969,
+        0.4017035961151123,
+        0.1850089579820633,
+        0.05450749769806862,
+        0.015628883615136147
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-3230E5BD28": {
+      "text_sha256": "2746a89edaf6bf3bd8070f71e2f267e16d359c8a06d4758224f82497f23501a0",
+      "bert_probabilities": [
+        0.0009973575361073017,
+        0.0010941708460450172,
+        0.004007637035101652,
+        0.0907740369439125,
+        0.9031267762184143
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-030FEE9251": {
+      "text_sha256": "2edc33e0bb83d7d6f8977f3de13492621e7c48a33a3ceb2f0be684168f7e5f67",
+      "bert_probabilities": [
+        0.15655438601970673,
+        0.28891363739967346,
+        0.2853710651397705,
+        0.19652624428272247,
+        0.07263466715812683
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-CC09902913": {
+      "text_sha256": "73e3d8d89727f5a50dc7b7f030242207cbdd496990f955be0fa81d4b65d0e573",
+      "bert_probabilities": [
+        0.0018857046961784363,
+        0.005141788627952337,
+        0.040157414972782135,
+        0.5689390301704407,
+        0.3838760256767273
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-3AAC14C751": {
+      "text_sha256": "41bf0173b90948b1eaec80012036a45ddfcc29df9c01092c82f8f4b8b3b28a82",
+      "bert_probabilities": [
+        0.23179388046264648,
+        0.051591772586107254,
+        0.034481681883335114,
+        0.10378479957580566,
+        0.57834792137146
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "negative"
+    },
+    "IT-981CDB0A85": {
+      "text_sha256": "96f9715365ba535e97a4db1e00d1d99c1348a3e2693e5d889781827713166d84",
+      "bert_probabilities": [
+        0.5770781636238098,
+        0.3129945695400238,
+        0.08094551414251328,
+        0.016821108758449554,
+        0.012160646729171276
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-7C69F49EA6": {
+      "text_sha256": "87be702caea771e3e4c2523a8777f1ae231f58d83edb4dfef5198f6c249f2d56",
+      "bert_probabilities": [
+        0.9647851586341858,
+        0.03011218085885048,
+        0.003072315128520131,
+        0.0012897950364276767,
+        0.0007406020304188132
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-B2B5088ECF": {
+      "text_sha256": "4d2039686e12a77272d2c4733c608e11111b770073bad0774bfbb2b7d63003e5",
+      "bert_probabilities": [
+        0.6233382821083069,
+        0.2780459523200989,
+        0.05278442054986954,
+        0.02153678610920906,
+        0.024294603615999222
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-F8D8653857": {
+      "text_sha256": "491bc5e554a03a3ec695fbb9f3c07c640510a54b78b3b6c8fde6971b670ac473",
+      "bert_probabilities": [
+        0.1786634624004364,
+        0.49464860558509827,
+        0.24439148604869843,
+        0.06888236105442047,
+        0.013414076529443264
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-C5A88E4821": {
+      "text_sha256": "17ea172b2e9bc25e52b38762798f450b19aaac9e134e8747151e49122ff92295",
+      "bert_probabilities": [
+        0.4423868656158447,
+        0.4383606016635895,
+        0.09882698208093643,
+        0.015036767348647118,
+        0.005388770718127489
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-D2EBC628B1": {
+      "text_sha256": "43dbf782abf11f893ae790020af8e227b36a675de3854cffe357b54972ae1b56",
+      "bert_probabilities": [
+        0.06578763574361801,
+        0.610134482383728,
+        0.3125547468662262,
+        0.010952412150800228,
+        0.0005707755335606635
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-883B023EF6": {
+      "text_sha256": "69e52a2da39b226b1b80956a108991273955fdc6d2c97d669e63b9bc99285d8e",
+      "bert_probabilities": [
+        0.05977281183004379,
+        0.25642141699790955,
+        0.4016895890235901,
+        0.240822896361351,
+        0.04129339009523392
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-BB5F6B9B6C": {
+      "text_sha256": "2f8577634357e382129b28c03c54fa5179a247b283996f586d9ed722a898a160",
+      "bert_probabilities": [
+        0.004460771568119526,
+        0.8678508400917053,
+        0.11737164109945297,
+        0.009451283141970634,
+        0.0008654377306811512
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-BC17C5A0DA": {
+      "text_sha256": "170f0d65236bc8bef9659459f67236f97751e0c43cdaf79a25720862c8d392f1",
+      "bert_probabilities": [
+        0.1308801770210266,
+        0.3275829255580902,
+        0.24838317930698395,
+        0.20289339125156403,
+        0.09026028215885162
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-176410E040": {
+      "text_sha256": "e54355a41df0b75af0272c82e801d2b3cb27484bfdcda1fb0d5a327f47caca05",
+      "bert_probabilities": [
+        0.19177745282649994,
+        0.2649393379688263,
+        0.20173580944538116,
+        0.22864429652690887,
+        0.11290314048528671
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-2EE218460C": {
+      "text_sha256": "52cb5e6d58ec87cf477a9e32e778282be02023c31cdfcca78278b63e6afbd4a2",
+      "bert_probabilities": [
+        0.3512694537639618,
+        0.42270949482917786,
+        0.16586995124816895,
+        0.042485885322093964,
+        0.017665216699242592
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-33C8A35A9D": {
+      "text_sha256": "565f6f16cf9ab6d7c778481f0db63b7a9afd2fae0f1492b5d71c07c0c167b78b",
+      "bert_probabilities": [
+        0.19953350722789764,
+        0.29024749994277954,
+        0.20328323543071747,
+        0.1797720491886139,
+        0.12716370820999146
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-E94E7659E0": {
+      "text_sha256": "ea9d325e98b07677f8a4ab0d052facedefd70dce7d2f96bbd3a8dd67865b4372",
+      "bert_probabilities": [
+        0.37030473351478577,
+        0.405640184879303,
+        0.14075961709022522,
+        0.058263182640075684,
+        0.025032317265868187
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-330E3FE345": {
+      "text_sha256": "74a3d51aa041a8da2131990a074ebfc349e732614d3b5ca1b95d7102bcf5c7c7",
+      "bert_probabilities": [
+        0.3089424967765808,
+        0.45744165778160095,
+        0.18566343188285828,
+        0.03793942183256149,
+        0.010013063438236713
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-8713214F2B": {
+      "text_sha256": "7e86a58522ea35fac5fe9390660bc696b484d5ee4c1a1ce6691baf40d02216a6",
+      "bert_probabilities": [
+        0.43932339549064636,
+        0.3756387531757355,
+        0.11055619269609451,
+        0.04994260147213936,
+        0.024538913741707802
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-4FF28AD964": {
+      "text_sha256": "9c3fcedc59ea78a5f3cd4e86131e7060db70c4d40b57b545988ce0435dad0416",
+      "bert_probabilities": [
+        0.3390415608882904,
+        0.31908419728279114,
+        0.15430942177772522,
+        0.10722780227661133,
+        0.08033706992864609
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-6C9C6B938F": {
+      "text_sha256": "edf48eba4c81ddd9711e83c8735962471ce1fca3fc22e2c9c5366a79b50c3acb",
+      "bert_probabilities": [
+        0.6068981289863586,
+        0.25302302837371826,
+        0.08730572462081909,
+        0.033167604357004166,
+        0.019605513662099838
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-792D61086A": {
+      "text_sha256": "7735a044e174049a1009207ccd3e4aeea8d5d84089d4293cca5745d61d723b39",
+      "bert_probabilities": [
+        0.15130707621574402,
+        0.569900393486023,
+        0.2457897961139679,
+        0.029383039101958275,
+        0.0036197013687342405
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-7179B1CB31": {
+      "text_sha256": "d48872c08f6e0bbeae48f467c68456850ad56cf990a0aab252555471718d14b5",
+      "bert_probabilities": [
+        0.36174091696739197,
+        0.3790062963962555,
+        0.17569303512573242,
+        0.06488405168056488,
+        0.018675681203603745
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-6AE2723C3B": {
+      "text_sha256": "7fd4ca2b30a9156a7c4e4a369c26c1ccfa5a31d721e07781f0fc74552b721262",
+      "bert_probabilities": [
+        0.002211770974099636,
+        0.0023097193334251642,
+        0.005920205265283585,
+        0.09856516122817993,
+        0.8909931778907776
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-0DA3684365": {
+      "text_sha256": "ca76f74484491d7df475cff3fa3ac944c5b1304c9d3825b68235b074fc35e11d",
+      "bert_probabilities": [
+        0.6350613236427307,
+        0.2720376253128052,
+        0.07110586017370224,
+        0.015465418808162212,
+        0.006329770665615797
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-3D7F7A681F": {
+      "text_sha256": "e62e626ffaa93334eae32b7553ca0d4d0da6fce34402baf2dab0bcfe7d092a64",
+      "bert_probabilities": [
+        0.10890914499759674,
+        0.1622893363237381,
+        0.2059408277273178,
+        0.3179689049720764,
+        0.20489177107810974
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-9953B8F2C5": {
+      "text_sha256": "8d0c0241d8952f9270651a4a26abaebb0f127cc8092df8d39f76227ad2786351",
+      "bert_probabilities": [
+        0.18753381073474884,
+        0.4566226899623871,
+        0.20051194727420807,
+        0.11565890163183212,
+        0.03967263549566269
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "negative"
+    },
+    "IT-516D88B4F0": {
+      "text_sha256": "646400d65f28acefe0e833be1c57cce48db12e7c755cfdd08b60b3df5d182880",
+      "bert_probabilities": [
+        0.07699581980705261,
+        0.13222838938236237,
+        0.16137023270130157,
+        0.28026026487350464,
+        0.3491453230381012
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A2389C414A": {
+      "text_sha256": "d62c19ac5f374699ab1a5c22b8d3ca77a6fc5319596d38ddde9f5ae1510ff243",
+      "bert_probabilities": [
+        0.18580783903598785,
+        0.20104673504829407,
+        0.1782981902360916,
+        0.24475115537643433,
+        0.1900961548089981
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-AB2C7ADE7A": {
+      "text_sha256": "c7f7f9bec8e92abbf289d0fe2120f5c7adc349e75da61baffc1caf2c91407d41",
+      "bert_probabilities": [
+        0.37348657846450806,
+        0.4155980944633484,
+        0.17970716953277588,
+        0.02670690044760704,
+        0.004501235671341419
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-564361B4C0": {
+      "text_sha256": "52eb96bda158d39f2cbce3bef1945d31492756b80d7a6c39d3828abec9555f6b",
+      "bert_probabilities": [
+        0.8841314911842346,
+        0.09486313909292221,
+        0.015468630008399487,
+        0.003307911567389965,
+        0.002228847937658429
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-88D9C30031": {
+      "text_sha256": "0c02a62ece4b88982405bb21e3350fcd2c5167af4548ffec0a4a5dc3377da327",
+      "bert_probabilities": [
+        0.3417212963104248,
+        0.36837583780288696,
+        0.17477376759052277,
+        0.07877064496278763,
+        0.03635845333337784
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-EB4D4DEDF8": {
+      "text_sha256": "a65463545cffc8f95b7c0893cf288e2452330946a6359bafc841ebf2a79af7d8",
+      "bert_probabilities": [
+        0.15297634899616241,
+        0.22288952767848969,
+        0.25663480162620544,
+        0.23206573724746704,
+        0.1354335993528366
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-6CA1A3D1A1": {
+      "text_sha256": "dac2bf7bec2f648418444d2ef7c805539600af6646a296f4518e726e9136a0fb",
+      "bert_probabilities": [
+        0.7956359386444092,
+        0.15250276029109955,
+        0.027987688779830933,
+        0.01025013905018568,
+        0.013623510487377644
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-5504DA2A80": {
+      "text_sha256": "00bdc52f1b2210f4ad47ac2bd5f6a90843cb00550be79062e031e1f7e567163a",
+      "bert_probabilities": [
+        0.6127603054046631,
+        0.30515244603157043,
+        0.06496204435825348,
+        0.011134296655654907,
+        0.005990922451019287
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-93DB5420F4": {
+      "text_sha256": "ee26218e77b7af693f0e90a36f1c5abe9bd47ff898a7c8919dc586323555912f",
+      "bert_probabilities": [
+        0.13294263184070587,
+        0.36140015721321106,
+        0.42787525057792664,
+        0.06849271804094315,
+        0.009289232082664967
+      ],
+      "bert_label": "neutral",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-7FF94AA56E": {
+      "text_sha256": "c2e88949bb6e095e0eb4bfd1e8ac776993c775c518189fe5e9b5e7fa2f50cce5",
+      "bert_probabilities": [
+        0.4925014078617096,
+        0.3572874665260315,
+        0.11554789543151855,
+        0.025393139570951462,
+        0.00927005149424076
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-692D44F6BB": {
+      "text_sha256": "c8ffdd958d6a8f3b2e67d23257c672abcec10fc319e3b6bf4e4a13907935f0eb",
+      "bert_probabilities": [
+        0.22160983085632324,
+        0.31374186277389526,
+        0.19958984851837158,
+        0.14448973536491394,
+        0.12056870758533478
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-44C5EEA0AE": {
+      "text_sha256": "42038c2f17ce624860b4bfbec9af5020753802b3fbdec73ab97a5f642331dc6a",
+      "bert_probabilities": [
+        0.41182181239128113,
+        0.5135480165481567,
+        0.06928755342960358,
+        0.004286772105842829,
+        0.0010557658970355988
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-CD107351F0": {
+      "text_sha256": "0902dedc89da684510412b8b136d36fbe834f6b04225db376b1bcae6543a677d",
+      "bert_probabilities": [
+        0.0686587318778038,
+        0.16076363623142242,
+        0.2529406249523163,
+        0.3437592685222626,
+        0.1738777607679367
+      ],
+      "bert_label": "positive",
+      "bert_forced": "positive",
+      "vader_label": "positive"
+    },
+    "IT-A8F57AC66B": {
+      "text_sha256": "e8fb06ab9aa831ee25552a2e63c2863654ff69b5c204c7751af5b954a31be27f",
+      "bert_probabilities": [
+        0.2572585344314575,
+        0.5065968036651611,
+        0.19562599062919617,
+        0.03335845470428467,
+        0.00716025335714221
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-43594AA10E": {
+      "text_sha256": "e80959554c159049a2c6023d488c0923ee2cac003a27941d4ad427cfa2e0f821",
+      "bert_probabilities": [
+        0.6785516142845154,
+        0.2279542088508606,
+        0.0593581385910511,
+        0.02567138709127903,
+        0.008464707061648369
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    },
+    "IT-8425F8338F": {
+      "text_sha256": "14cbc889dac1f0e980caf1de21adb86ced9076c50094a3e2c1b5b2a26a14d72d",
+      "bert_probabilities": [
+        0.2690661549568176,
+        0.2434718757867813,
+        0.209473118185997,
+        0.1864561289548874,
+        0.09153270721435547
+      ],
+      "bert_label": "negative",
+      "bert_forced": "negative",
+      "vader_label": "positive"
+    }
+  }
+}
